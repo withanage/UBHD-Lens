@@ -909,9 +909,7 @@ span.annotation.formula_reference, span.publication_reference {
   border-bottom: 1px solid rgba(11, 157, 217, 0.4);
   cursor: pointer;
   padding-right: 3px;
-  padding-left: 0px;
-  vertical-align: super;
-  font-size: 10px; }
+  padding-left: 3px; }
 
 .content-node .cross_reference {
   background: rgba(0, 0, 0, 0.05);

@@ -5,7 +5,7 @@
     "underscore": "1.8.x",
     "express": "3.3.x",
     "ejs": "*",
-    "lens": "withanage/lens.git#2.0.0"
+    "lens": "withanage/lens.git"
   },
   "devDependencies": {
     "browserify": "*",
