@@ -13,6 +13,7 @@ CustomConverter.Prototype = function() {
 
   this.test = function(xmlDoc) {
     var publisherName = xmlDoc.querySelector("publisher-name").textContent;
+      console.log(publisherName);
     return publisherName === "My Journal";
   };
 

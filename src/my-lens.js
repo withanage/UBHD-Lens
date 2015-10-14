@@ -40,7 +40,7 @@ LensApp.Prototype = function() {
 
   this.getConverters = function(converterOptions) {
     return [
-      //new CustomConverter(converterOptions),
+      new CustomConverter(converterOptions),
       //new ElifeConverter(converterOptions),
       new LensConverter(converterOptions)
     ]
