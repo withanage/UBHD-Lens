@@ -12,7 +12,7 @@ AltmetricsService.Prototype = function() {
     console.log('fetching altmetrics for', articleDOI);
 
     // TODO query for:
-    // http://api.altmetric.com/v1/doi/10.7554/eLife.00005
+     http://api.altmetric.com/v1/doi/10.7554/eLife.00005
     window.setTimeout(function() {
       cb(null, {
         twitter_mentions: 201

@@ -18,10 +18,10 @@ var CustomConverter = require("./custom_converter");
 // Find the code in panels/altmetrics and use it as an inspiration
 // to build your own Lens panel
 
-//var altmetricsPanel = require('./panels/altmetrics');
+var altmetricsPanel = require('./panels/altmetrics');
 
 // Insert altmetrics panel at next to last position
-//panels.splice(-1, 0, altmetricsPanel);
+panels.splice(-1, 0, altmetricsPanel);
 
 var LensApp = function(config) {
   Lens.call(this, config);
