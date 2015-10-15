@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dd9f7c6-32fb-42eb-9a8e-c537ef671086" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/example.xml" afterPath="$PROJECT_DIR$/data/example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/data/example.xml" afterPath="$PROJECT_DIR$/dist/data/example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nodes/index.js" afterPath="$PROJECT_DIR$/src/nodes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/lens.js" afterPath="$PROJECT_DIR$/dist/lens.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="8dd9f7c6-32fb-42eb-9a8e-c537ef671086" name="Default" comment="" />
     <ignored path="UBHD-Lens.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
