@@ -1,4 +1,4 @@
 module.exports = {
-  "cover": require("./cover"),
+  //"cover": require("./cover")
   //"raptor": require("./raptor")
 };
