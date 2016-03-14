@@ -42,7 +42,7 @@ LensApp.Prototype = function() {
     return [
       new CustomConverter(converterOptions),
       //new ElifeConverter(converterOptions),
-      //new LensConverter(converterOptions)
+      new LensConverter(converterOptions)
     ]
   };
 
