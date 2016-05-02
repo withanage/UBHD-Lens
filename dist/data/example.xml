@@ -163,11 +163,12 @@
             <title>Results</title>
             <sec id="s2-1">
                 <title>ZItation Beispiel</title>
+
                 <!--my_raptor img_path="https://placehold.it/350x150" short_description="Raptor!">asdasdsad</my_raptor-->
                 <!--P><xref ref-type="fig" rid="raptor_1">Raptor</xref>)</P-->
                 <p>
                     <speech id="5478545498754987">
-                        <speaker>he</speaker><p>What he said</p>
+                        <speaker>speaker&lt;L&gt; </speaker><p> &lt;L&gt; paragraph <xref ref-type="fn" rid="bibd2e58">33</xref>&lt;L&gt; paragraph</p>
                         <speaker>she</speaker><p>What she said</p>
                         <speaker>he</speaker><p>What he said</p>
                         <speaker>she</speaker><p>What she said</p>
@@ -178,7 +179,7 @@
                 </p>
                 <p>
                     <boxed-text id="93475984357983">
-                        <p>This is a test box for lens .The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. We thank David King of the HHMI Mass Spec Facility for peptide synthesis and Mass Spectroscopy, Nicole Fay, Kate Alfieri, and Niña Hartman for MHC purification, and Brian D Belardi for a critical reading of the manuscript.</p>
+                         <p>&lt;L&gt;</p>
 
                     </boxed-text>
                 </p>
@@ -198,7 +199,7 @@
 
                 <p>
                     <disp-quote id="93475984357983">
-                        <p>This is a citation for lens. </p>
+                        <p>&lt;L&gt;</p>
 
                     </disp-quote>
 
