@@ -32,7 +32,7 @@ var protocol = url_sp[0];
 var server= url_sp[2];
 
 
-var documentURL = protocol+'//'+server+'/'+application+'/static/monographs/'+submission_id+'/submission/proof/'+submission_file;
+var documentURL = protocol+'//'+server+'/'+application+'/static/files/presses/'+press_id+'/monographs/'+submission_id+'/submission/proof/'+submission_file;
 $(function() {
     var app = new window.Lens({
         document_url: qs.url ? decodeURIComponent(qs.url) : documentURL
