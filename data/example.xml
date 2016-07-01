@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article article-type="research-article" dtd-version="1.1d1" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">eLife</journal-id>
+            <journal-title-group>
+                <journal-title>My Journal</journal-title>
+            </journal-title-group>
+            <publisher>
+                <publisher-name>My Journal</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="publisher-id">00778</article-id>
+            <article-id pub-id-type="doi">10.7554/eLife.00778</article-id>
+            <article-categories>
+                <subj-group subj-group-type="display-channel">
+                    <subject>Research article</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                    <subject>Biophysics and structural biology</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Beispiel Doc</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" equal-contrib="yes" id="author-4813">
+                    <name>
+                        <surname>O'Donoghue</surname>
+                        <given-names>Geoff P</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1" />
+                    <xref ref-type="aff" rid="aff2" />
+                    <xref ref-type="fn" rid="equal-contrib">†</xref>
+                    <xref ref-type="other" rid="par-1" />
+                    <xref ref-type="fn" rid="con1" />
+                    <xref ref-type="fn" rid="conf1" />
+                </contrib>
+
+
+
+
+
+
+
+            </contrib-group>
+            <contrib-group content-type="section">
+                <contrib contrib-type="editor">
+                    <name>
+                        <surname>Brunger</surname>
+                        <given-names>Axel T</given-names>
+                    </name>
+                    <role>Reviewing editor</role>
+                    <aff>
+                        <institution>Howard Hughes Medical Institute, Stanford University</institution>, <country>United States</country></aff>
+                </contrib>
+            </contrib-group>
+            <author-notes>
+                <corresp id="cor1">
+                    <label>*</label>For correspondence: <email>JTGroves@lbl.gov</email></corresp>
+                <fn fn-type="con" id="equal-contrib">
+                    <label>†</label>
+                    <p>These authors contributed equally to this work</p>
+                </fn>
+            </author-notes>
+            <pub-date date-type="pub" publication-format="electronic">
+                <day>03</day>
+                <month>07</month>
+                <year>2013</year>
+            </pub-date>
+            <pub-date pub-type="collection">
+                <year>2013</year>
+            </pub-date>
+            <volume>2</volume>
+            <elocation-id>e00778</elocation-id>
+            <history>
+                <date date-type="received">
+                    <day>26</day>
+                    <month>03</month>
+                    <year>2013</year>
+                </date>
+                <date date-type="accepted">
+                    <day>17</day>
+                    <month>05</month>
+                    <year>2013</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>© 2013, O'Donoghue et al</copyright-statement>
+                <copyright-year>2013</copyright-year>
+                <copyright-holder>O'Donoghue et al</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/3.0/">
+                    <license-p>This article is distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use and redistribution provided that the original author and source are credited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="elife00778.pdf" />
+            <abstract>
+                <object-id pub-id-type="doi">10.7554/eLife.00778.001</object-id>
+                <p>Abst </p>
+                <p>
+                    <bold>DOI:</bold>
+                    <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.00778.001">http://dx.doi.org/10.7554/eLife.00778.001</ext-link>
+                </p>
+            </abstract>
+            <kwd-group kwd-group-type="author-keywords">
+                <title>Author keywords</title>
+                <kwd>TCR triggering</kwd>
+                <kwd>single molecule kinetics</kwd>
+                <kwd>T cells</kwd>
+            </kwd-group>
+            <kwd-group kwd-group-type="research-organism">
+                <title>Research organism</title>
+                <kwd>Mouse</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group id="par-1">
+                    <funding-source>
+                        <institution-wrap>
+                            <institution>National Institute of Allergy and Infectious Diseases</institution>
+                        </institution-wrap>
+                    </funding-source>
+                    <award-id>PO1 AI091580</award-id>
+                    <principal-award-recipient>
+                        <name>
+                            <surname>O'Donoghue</surname>
+                            <given-names>Geoff P</given-names>
+                        </name>
+                        <name>
+                            <surname>Pielak</surname>
+                            <given-names>Rafal M</given-names>
+                        </name>
+                        <name>
+                            <surname>Smoligovets</surname>
+                            <given-names>Alexander A</given-names>
+                        </name>
+                        <name>
+                            <surname>Lin</surname>
+                            <given-names>Jenny J</given-names>
+                        </name>
+                        <name>
+                            <surname>Groves</surname>
+                            <given-names>Jay T</given-names>
+                        </name>
+                    </principal-award-recipient>
+                </award-group>
+                <funding-statement>The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.</funding-statement>
+            </funding-group>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>elife-xml-version</meta-name>
+                    <meta-value>2</meta-value>
+                </custom-meta>
+                <custom-meta specific-use="meta-only">
+                    <meta-name>Author impact statement</meta-name>
+                    <meta-value>Quantitative observations of single-molecule binding between antigen and T cell receptor (TCR) in living primary T cells reveals unbinding kinetics, stoichiometry and signaling molecule recruitment, providing insights into the mechanisms of antigen recognition by the immune system.</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec id="s2" sec-type="results">
+            <title>Results</title>
+            <sec id="s2-1">
+                <title>ZItation Beispiel</title>
+
+                <!--my_raptor img_path="https://placehold.it/350x150" short_description="Raptor!">asdasdsad</my_raptor-->
+                <!--P><xref ref-type="fig" rid="raptor_1">Raptor</xref>)</P-->
+                <p>
+                    <speech id="5478545498754987">
+                        <speaker>speaker&lt;L&gt; </speaker><p> &lt;L&gt; paragraph <xref ref-type="fn" rid="bibd2e58">33</xref>&lt;L&gt; paragraph</p>
+                        <speaker>she</speaker><p>What she said</p>
+                        <speaker>he</speaker><p>What he said</p>
+                        <speaker>she</speaker><p>What she said</p>
+                        <speaker>he</speaker><p>What he said</p>
+                        <speaker>she</speaker><p>What she said</p>
+
+                    </speech>
+                </p>
+                <p>
+                    <boxed-text id="93475984357983">
+                         <p>&lt;L&gt;</p>
+
+                    </boxed-text>
+                </p>
+
+                <p>
+                    <disp-quote id="93475984357983">
+                        <p>This is a test box for lens .The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. We thank David King of the HHMI Mass Spec Facility for peptide synthesis and Mass Spectroscopy, Nicole Fay, Kate Alfieri, and Niña Hartman for MHC purification, and Brian D Belardi for a critical reading of the manuscript.</p>
+
+                    </disp-quote>
+                </p>
+
+                <p>
+
+
+
+                </p>
+
+                <p>
+                    <disp-quote id="93475984357983">
+                        <p>&lt;L&gt;</p>
+
+                    </disp-quote>
+
+                </p>
+                <p>molecules/µm<sup>2</sup>. <xref ref-type="fn" rid="bibd2e48">[1]</xref> The lowest densities are near thresholds for triggering Ca<sup>2+</sup> flux (<xref ref-type="bibr" rid="bib1">Adams 2011</xref>) .</p>
+            </sec>
+            <sec id="s2-4">
+                <title>Stochastic reaction-diffusion simulations</title>
+                <p> Footnote <xref ref-type="fn" rid="bibd2e159">[4]</xref> </p>
+            </sec>
+        </sec>
+    </body>
+    <back>
+        <ack id="ack">
+            <title>Acknowledgements</title>
+
+        </ack>
+        <sec sec-type="additional-information">
+            <title>Additional information</title>
+            <!--fn-group content-type="competing-interest">
+                <title>Competing interests</title>
+                <fn fn-type="conflict" id="conf1">
+                    <p>The authors declare that no competing interests exist.</p>
+                </fn>
+            </fn-group>
+            <fn-group content-type="author-contribution">
+                <title>Author contributions</title>
+                
+                <fn fn-type="con" id="con5">
+                    <p>JTG, Conception and design, Analysis and interpretation of data, Drafting or revising the article</p>
+                </fn>
+            </fn-group>
+            <fn-group content-type="ethics-information">
+                <title>Ethics</title>
+                <fn fn-type="other">
+                    <p>Animal experimentation: CD4+ T-cell blasts were cultured from the lymph nodes and spleens of first generation AND x B10.BR and 5c.c7 TCR transgenic mice on day 1 of the T-cell protocol in accordance with Lawrence Berkeley National Laboratory Animal Welfare and Research Committee-approved protocol 17702.</p>
+                </fn>
+            </fn-group-->
+        </sec>
+        <fn-group>
+
+            <fn id="bibd2e48">
+                <p> For an explanation of the interview transcript abbreviations used throughout this work, see Appendix xxx.</p>
+            </fn>
+            <fn id="bibd2e56">
+                <p> Jinqiao is the district where Paul lives. It is located in the eastern suburbs of Shanghai and, with its Western food supermarkets, restaurants and villa housing, seems to represent for Paul the physical manifestation of the expatriate community.</p>
+            </fn>
+            <fn id="bibd2e123">
+                <p> The average expat teen respondent, according to their data from 248 questionnaires, is fifteen years old, has lived in three countries, has attended four schools, and speaks two languages fluently. Based on the questionnaires, the authors also offer lists of issues expatriate teenagers have most questions about (top issue: &#8220;general worries/concerns/fears&#8221;), experimental behaviors they engage in (top behavior: &#8220;drinking alcohol&#8221;), and things they worry most about (top: &#8220;grades&#8221;) (ibid., 175-176).</p>
+            </fn>
+            <fn id="bibd2e159">
+                <p> Geographer Georg Glasze (2006), for instance, brings the particularities of expatriate housing practices to the fore, describing the role of gated communities among expatriates in Saudi Arabia. Katie Walsh (2006a; 2006b; 2008; 2011) focuses on British expatriate identities in Dubai, examining cultural practices of domesticity, intimacy, and consequent articulations of belonging and national identity. Heather Hindman (2009a; 2009b) pays detailed attention to the meaning-laden activity of shopping for expatriate women in Nepal and reveals that behind the shopping for art objects and an interest in cuisine lies the need for easily transferable elements in a world of constant movement. Food and art, unlike language skills and local friendships, &#8220;can be utilized as anecdotal parallels in future postings&#8221; (Hindman 2009a, 256). The collected objects at the next destination &#8220;act as means of transferring knowledge and status between locations&#8221; (Hindman 2009b, 676), helping the expatriate women to recreate themselves. Willis and Yeoh (2002; 2005) contribute a comparative angle, writing on British and Singaporean Expatriates in Hong Kong and China based on material from 247 interviews that were conducted between 1997 and 2001. They also provide insight into the gendered experiences of privileged migration, a perspective they pursue further in their article on single British migrants in China (Willis and Yeoh 2008).</p>
+
+            </fn>
+        </fn-group>
+        <ref-list>
+            <title>References</title>
+            <ref id="bib1">
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Adams</surname>
+                            <given-names>JJ</given-names>
+                        </name>
+
+                        <etal />
+                    </person-group>
+                    <year>2011</year>
+                    <article-title>T cell receptor signaling is limited by docking geometry to peptide-major histocompatibility complex</article-title>
+                    <source>Immunity</source>
+                    <volume>35</volume>
+                    <fpage>681</fpage>
+                    <lpage>93</lpage>
+                    <pub-id pub-id-type="doi">10.1016/j.immuni.2011.09.013</pub-id>
+                </element-citation>
+            </ref>
+        </ref-list>
+    </back>
+
+</article>

@@ -1,0 +1,23 @@
+{
+  "name": "lens-starter",
+  "description": "UB Heidelberg - Lens Development",
+  "dependencies": {
+    "underscore": "1.8.x",
+    "express": "3.3.x",
+    "ejs": "*",
+    "lens": "withanage/lens.git"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "node-sass": "3.x",
+    "gulp": "^3.8.11",
+    "gulp-sass": "^2.0.3",
+    "gulp-uglify": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "through2": "^2.0.0",
+    "gulp-reload": "0.0.4",
+    "gulp-livereload": "~3.8.1"
+  },
+  "version": "2.0.0",
+  "private": true
+}
