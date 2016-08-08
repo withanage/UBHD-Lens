@@ -30,7 +30,7 @@ var LensApp = function(config) {
 LensApp.Prototype = function() {
 
   // Custom converters
-  // --------------
+  // ------------
   // 
   // Provides a sequence of converter instances
   // Converter.match will be called on each instance with the

@@ -1,4 +1,4 @@
-window.Lens = require("./src/my-lens");
+window.Lens = require("./src/ubhd-lens");
 
 // Little helper used to parse query strings from urls
 // --------
