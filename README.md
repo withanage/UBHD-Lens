@@ -30,7 +30,15 @@ Following steps show how you can setup a test environement.
  ```
   http://localhost:8000/?url=data/example.xml/
  ```
- * 
+ * If you want to test for other files please copy the files into the folder 
+ ```
+  cd UBHD-Lens/data/
+ ```
+ * Use the file name
+ ```
+  http://localhost:8000/?url=data/myfile.xml/
+ ```
+ 
  
 
 
