@@ -21,7 +21,7 @@ Following steps show how you can setup a test environement.
  ```
   python -m SimpleHTTPServer
  ```
- * Open your browser and navigata to:
+ * Open your browser and navigate to:
  ```
  http://localhost:8000/
  ```
