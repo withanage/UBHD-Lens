@@ -10,7 +10,7 @@ Following steps show how you can setup a test environement.
  ```
  * Checkout  test environemnt
  ```
-  git checkout  test-environment
+  git checkout  local
   ```
  * Move to the dist folder 
  ```
