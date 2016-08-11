@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <head>
-    <title>heiUP {{=authors}}</title>
-    <!--http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic -->
-    <link href="{{=URL('static','css/fonts.css')}}" rel='stylesheet'   type='text/css'>
+    <title>eLife Lens</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" type="text/css" media="all"
-          href="{{=URL('static','css/font-awesome.min.css')}}"/>
+    <link rel="stylesheet" type="text/css" media="all" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
 
     <!-- A combined lens.css will be generated in the bundling process -->
     <!-- While in development, separate links for each CSS file are added, so we don't need a source map -->
-    <link rel="stylesheet" href="{{=URL('static','css/lens.css')}}"/>
-    <script src="{{=URL('static','js/jquery.js')}}"></script>
+    <link href='lens.css' rel='stylesheet' type='text/css'/>
 
+    <script src="lib/jquery.min.js"></script>
 
     <!-- MathJax Configuration -->
     <script type="text/x-mathjax-config">
@@ -29,26 +27,9 @@
       });
     </script>
     <script type="text/javascript" src="http://beta.mathjax.org/mathjax/latest/MathJax.js?config=MML_HTMLorMML-full"></script>
-    <!--script type="text/javascript" src="{{=URL('static','js/MathJax.js')}}"/-->
-    <script type="text/javascript">
-        //web2py variables
-        var submission_id = '{{=request.args[0]}}';
-        var submission_file = '{{=request.args[1]}}';
-        var application = '{{=request.application}}';
-        var press_id = '{{=myconf.take("omp.press_id")}}';
-    </script>
-    {{if session.forced_language =='de': }}
-    <script src="{{=URL('static','js/lens-locales-de.js')}}"></script>
-    {{elif session.forced_language =='en': }}
-    <script src="{{=URL('static','js/lens-locales-en.js')}}"></script>
-    {{pass}}
 
-    <script src="{{=URL('static','js/lens2.js')}}"></script>
-
+    <script src='lens.js'></script>
 </head>
 <body class="loading">
 
 </body>
-</html>
-{{db.t_usage_statistics.insert()}}
-{{db.commit()}}
