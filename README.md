@@ -2,7 +2,7 @@ Customized Lens Viewer for OMP Frontend
 ========
 # Local development
 Following steps show how you can setup a test environement.
-# installation
+# Installation
  * Please install git,  and python if your system does not have it.
  * Clone the  git repository
  ```
@@ -11,13 +11,22 @@ Following steps show how you can setup a test environement.
  * Checkout  test environemnt
  ```
   git checkout  test-environment
- 
- ```
- *  Move to the dist folder 
+  ```
+ * Move to the dist folder 
  ```
   cd dist
- 
  ```
- *  
+# Execution
+ * Use any local HTTP Server or the python's in built server.
+ ```
+  python -m SimpleHTTPServer
+ ```
+ * Open your browser and navigata to:
+ ```
+ http://localhost:8000/
+ ```
+ * 
+ 
+
 
 
