@@ -8,6 +8,10 @@ Following steps show how you can setup a test environement.
  ```
  git clone https://github.com/withanage/UBHD-Lens.git
  ```
+  * Move to the folder
+ ```
+  cd UBHD-Lens
+ ```
  * Checkout  test environemnt
  ```
   git checkout  local
