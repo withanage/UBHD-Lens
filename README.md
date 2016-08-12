@@ -28,7 +28,7 @@ Following steps show how you can setup a test environement.
 
 # Execution  as a Server application
 
- * Use any local HTTP Server or the python's in built server.
+ * Use any local HTTP Server or the python's in built server and navigate to the UBHD-Lens/dist folder
  ```
   python -m SimpleHTTPServer
  ```
