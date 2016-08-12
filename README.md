@@ -4,7 +4,7 @@ Customized Lens Viewer for OMP Frontend
 Following steps show how you can setup a test environement.
 # Installation
  * Please install a git  client of your choice,  if your system does not have it.
- * Clone the  git repository using command line or with the synchronisation function in your git client.
+ * Clone the  git repository using command line or with the synchronisation function in your git client of your choice.
  ```
  git clone https://github.com/withanage/UBHD-Lens.git
  ```
