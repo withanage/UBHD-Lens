@@ -20,8 +20,14 @@ Following steps show how you can setup a test environement.
  ```
   cd dist
  ```
+ * Open the file in the browser either navigating to it or in the command line tool
+ ```
+ firefox  index.html
+ ```
+ 
 
-# Execution
+# Execution  as a Server application
+
  * Use any local HTTP Server or the python's in built server.
  ```
   python -m SimpleHTTPServer
