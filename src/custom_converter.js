@@ -57,7 +57,7 @@ CustomConverter.Prototype = function() {
       ].join('');
     }
   };
-
+  /*
   this.enhanceVideo = function(state, node, element) {
     var href = element.getAttribute("xlink:href").split(".");
     var name = href[0];
@@ -65,7 +65,7 @@ CustomConverter.Prototype = function() {
     node.url_ogv = "http://api.elifesciences.org/v2/articles/"+state.doc.id+"/media/file//"+name+".ogv";
     node.url_webm = "http://api.elifesciences.org/v2/articles/"+state.doc.id+"/media/file//"+name+".webm";
     node.poster = "http://api.elifesciences.org/v2/articles/"+state.doc.id+"/media/file/"+name+".jpg";
-  };
+  };*/
 };
 
 CustomConverter.Prototype.prototype = LensConverter.prototype;
