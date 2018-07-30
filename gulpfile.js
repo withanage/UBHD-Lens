@@ -41,7 +41,7 @@ gulp.task('browserify', function () {
             console.log(error.stack);
             this.emit('end');
         })
-        //.pipe(uglify())
+        .pipe(uglify())
         .pipe(rename('lens.js'))
         .pipe(gulp.dest('./dist'));
 });
