@@ -9,7 +9,7 @@ var through2 = require('through2');
 var path = require('path');
 var livereload = require('gulp-livereload');
 var http = require('http');
-//var st = require('st');
+var st = require('st');
 
 
 gulp.task('assets', function() {
@@ -41,7 +41,7 @@ gulp.task('browserify', function () {
             console.log(error.stack);
             this.emit('end');
         })
-        //.pipe(uglify())
+        .pipe(uglify())
         .pipe(rename('lens.js'))
         .pipe(gulp.dest('./dist'));
 });

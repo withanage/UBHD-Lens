@@ -4,15 +4,38 @@ Customized Lens Viewer for OMP Frontend
 Following steps show how you can setup a test environement.
 # Installation
  * Please install a git  client of your choice,  if your system does not have it.
- * Clone the  git repository using command line or with the synchronisation function in your git client of your choice.
+ 
+<<<<<<< HEAD
  ```
- git clone https://github.com/withanage/UBHD-Lens.git
+# Clone the  git repository 
+git clone https://github.com/withanage/UBHD-Lens.git
+#  Move to the folder
+cd UBHD-Lens
+# Install npm for your distribution
+# Install gulp
+npm install gulp-sass gulp-uglify browserify gulp-rename through2 path gulp-livereload rename st
+#  install all-modules
+npm install
  ```
- * Move to the folder
- ```
-  cd UBHD-Lens
- ```
+<<<<<<< HEAD
  * Checkout  test environemnt
+=======
+=======
+ ```
+# Clone the  git repository 
+git clone https://github.com/withanage/UBHD-Lens.git
+#  Move to the folder
+cd UBHD-Lens
+# Install npm for your distribution
+# Install gulp
+npm install gulp-sass gulp-uglify browserify gulp-rename through2 path gulp-livereload rename st
+#  install all-modules
+npm install
+ ```
+>>>>>>> 40fc399... Update README
+ 
+ * Checkout test environemnt
+>>>>>>> 1ce8054... Update README
  ```
   git checkout  local
  ```
