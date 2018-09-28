@@ -1,7 +1,7 @@
 Customized Lens Viewer for OMP Frontend
 ========
 # Local development
-Following steps show how you can setup a test environement.
+Following steps show how you can setup a test environment.
 # Installation
  * Please install a git  client of your choice,  if your system does not have it.
  * Clone the  git repository using command line or with the synchronisation function in your git client of your choice.
@@ -12,11 +12,11 @@ Following steps show how you can setup a test environement.
  ```
   cd UBHD-Lens
  ```
- * Checkout  test environemnt
+ * Checkout test environemnt
  ```
   git checkout  local
  ```
- * Move to the dist folder 
+ * Move to the `dist` folder 
  ```
   cd dist
  ```
@@ -28,7 +28,7 @@ Following steps show how you can setup a test environement.
 
 # Execution  as a Server application
 
- * Use any local HTTP Server or the python's in built server and navigate to the UBHD-Lens/dist folder
+ * Use any local HTTP Server or the python's in built server and navigate to the `UBHD-Lens/dist` folder
  ```
   python -m SimpleHTTPServer
  ```
