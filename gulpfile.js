@@ -9,7 +9,7 @@ var through2 = require('through2');
 var path = require('path');
 var livereload = require('gulp-livereload');
 var http = require('http');
-//var st = require('st');
+var st = require('st');
 
 
 gulp.task('assets', function() {
