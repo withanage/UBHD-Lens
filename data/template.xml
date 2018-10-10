@@ -1,4 +1,5 @@
-<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d1 20130915//EN" "JATS-journalpublishing1.dtd">
 <article>
     <front>
         <journal-meta>
@@ -115,9 +116,7 @@
                   </tr>
                 </table>
               </table-wrap>
-              <fig position="float" orientation="portrait">
-                <p>Tabelle 1: Hier steht der Name der Tabelle. Bitte setzen Sie die Tabellenunterschrift direkt im Anschluss an den Namen. Um eine Tabellenunterschrift zu erzeugen, markieren Sie den Unterschriftstext und klicken Sie auf die Formatvorlage mit dem Namen &#8222;Beschriftung&#8220;. Tabellenunterschriften m&#252;ssen nicht mit einer Markierung versehen werden. Bitte beachten Sie, dass die Tabellen keine &#220;berschriften au&#223;erhalb der Zellen der Tabelle besitzen. F&#252;gen Sie alle Daten innerhalb der Zellen ein und den Tabellennamen in die Tabellenunterschrift, z.&#160;B. &#8222;Tabelle 1.1: Name.&#8220; Setzen Sie einen Gedankenstrich in Zellen, die keine Daten enthalten sollen..</p>
-              </fig>
+
               <p>Der Flie&#223;text sollte so wie hier gezeigt fortgesetzt werden. Ein Beispiel f&#252;r die Gestaltung von Endnoten sehen Sie am Ende dieses Templates.<xref ref-type="fn" rid="bibd2e163"/> 
                      </p>
               <p>Um Blockzitate zu erstellen (f&#252;r Zitate, die sich &#252;ber mehr als vier Zeilen erstrecken), markieren Sie Ihr Zitat und klicken auf die Formatvorlage &#8220;Zitat&#8221;. Damit erh&#228;lt der markierte Text die Form, wie sie hier gezeigt wird. Dies ist ein Blockzitat. Dies ist ein Blockzitat. Dies ist ein Blockzitat. Dies ist ein Blockzitat. Dies ist ein Blockzitat. Dies ist ein Blockzitat. Dies ist ein Blockzitat. Dies ist ein Blockzitat. Dies ist ein Blockzitat. Dies ist ein Blockzitat.</p>
@@ -132,62 +131,7 @@
           </sec>
         </sec>
       </sec>
-      <sec>
-        <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-        <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-            </p>
-          <sec>
-              <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-              <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-                  
-              </p>
-              <sec>
-                  <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-                  <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-                  </p>
-              </sec>
-              <sec>
-                  <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-                  <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-                  </p><sec>
-                      <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-                      <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-                      </p><sec>
-                          <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-                          <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-                          </p><sec>
-                              <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-                              <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-                              </p><sec>
-                                  <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-                                  <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-                                  </p><sec>
-                                      <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-                                      <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-                                      </p>
-                                  </sec>
-                              </sec>
-                          </sec>
-                      </sec>
-                  </sec>
-              </sec>
-              <sec>
-                  <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-                  <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-                  </p>
-              </sec>
-              <sec>
-                  <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-                  <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-                  </p>
-                  <sec>
-                      <title>Literaturangaben: &#220;berschrift 2, Schriftgr&#246;&#223;e 22, Fett</title>
-                      <p>Stand:  DATE \@"d'. 'MMMM\ yyyy" 24. September 2015
-                      </p>
-                  </sec>
-              </sec>
-          </sec>
-      </sec>
+
     </sec>
   </body>
   <back>
@@ -198,7 +142,7 @@
       <fn id="bibd2e163">
         <p>	 Siehe Garc&#237;a M&#225;rquez, S. 100. Hier ist ein Beispiel f&#252;r eine Endnote. Um Endnoten einzuf&#252;gen, verwenden Sie bitte das Endnoten-Feature Ihres Textverarbeitungsprogramms. Sie haben die Wahl, ob Sie lieber Fu&#223;noten oder Endnoten verwenden m&#246;chten &#8211; verwenden Sie jedoch bitte nicht beides.</p>
       </fn>
-    </fn-group>
+    </fn-g  roup>
     
   </back>
 </article>

@@ -14,12 +14,13 @@
 @import 'node_modules/lens/article/nodes/figure/figure';
 @import 'node_modules/lens/article/nodes/html_table/html_table';
 @import 'node_modules/lens/article/nodes/video/video';
-@import 'node_modules/lens/article/nodes/caption/caption';
-@import 'node_modules/lens/article/nodes/contributor/contributor';
-@import 'node_modules/lens/article/nodes/publication_info/publication_info';
+@import 'node_modules/lens/article/nodes/sec_meta/sec_meta';
+@import 'node_modules/lens/article/nodes/footnote/footnote';
+@import 'node_modules/lens/article/nodes/footnote_reference/footnote_reference';
 @import 'node_modules/lens/styles/surface';
 @import 'node_modules/lens/styles/reader';
 @import 'node_modules/lens/styles/lens';
+
 
 // Custom styles
 @import 'node_modules/lens/article/nodes/speech/speech';

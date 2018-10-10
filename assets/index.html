@@ -3,10 +3,11 @@
 <head>
     <title>Lens Viewer for Books and Journal articles</title>
 
-    <link rel="stylesheet" type="text/css" media="all" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="all"
+          href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
 
     <link rel='stylesheet' type='text/css' href="lib/fonts.css">
-    <link rel="stylesheet" type="text/css" media="all" href="lib/font-awesome.min.css"/>
+
 
     <!-- A combined lens.css will be generated in the bundling process -->
     <!-- While in development, separate links for each CSS file are added, so we don't need a source map -->
@@ -26,13 +27,22 @@
          },
          "displayAlign": "left",
          styles: {".MathJax_Display": {padding: "0em 0em 0em 3em" },".MathJax_SVG_Display": {padding: "0em 0em 0em 3em" },}
-      });
+          });
+
 
     </script>
-    <script type="text/javascript"
-            src="http://beta.mathjax.org/mathjax/latest/MathJax.js?config=MML_HTMLorMML-full"></script>
+    <script type="text/javascript"     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML-full"></script>
     <script type="text/javascript">
-        var locales = {"Back": "Back", "Figures": "Figures", "Contents": "Contents"};
+        let locales = {
+            'Author': 'Author',
+            'Back': 'Back',
+            'Contents': 'Contents',
+            'CopyRightAndLicenses': 'Copyright & License',
+            'Figures': 'Figures',
+            'Focus': 'Focus',
+            'Reference': '',
+            'References': 'Footnotes',
+        };
 
     </script>
 

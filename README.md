@@ -1,8 +1,27 @@
-Customized Lens Viewer for OMP Frontend
-Following steps show how you can setup a test environement.
-# Installation
+# Description
 =======
-Following steps show how you can setup a test environment.
+
+Browser-based HTML Viewer for Journal Articles and Monographs based on JATS Standard XML files.based on elifescience Lens Viewer.
+
+Limited functionality for BITS (Book extension for JATS) is available.
+
+Implemented Extensions
+
+| Feature |	Ready | |
+| --- | --- | --- |
+| Audio/Video from external repositories| ✓ | |
+| Footnotes formatting support   | ✓ | |
+| Footnotes internal navigation     for references   | ✓ | |
+| Paragraph formatting using CSS-Stylesheets   | ✓ | |
+|Section metadata for monographs   | |
+| - Section authors/contributors | ✓ | |
+| - Section title| ✓ | |
+| - Section Abstract | ✓ | |
+| Table display in reading panel | ✓ | |
+| Table formatting using JATS XMl Attributes and CSS-Stylesheets | ✓ | |
+
+
+
 ## Installation
 
 
@@ -28,9 +47,12 @@ gulp server
 ```
 
 ## Open your browser 
- ```
-http://localhost:8000/?url=data/example.xml/
- ```
+ 
+* [Features example](http://localhost:8000/?url=data/example.xml/)
+* [Sample Article](http://localhost:8000/?url=data/bmj_example.xml/)
+* [Article with MathML ](http://localhost:8000/?url=data/pnas_sample.xml/)
+
+
 
 
 
