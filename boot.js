@@ -43,6 +43,6 @@ $(function() {
 
     app.start();
 
-    window.applicaton = app;
+    window.app = app;
 
 });
