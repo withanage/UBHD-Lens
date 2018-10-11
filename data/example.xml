@@ -221,8 +221,9 @@
         </sec>
             <sec>
                 <title>Paragraph Formatting</title>
-                <p specific-use="right">this is a simple paragraph</p>
-                <p content-type="text-orientation-vertical-lr">vertikaler Text</p>
+                <p>this is a simple paragraph</p>
+                <p content-type="text-orientation-vertical-lr">I am vertical text</p>
+
 
             <sec>
                 <title>Multimedia elements</title>
@@ -363,35 +364,29 @@
 	font-size:20px;
 	  border: 1px solid red;
   margin: 5px 0;
-	color:#ddd;
-	border-width: 11px;
+	color:#111;
+	border-width: 1px;
 	border-color: #55555;"
 	>
 
                     <tr>
-                        <td>Table</td>
-                        <td>(<xref rid="bib1" ref-type="bibr"
-                                   id="IDedf8dd89-6236-4817-b6bf-0ff16e5d4c08"
-                        >ἐπιστάμαν γὰρ καὶ λόγον [τὸν] προσείληϕε</xref>):
-                        </td>
-                        <td>&lt;BROTINUS&gt; Phil. [<xref rid="bib1a"
-                                                          ref-type="bibr"
-                                                          id="IDfb2e630e-46cd-4321-85b5-bf05f547addd"
-                        >1230</xref>]
-                        </td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
                     </tr>
+
+
                     <tr>
-                        <td>Table</td>
-                        <td>(<xref rid="bib1" ref-type="bibr"
-                                   id="IDedf8dd89-6236-4817-b6bf-0ff16e5d4c08"
-                        >ἐπιστάμαν γὰρ καὶ λόγον [τὸν] προσείληϕε</xref>):
-                        </td>
-                        <td>&lt;BROTINUS&gt; Phil. [<xref rid="bib1a"
-                                                          ref-type="bibr"
-                                                          id="IDfb2e630e-46cd-4321-85b5-bf05f547addd"
-                        >1230</xref>]
-                        </td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td style="color:green;">Cell</td>
+                        <td><p><italic>Italic</italic></p></td>
+                        <td>Cell</td>
                     </tr>
+
+
                 </table>
             </table-wrap>
 
@@ -660,98 +655,19 @@
                         </fig>
                     </fig-group>
                 </p>
-                <table-wrap>
-                    <table class="my-class">
-                        <tr>
-                            <td>
-                                <bold>Found in document</bold>
-                            </td>
-                            <td>
-                                <bold>Nepali term</bold>
-                            </td>
-                            <td>
-                                <bold>Meaning</bold>
-                            </td>
-                        </tr>
-                        <tr>
 
-                            <td rowspan="1" colspan="1">
-                                <italic>phirti b&#257;di</italic>
-                            </td>
-                            <td rowspan="1" colspan="1">formal response</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="1" colspan="1">
-                                <italic>phar shi pha tar</italic>
-                            </td>
-                            <td rowspan="1" colspan="1">
-                                <italic>prattiutarpatra</italic>
-                            </td>
-                            <td rowspan="1" colspan="1">legal rejoinder</td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <italic>mug ga &#8217;ja&#8217; man</italic>
-                            </td>
-                            <td>
-                                <italic>mukhko jam&#257;ni</italic>
-                            </td>
-                            <td>verbal testimony</td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <p>
-                                    <italic>ldan dza ma nis</italic>
-                                </p>
-                                <p>
-                                    <italic>bdan dza ma nis</italic>
-                                </p>
-                                <p>
-                                    <italic>sdan dza ma nis</italic>
-                                </p>
-                                <p>
-                                    <italic>sdan mdza ma nis</italic>
-                                </p>
-                                <p>
-                                    <italic>ldan mdza&#8217; ma &#7751;i</italic>
-                                </p>
-                            </td>
-                            <td>
-                                <break/>
-                                <italic>dhan jam&#257;ni</italic>
-                            </td>
-                            <td><break/>financial guarantor
-                            </td>
-                        </tr>
-                    </table>
-                </table-wrap>
             </sec>
         </sec>
     </body>
     <back>
         <fn-group>
             <fn id="bibd2e50">
-                <p>Footnote 1
-                    <ext-link xlink:href="../referene.xml#citations/article_citation_1" show="new">Müller, Ludwig
-                    </ext-link>
-                    <xref ref-type="sec" rid="s1">Internal Link</xref>
-                </p>
-                <p>This is a <xref rid="bib1" ref-type="bibr" id="xref1">Referenz im dem selben Fenster</xref>link
-                </p>
+                <p>Footnote 1 <xref ref-type="sec" rid="s1">Internal section link</xref>        </p>
+                <p>This is a <xref rid="bib1" ref-type="bibr" id="xref1">Internal Bibliographical reference in the same window</xref>link </p>
             </fn>
             <fn>
-                <p>This is a
-                    <italic>
-                        <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
-                                  xlink:href="http://heiup.uni-heidelberg.de/" ext-link-type="uri"
-                                  xlink:type="simple"
-                        >italic link
-                        </ext-link>
-                    </italic>
-                    and a text
-                </p>
+                <p> Another footnote </p>
+
             </fn>
 
         </fn-group>

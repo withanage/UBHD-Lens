@@ -4,7 +4,7 @@
   "dependencies": {
     "ejs": "*",
     "express": "3.3.x",
-    "lens": "withanage/lens.git",
+    "lens": "github:withanage/lens",
     "npm": "^6.4.1",
     "path": "^0.12.7",
     "rename": "^1.0.4",
