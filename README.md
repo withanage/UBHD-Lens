@@ -1,5 +1,5 @@
 # Description
-=======
+===
 
 Browser-based HTML Viewer for Journal Articles and Monographs based on JATS Standard XML files.based on elifescience Lens Viewer.
 
@@ -44,23 +44,28 @@ npm install gulp gulp-sass gulp-uglify browserify gulp-rename through2 path gulp
 
 #  install submodues
 npm install
+
  ```
  
 
 ## Run server application 
 
 ```bash
-gulp server
+gulp; gulp server
 ```
 
-## Open your browser 
+## Test examples 
  
-* [Features example](http://localhost:8000/?url=data/example.xml/)
+* [Features](http://localhost:8000/?url=data/example.xml/)
 * [Sample Article](http://localhost:8000/?url=data/bmj_example.xml/)
-* [Sample Article MathML ](http://localhost:8000/?url=data/pnas_sample.xml/)
+* [Sample Article with MathML ](http://localhost:8000/?url=data/pnas_sample.xml/)
 
 
 
 
-
+## Developmet
+```bash
+gulp watch;
+gulp server
+```
 
