@@ -41,15 +41,92 @@
             'Figures': 'Figures',
             'Focus': 'Focus',
             'Reference': '',
-            'References': 'Footnotes',
+            'References': 'References',
         };
 
     </script>
+    <script type="text/javascript">
+        var qs = function () {
+            var query_string = {};
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i=0;i<vars.length;i++) {
+                var pair = vars[i].split("=");
+                // If first entry with this name
+                if (typeof query_string[pair[0]] === "undefined") {
+                    query_string[pair[0]] = pair[1];
+                    // If second entry with this name
+                } else if (typeof query_string[pair[0]] === "string") {
+                    var arr = [ query_string[pair[0]], pair[1] ];
+                    query_string[pair[0]] = arr;
+                    // If third or later entry with this name
+                } else {
+                    query_string[pair[0]].push(pair[1]);
+                }
+            }
+            return query_string;
+        } ();
+
+        // This document gets loaded by default
+        // --------
+
+        var documentURL = "data/example.xml";
+
+        $(function() {
+
+            // Create a new Lens app instance
+            // --------
+            //
+            // Injects itself into body
+
+            var app = new window.Lens({
+                document_url: qs.url ? decodeURIComponent(qs.url.slice(0,-1)) : documentURL
+
+            });
+
+            app.start();
+
+            window.app = app;
+
+        });
+    </script>
 
     <script src='lens.js'></script>
-
+<style type="text/css">
+    .sc-pinned-message {
+        display: flex;
+        max-width: 600px;
+        margin: 7px auto;
+        color: #000;
+        text-align: center;
+    }
+    .sc-pinned-message > .se-msg-wrap {
+        color: #ff0000;
+        font-size: 26px;
+        margin-right: 20px;
+    }
+    .sc-pinned-message > .se-msg-wrap > .se-icon {
+        text-decoration: underline;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .sc-pinned-message > .se-msg-wrap > .se-msg {
+        content: attr(data-placeholder);
+        position: absolute;
+        color: #ccc;
+        font-weight: 400;
+    }
+</style>
 </head>
 <body class="loading">
-
+<div class="sc-pinned-message"><div class="se-msg-wrap">
+    <i class="fa fa-warning se-icon"></i>
+    <div class="se-msg">Attention! Current version does  not support internet explorer.</div></div></div>
 </body>
 </html>
