@@ -6,7 +6,7 @@ var panels = Lens.getDefaultPanels();
 // All available converters
 var LensConverter = require("lens/converter");
 var CustomConverter = require("./custom_converter");
-//var ElifeConverter = require("lens/converter/elife_converter");
+var ElifeConverter = require("lens/converter/elife_converter");
 
 // Custom Panels
 // -------------------
@@ -30,7 +30,7 @@ var LensApp = function(config) {
 LensApp.Prototype = function() {
 
   // Custom converters
-  // ------------
+  // --------------
   // 
   // Provides a sequence of converter instances
   // Converter.match will be called on each instance with the
@@ -40,9 +40,9 @@ LensApp.Prototype = function() {
 
   this.getConverters = function(converterOptions) {
     return [
-      //new CustomConverter(converterOptions),
-      //new ElifeConverter(converterOptions),
-      new LensConverter(converterOptions)
+        new CustomConverter(converterOptions),
+      new ElifeConverter(converterOptions),
+        new LensConverter(converterOptions)
     ]
   };
 
@@ -55,8 +55,8 @@ LensApp.Prototype = function() {
   };
 };
 
+
 LensApp.Prototype.prototype = Lens.prototype;
 LensApp.prototype = new LensApp.Prototype();
 LensApp.prototype.constructor = LensApp;
-
 module.exports = LensApp;

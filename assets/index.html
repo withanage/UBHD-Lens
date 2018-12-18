@@ -64,7 +64,9 @@
                     query_string[pair[0]].push(pair[1]);
                 }
             }
+
             return query_string;
+
         } ();
 
         // This document gets loaded by default
@@ -80,7 +82,7 @@
             // Injects itself into body
 
             var app = new window.Lens({
-                document_url: qs.url ? decodeURIComponent(qs.url.slice(0,-1)) : documentURL
+                document_url: qs.url ? decodeURIComponent(qs.url) : documentURL
 
             });
 
@@ -125,8 +127,7 @@
 </style>
 </head>
 <body class="loading">
-<div class="sc-pinned-message"><div class="se-msg-wrap">
-    <i class="fa fa-warning se-icon"></i>
-    <div class="se-msg">Attention! Current version does  not support internet explorer.</div></div></div>
+
 </body>
+
 </html>

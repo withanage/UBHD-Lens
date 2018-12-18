@@ -22,6 +22,7 @@ CustomConverter.Prototype = function() {
     var doc = new LensArticle({
       nodeTypes: CustomNodeTypes
     });
+
     return doc;
   };
 

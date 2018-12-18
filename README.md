@@ -56,25 +56,53 @@ npm install
 
  ```
  
+## Compile
 
-## Run server application 
-
-```bash
-gulp; gulp server
+```
+gulp
 ```
 
-## Test examples 
+Distribution will be generate in `dist` folder. Change to dist folder.
+
+### Local
+```
+cd dist/
+firefox index.html # Or  use the open file in your browser.
+```
+or use any in-built server e.g.
+* python -m SimpleHTTPServer 4001
+* php -S localhost:4001
+* node server
+
+
+
+### Server integraton
+Copy tie  `dist` folder into a server environment and make sure the XML file is loaded accodingly.
+You can change the file rendering mechanism, `function qs()` in the index.html file.
+
+
+
+##  Test examples
+
+Example assumes port **4001**. Change port accordingly.
  
-* [Features](http://localhost:8000/?url=data/example.xml/)
-* [Sample Article](http://localhost:8000/?url=data/bmj_example.xml/)
-* [Sample Article with MathML ](http://localhost:8000/?url=data/pnas_sample.xml/)
+* [Features](http://localhost:4001/?url=data/example.xml/)
+* [Sample Article](http://localhost:4001/?url=data/bmj_example.xml/)
+* [Sample Article with MathML ](http://localhost:4001/?url=data/pnas_sample.xml/)
 
 
+## Development
 
+## Run server application
 
-## Developmet
 ```bash
-gulp watch;
-gulp server
+node server
 ```
+
+
+
+## Developpers
+
+* Dulip Withanage
+
 

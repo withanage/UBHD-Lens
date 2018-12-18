@@ -5,7 +5,6 @@ var $$ = require("lens/substance/application").$$;
 var CustomCoverView = function(node, viewFactory) {
   CoverView.call(this, node, viewFactory);
 };
-
 CustomCoverView.Prototype = function() {
   this.render = function() {
     CoverView.prototype.render.call(this);
@@ -23,7 +22,8 @@ CustomCoverView.Prototype = function() {
     });
 
     // Prepend
-    this.content.insertBefore(introEl, this.content.firstChild);
+
+      this.content.insertBefore(introEl, this.content.firstChild);
     
     return this;
   }
