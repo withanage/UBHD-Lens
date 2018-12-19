@@ -34,6 +34,7 @@ CustomConverter.Prototype = function() {
   // Resolve figure urls
   // --------
   // 
+/*
 
   this.enhanceFigure = function(state, node, element) {
     var graphic = element.querySelector("graphic");
@@ -41,11 +42,13 @@ CustomConverter.Prototype = function() {
     node.url = this.resolveURL(state, url);
   };
 
+*/
 
   // Example url to JPG: http://cdn.elifesciences.org/elife-articles/00768/svg/elife00768f001.jpg
   this.resolveURL = function(state, url) {
+      console.log(url);
     // Use absolute URL
-    if (url.match(/http:\/\//)) return url;
+    if (url.match(/https:\/\//)) return url;
 
     // Look up base url
     var baseURL = this.getBaseURL(state);
