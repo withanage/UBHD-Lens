@@ -31,7 +31,7 @@ LensApp.Prototype = function() {
 
   // Custom converters
   // --------------
-  // 
+  //
   // Provides a sequence of converter instances
   // Converter.match will be called on each instance with the
   // XML document to processed. The one that returns true first
@@ -46,6 +46,7 @@ LensApp.Prototype = function() {
     ]
   };
 
+
   // Custom panels
   // --------------
   // 
@@ -55,8 +56,8 @@ LensApp.Prototype = function() {
   };
 };
 
-
 LensApp.Prototype.prototype = Lens.prototype;
 LensApp.prototype = new LensApp.Prototype();
 LensApp.prototype.constructor = LensApp;
+
 module.exports = LensApp;

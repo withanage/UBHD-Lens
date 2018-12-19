@@ -11,10 +11,15 @@ var CustomConverter = function(options) {
 
 CustomConverter.Prototype = function() {
 
-  this.test = function(xmlDoc) {
-    var publisherName = xmlDoc.querySelector("publisher-name").textContent;
-    return publisherName === "My Journal";
-  };
+   this.test  = function (xmlDoc) {
+      // check  NLM jats elements
+      var article = xmlDoc.querySelector("article");
+      if (article !=null) {
+          return true;
+      }
+      return false;
+
+    }
 
   // Override document factory so we can create a customized Lens article,
   // including overridden node types
@@ -58,7 +63,8 @@ CustomConverter.Prototype = function() {
       ].join('');
     }
   };
-  /*
+
+  /**
   this.enhanceVideo = function(state, node, element) {
     var href = element.getAttribute("xlink:href").split(".");
     var name = href[0];
@@ -66,7 +72,8 @@ CustomConverter.Prototype = function() {
     node.url_ogv = "http://api.elifesciences.org/v2/articles/"+state.doc.id+"/media/file//"+name+".ogv";
     node.url_webm = "http://api.elifesciences.org/v2/articles/"+state.doc.id+"/media/file//"+name+".webm";
     node.poster = "http://api.elifesciences.org/v2/articles/"+state.doc.id+"/media/file/"+name+".jpg";
-  };*/
+  };
+ **/
 };
 
 CustomConverter.Prototype.prototype = LensConverter.prototype;

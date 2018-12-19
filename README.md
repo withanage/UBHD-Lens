@@ -86,9 +86,9 @@ You can change the file rendering mechanism, `function qs()` in the index.html f
 
 Example assumes port **4001**. Change port accordingly.
  
-* [Features](http://localhost:4001/?url=data/example.xml/)
-* [Sample Article](http://localhost:4001/?url=data/bmj_example.xml/)
-* [Sample Article with MathML ](http://localhost:4001/?url=data/pnas_sample.xml/)
+* [Features](http://localhost:4001/?url=data/example.xml)
+* [Sample Article](http://localhost:4001/?url=data/bmj_example.xml)
+* [Sample Article with MathML ](http://localhost:4001/?url=data/pnas_sample.xml)
 
 
 ## Development
