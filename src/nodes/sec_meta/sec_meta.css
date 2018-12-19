@@ -1,0 +1,22 @@
+
+/* Versuch, die Verschiebungen, die sich durch das Float der authors ergeben, direkt am Element zu lösen - wenn es Kollateralschäden gibt, müssen spezifischere Einzelanweisungen an die jew. Verschachtelung gesetzt werden. 09.11.18 voe */
+.authors::after,
+
+.lens-article .content-node.sec-meta::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.lens-article .content-node.sec-meta .authors .text {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    font-size: 17px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 10;
+}
+
+

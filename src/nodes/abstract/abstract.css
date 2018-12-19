@@ -1,0 +1,10 @@
+
+.content-node.abstract {
+    margin-bottom: 5em;
+}
+.content-node.abstract .title {
+    font-size: 17px !important;
+    font-weight: bold !important;
+    line-height: 28px !important;
+    padding-bottom: 0 !important;
+}
