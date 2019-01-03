@@ -48,23 +48,23 @@ CustomConverter.Prototype = function() {
   this.resolveURL = function(state, url) {
       console.log(url);
     // Use absolute URL
-    if (url.match(/https:\/\//)) return url;
+    if (url.match(/http[s]:\/\//)) return url;
 
     // Look up base url
     var baseURL = this.getBaseURL(state);
 
     if (baseURL) {
       return [baseURL, url].join('');
-    } else {
-      // Use special URL resolving for production articles
-      return [
-        "http://cdn.elifesciences.org/elife-articles/",
-        state.doc.id,
-        "/jpg/",
-        url,
-        ".jpg"
-      ].join('');
-    }
+    } /*else {
+        // Use special URL resolving for production articles
+        return [
+            "http://cdn.elifesciences.org/elife-articles/",
+            state.doc.id,
+            "/jpg/",
+            url,
+            ".jpg"
+        ].join('');
+    }*/
   };
 
   /**
@@ -77,6 +77,36 @@ CustomConverter.Prototype = function() {
     node.poster = "http://api.elifesciences.org/v2/articles/"+state.doc.id+"/media/file/"+name+".jpg";
   };
  **/
+};
+this.caption = function (state, caption) {
+    var doc = state.doc;
+    var captionNode = {
+        "id": state.nextId("caption"),
+        "source_id": caption.getAttribute("id"),
+        "type": "caption",
+        "title": "",
+        "children": []
+    };
+    // Titles can be annotated, thus delegate to paragraph
+    var title = caption.querySelector("title");
+    if (title) {
+        // Resolve title by delegating to the paragraph
+        var node = this.paragraph(state, title);
+        if (node) {
+            captionNode.title = node.id;
+        }
+    }
+    var children = [];
+    var paragraphs = caption.querySelectorAll("p");
+    _.each(paragraphs, function (p) {
+        // Only consider direct children
+        if (p.parentNode !== caption) return;
+        var node = this.paragraph(state, p);
+        if (node) children.push(node.id);
+    }, this);
+    captionNode.children = children;
+    doc.create(captionNode);
+    return captionNode;
 };
 
 CustomConverter.Prototype.prototype = LensConverter.prototype;

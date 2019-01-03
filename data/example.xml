@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<article xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns:svg="http://www.w3.org/2000/svg" >
     <front>
 
         <journal-meta>
@@ -357,30 +357,35 @@
             </table-wrap>
 
         </sec>
+        <sec>
+            <title>SVG images</title>
+            <p>SVG example</p>
 
+                <svg:svg><!-- SVG image goes here --></svg:svg>s
+
+        </sec>
 
     </body>
     <back>
         <fn-group>
+            <fn id="fn2">
+                <p>This is a <xref rid="ref1" ref-type="bibr" id="xref1">Internal Bibliographical reference in the same window</xref>link </p>
+
+            </fn>
+
             <fn id="fn1">
                 <p>
                 <table-wrap>
                     <table>
-                        <tr><td>row 1</td> <td>row1 </td></tr>
-                        <tr><td>row 2</td> <td>row2 </td></tr>
-                        <tr><td>row 2</td> <td>row2 </td></tr>
-                        <tr><td>row 2</td> <td>row2 </td></tr>
-                        <tr><td>row 2</td> <td>row2 </td></tr>
+                        <tr><td>row 1</td> <td>row1 </td><td>row 2</td> <td>row2 </td></tr>
+                            <tr><td>row 2</td> <td>row2 </td><td>row 2</td> <td>row2 </td></tr>
+                        <tr><td>row 2</td> <td  style="background:#00ACEA;">row2 </td></tr>
                         <tr><td>row 2</td> <td>row2 </td></tr>
                         <tr><td>row 2</td> <td>row2 </td></tr>
                     </table>
                 </table-wrap>
                 </p>
                 <p>Footnote 1 <xref ref-type="sec" rid="s1">Internal section link</xref>        </p>
-                <p>This is a <xref rid="bib1" ref-type="bibr" id="xref1">Internal Bibliographical reference in the same window</xref>link </p>
-            </fn>
-            <fn id="fn2">
-                <p> Another footnote </p>
 
             </fn>
 
