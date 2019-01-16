@@ -12,6 +12,7 @@ Functionality for BITS (Book extension for JATS)  is limitedly avalialbe and con
 | --- | --- | --- |
 | Audio/Video from external repositories| ✓ |[demo](https://heiup.uni-heidelberg.de/reader/index/310/310-69-79515-1-10-20171115.xml#figures) |
 | Citaton blocks (with uniquie IDs)   | ✓ | [demo](https://heiup.uni-heidelberg.de/reader/index/43/43-68-231-1-10-20151008.xml#content/box_25) |
+| Citations  cotaining tables   | ✓ | [demo](https://heiup.uni-heidelberg.de/reader/index/416/416-68-83604-1-10-20181217.xml#content/heading_48) |
 | Footnotes formatting support   | ✓ |  [demo](https://heiup.uni-heidelberg.de/reader/index/48/48-68-599-1-10-20160428.xml#footnotes/article_footnote_60)|
 | Footnotes internal navigation into references   | ✓ | [demo](https://heiup.uni-heidelberg.de/reader/index/310/310-69-79515-1-10-20171115.xml#figures)|
 | Images (scaled by click)   | ✓ | [demo](https://heiup.uni-heidelberg.de/reader/index/310/310-69-79515-1-10-20171115.xml#figures/figure_1/fullscreen)|

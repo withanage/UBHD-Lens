@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving DTD v1.0 20120330//EN" "JATS-journalarchiving.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>Title</article-title>
+      </title-group>
+      <abstract>
+        <p id="_p-1">Abstract</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body id="body">
+    <fig id="_figure-1">
+      <label>Figure 1</label>
+      <caption id="_caption-1">
+        <p id="p-267741be4cfdee6715fa1774318d0e4d">Caption</p>
+      </caption>
+      <graphic id="_graphic-1" mime-subtype="png" mimetype="image" xlink:href="ee3d402c1903b35591f040316ca6c656.png" />
+    </fig>
+  </body>
+  <back />
+</article>
