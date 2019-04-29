@@ -59,7 +59,7 @@ npm install
 
 ## Development
 
-## Run server application
+### Run server application
 
 ```bash
 node server
