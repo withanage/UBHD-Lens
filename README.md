@@ -59,11 +59,22 @@ npm install
 
 ## Development
 
-#### Run server application
+### Run server application
 
 ```bash
 node server
 ```
+
+
+###  examples
+
+Example assumes port **4001**. Change port accordingly.
+ 
+* [Features](http://localhost:4001/?url=data/example.xml)
+* [Sample Article](http://localhost:4001/?url=data/bmj_example.xml)
+* [Sample Article with MathML ](http://localhost:4001/?url=data/pnas_sample.xml)
+
+
  
 ## Intergration in an external environment
 
@@ -89,15 +100,6 @@ or use any in-built server e.g.
 Copy tie  `dist` folder into a server environment and make sure the XML file is loaded accodingly.
 You can change the file rendering mechanism, `function qs()` in the index.html file.
 
-
-
-##  Test examples
-
-Example assumes port **4001**. Change port accordingly.
- 
-* [Features](http://localhost:4001/?url=data/example.xml)
-* [Sample Article](http://localhost:4001/?url=data/bmj_example.xml)
-* [Sample Article with MathML ](http://localhost:4001/?url=data/pnas_sample.xml)
 
 
 
