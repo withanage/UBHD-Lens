@@ -65,7 +65,7 @@ npm install
 node server
 ```
  
-## Compile
+## Intergration in an external environment
 
 ```
 gulp
