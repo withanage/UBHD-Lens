@@ -56,6 +56,14 @@ npm install gulp gulp-sass gulp-uglify browserify gulp-rename through2 path gulp
 npm install
 
  ```
+
+## Development
+
+## Run server application
+
+```bash
+node server
+```
  
 ## Compile
 
@@ -92,13 +100,6 @@ Example assumes port **4001**. Change port accordingly.
 * [Sample Article with MathML ](http://localhost:4001/?url=data/pnas_sample.xml)
 
 
-## Development
-
-## Run server application
-
-```bash
-node server
-```
 
 
 
