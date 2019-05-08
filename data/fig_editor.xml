@@ -1,24 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving DTD v1.0 20120330//EN" "JATS-journalarchiving.dtd">
-<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0">
-  <front>
-    <article-meta>
-      <title-group>
-        <article-title>Title</article-title>
-      </title-group>
-      <abstract>
-        <p id="_p-1">Abstract</p>
-      </abstract>
-    </article-meta>
-  </front>
-  <body id="body">
-    <fig id="_figure-1">
-      <label>Figure 1</label>
-      <caption id="_caption-1">
-        <p id="p-267741be4cfdee6715fa1774318d0e4d">Caption</p>
-      </caption>
-      <graphic id="_graphic-1" mime-subtype="png" mimetype="image" xlink:href="ee3d402c1903b35591f040316ca6c656.png" />
-    </fig>
-  </body>
-  <back />
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving DTD v1.0 20120330//EN"
+        "JATS-journalarchiving.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <front>
+        <article-meta>
+            <title-group>
+                <article-title>Title</article-title>
+            </title-group>
+            <abstract>
+                <p id="_p-1">Abstract</p>
+            </abstract>
+        </article-meta>
+    </front>
+    <body id="body">
+
+        <fig id="_figure-1">
+            <label>Figure 1</label>
+            <caption id="_caption-1">
+                <p id="p-267741be4cfdee6715fa1774318d0e4d"></p>
+            </caption>
+            <graphic id="_graphic-1" mime-subtype="png" mimetype="image"
+                     xlink:href="ee3d402c1903b35591f040316ca6c656.png"/>
+        </fig>
+
+    </body>
+    <back>
+        <ref-list>
+            <ref>
+                <element-citation publication-type="commun" publication-format="web">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Harris</surname>
+                            <given-names>Pat</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>New Z39.50 resource</article-title>
+                    <comment>[Internet]</comment>
+                    <source>Message to: Karen Patrias</source>
+                    <date-in-citation content-type="time-stamp"
+                                      iso-8601-date="1998-02-27T13:18">1998 Feb 27, 1:18 pm
+                    </date-in-citation>
+                    <date-in-citation content-type="access-date"
+                                      iso-8601-date="1998-02-28">[cited 1998 Feb 28]
+                    </date-in-citation>
+                    <comment>[about 2 screens]</comment>
+                </element-citation>
+            </ref>
+
+        </ref-list>
+    </back>
 </article>

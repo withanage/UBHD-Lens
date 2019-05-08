@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving DTD v1.0 20120330//EN" "JATS-journalarchiving.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>Title</article-title>
+        <trans-title-group xml:lang="pt">
+          <trans-title id="text-translation-ff5a5d6eafcd6120ce1836cd42c51667">teest</trans-title>
+        </trans-title-group>
+      </title-group>
+      <abstract>
+        <p id="_p-1">abs</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body id="body">
+    <sec id="heading-f1c270916c12c0f8d47b072506e8206c">
+      <title>Sec 1</title>
+      <p id="heading-23ba3fe7d4380286bec37b780fd58541" level="1">text</p>
+      <sec id="heading-5ba7bcbc750a447396ca2a5a1e6fcd0c">
+        <title>Sec 1.1</title>
+        <p id="heading-da1360e38c122472b69d25ecaad0c15f" level="2">text</p>
+        <sec id="heading-bfe4ed5b1b89ceb3260f1b63b16678f9">
+          <title>Sec 1.1.1</title>
+          <p id="heading-e933be467627e1010f3e294d2d085dba" level="3">text</p>
+          <fig-group>
+          <fig id="_figure-1" position="float">
+            <label>Figure 1</label>
+            <caption id="_caption-1">
+              <p id="p-4257973d0f7f91b05eb9d9194b5b6441" >s</p>
+            </caption>
+            <graphic id="_graphic-1" mime-subtype="png" mimetype="image" xlink:href="3f00cdd974eadcd80044d7ad1a1bdc77.png" />
+          </fig>
+
+          </fig-group>
+
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref id="book-ref-2fb92b74b57f09fcabeb7fa6da2bd8c5">
+        <element-citation publication-type="book">
+          <source>teest</source>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

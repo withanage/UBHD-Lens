@@ -30,7 +30,7 @@
                 <article-title>Title</article-title>
             </title-group>
             <contrib-group>
-                <contrib contrib-type="author" corresp="yes" id="author-1">
+                <contrib contrib-type="editor" corresp="yes" id="author-1">
                     <name>
                         <surname>Miller</surname>
                         <given-names>David</given-names>
@@ -39,7 +39,7 @@
                         <p>Biography of david miller</p>
                     </bio>
                 </contrib>
-                <contrib contrib-type="editor" corresp="yes" id="editor-1">
+                <contrib contrib-type="author" corresp="yes" id="editor-1">
                     <name>
                         <surname>Groves</surname>
                         <given-names>Jay</given-names>
@@ -203,21 +203,41 @@
                 <xref ref-type="other" rid="media1">Video from Remote Repository</xref>
             </p>
             <p>
-                <media content-type="play-in-place height-250 width-310" id="movie1"
-                       mime-subtype="mov" mimetype="video"
-                       xlink:href="http://heidicon.ub.uni-heidelberg.de/emsfile/asset?t=1&amp;i=unib-heidelberg&amp;c=1036&amp;o=609754&amp;v=original&amp;w=768&amp;h=416&amp;checksum=3df4b30b631abac19fbe1348a154a8f7&amp;asset=1">
-                    <object-id pub-id-type="doi">
-                        10.7554/image.
-                    </object-id>
+                <media content-type="play-in-place height-250 width-310" id="media301" mime-subtype="mov"
+                       mimetype="video"
+                       xlink:href="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/703f4d81-8bda-4a80-99e6-bb3cb82e1bf1/file/id/490634/file_version/name/original">
                     <label>Seq. 3.1</label>
                     <caption>
-                        <title>Prousts Diktat (0:02:10–0:02:50)</title>
+                        <title>Seq. 3.1 Prousts Diktat (0:02:10–0:02:50)</title> <!-- <bold> </bold> -->
                         <p>
-                            <!-- <bold> </bold> -->
-                            <!--ext-link ext-link-type="doi" xlink:href="http://heidicon.ub.uni-heidelberg.de/id/609754">http://heidicon.ub.uni-heidelberg.de/id/609754</ext-link-->
+                            <ext-link ext-link-type="doi" xlink:href="http://heidicon.ub.uni-heidelberg.de/id/609745">
+                                http://heidicon.ub.uni-heidelberg.de/id/609745
+                            </ext-link>
                         </p>
                     </caption>
+                    <object-id specific-use="poster">
+                        http://heiup.uni-heidelberg.de/heiup/reader/index/310/310-75-79580-1-2-20171120.png
+                    </object-id>
                 </media>
+            </p>
+            <p>  <media content-type="play-in-place height-250 width-310" id="314_audio_1"
+                        mime-subtype="wav" mimetype="video"
+                        xlink:href="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8182b803-34ea-49ff-ac8f-d8d526837320/file/id/540991/file_version/name/original">
+                <label>Audio 1</label>
+                <caption>
+                    <title/>
+                    <p>Extrait de <italic toggle="yes">Je suis vivant</italic> (Mars 2015 :
+                        38–44) lu par Kettly Mars le 14 octobre 2015 lors de la soirée de
+                        lecture au « Salon Littéraire » de l’Université Leibniz de Hanovre
+                        (Allemagne). © Editions Mercure de France (photographie © Philip
+                        Bartz).</p>
+                    <p>Online resource: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                  ext-link-type="uri"
+                                                  xlink:href="http://heidicon.ub.uni-heidelberg.de/id/662643"
+                    >http://heidicon.ub.uni-heidelberg.de/id/662643</ext-link></p>
+                </caption>
+                <object-id specific-use="poster">314-75-81368-1-2-20180608.jpg</object-id>
+            </media>
             </p>
         </sec>
         <sec>
@@ -362,7 +382,16 @@
             <p>SVG example</p>
 
                 <svg:svg><!-- SVG image goes here --></svg:svg>s
-
+            <fig-group>
+                <fig id="_figure-1">
+                    <label>Figure 1</label>
+                    <caption id="_caption-1">
+                        <p id="p-267741be4cfdee6715fa1774318d0e4d">caption</p>
+                    </caption>
+                    <graphic id="_graphic-1" mime-subtype="png" mimetype="image"
+                             xlink:href="ee3d402c1903b35591f040316ca6c656.png"/>
+                </fig>
+            </fig-group>
         </sec>
 
     </body>
