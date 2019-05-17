@@ -33,39 +33,48 @@ CustomConverter.Prototype = function() {
 
   // Resolve figure urls
   // --------
-  // 
-/*
+  //
 
-  this.enhanceFigure = function(state, node, element) {
-    var graphic = element.querySelector("graphic");
-    var url = graphic.getAttribute("xlink:href");
-    node.url = this.resolveURL(state, url);
-  };
 
-*/
+    this.enhanceFigure = function (state, node, element) {
+        var graphic = element.querySelector("graphic");
+        var url = graphic.getAttribute("xlink:href");
+        node.url = this.resolveURL(state, url);
+    };
 
-  // Example url to JPG: http://cdn.elifesciences.org/elife-articles/00768/svg/elife00768f001.jpg
-  this.resolveURL = function(state, url) {
-      console.log(url);
-    // Use absolute URL
-    if (url.match(/http[s]:\/\//)) return url;
 
-    // Look up base url
-    var baseURL = this.getBaseURL(state);
+    // Example url to JPG: http://cdn.elifesciences.org/elife-articles/00768/svg/elife00768f001.jpg
+    this.resolveURL = function (state, url) {
+        var s = window.location.pathname;
 
-    if (baseURL) {
-      return [baseURL, url].join('');
-    } /*else {
-        // Use special URL resolving for production articles
-        return [
-            "http://cdn.elifesciences.org/elife-articles/",
-            state.doc.id,
-            "/jpg/",
-            url,
-            ".jpg"
-        ].join('');
-    }*/
-  };
+        var parts = s.split("/");
+        var length =parts.length;
+
+        parts[length-3] = "media?";
+        parts[length-2] =   "/submissionId="+parts[length-2];
+        parts[length-1] =   "/&fileId="+parts[length-1];
+        parts.push("/&fileName="+url);
+
+        var path = parts.join('/');
+
+        var customURL= path.replace(/\/\//g,'');
+        console.log(customURL);
+
+        // Use absolute URL
+        if (url.match(/http[s]:\/\//)) return url;
+
+        // Look up base url
+        var baseURL = this.getBaseURL(state);
+
+
+
+        if (baseURL) {
+            return [baseURL, url].join('');
+        } else {
+           return customURL;
+
+        }
+    };
 
   /**
   this.enhanceVideo = function(state, node, element) {
