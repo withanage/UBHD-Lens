@@ -38,7 +38,7 @@ CustomConverter.Prototype = function() {
 
     this.enhanceFigure = function (state, node, element) {
         var graphic = element.querySelector("graphic");
-        var url = graphic.getAttribute("xlink:href");
+        var url = graphic !== null ? graphic.getAttribute("xlink:href") : "";
         node.url = this.resolveURL(state, url);
     };
 
@@ -58,7 +58,6 @@ CustomConverter.Prototype = function() {
         var path = parts.join('/');
 
         var customURL= path.replace(/\/\//g,'');
-        console.log(customURL);
 
         // Use absolute URL
         if (url.match(/http[s]:\/\//)) return url;
