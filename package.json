@@ -8,7 +8,7 @@
     "express": "^4.16.4",
     "lens": "github:withanage/lens",
     "method-override": "^3.0.0",
-    "npm": "^6.9.0",
+    "npm": "^6.13.7",
     "path": "^0.12.7",
     "rename": "^1.0.4",
     "st": "^1.2.2",
@@ -16,14 +16,14 @@
     "underscore": "1.9.x"
   },
   "devDependencies": {
-    "browserify": "^16.2.3",
+    "browserify": "^16.5.0",
     "gulp": "^4.0.2",
-    "gulp-livereload": "^4.0.1",
+    "gulp-livereload": "^4.0.2",
     "gulp-reload": "0.0.4",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "through2": "^3.0.1"
   },
   "version": "2.0.0",
