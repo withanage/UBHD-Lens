@@ -1,0 +1,20 @@
+{
+  "env": {
+    "contextTitles": {
+      "en_US": "Lens Galley BITS reader"
+    },
+    "contextDescriptions": {
+      "en_US": "Lens reader"
+    },
+    "contextAcronyms": {
+      "en_US": "JPK"
+    }
+  },
+  "integrationFolder": "cypress/tests",
+  "watchForFileChanges": false,
+  "defaultCommandTimeout": 10000,
+  "video": false,
+  "numTestsKeptInMemory": 0
+}
+
+

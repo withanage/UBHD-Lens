@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "browserify": "^16.5.0",
+    "cypress": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-livereload": "^4.0.2",
     "gulp-reload": "0.0.4",

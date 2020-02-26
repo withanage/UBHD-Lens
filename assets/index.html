@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Lens Viewer for Books and Journal articles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" media="all"
           href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
@@ -76,10 +77,6 @@
 
         $(function() {
 
-            // Create a new Lens app instance
-            // --------
-            //
-            // Injects itself into body
 
             var app = new window.Lens({
                 document_url: qs.url ? decodeURIComponent(qs.url) : documentURL
