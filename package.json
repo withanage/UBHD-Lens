@@ -14,7 +14,8 @@
     "st": "^1.2.2",
     "tar": "^4.4.8",
     "underscore": "1.9.x",
-    "yallist": "^4.0.0"
+    "yallist": "^4.0.0",
+    "lodash.template": ">=4.5.0"
   },
   "devDependencies": {
     "browserify": "^16.5.1",
@@ -25,7 +26,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "node-sass": "^4.13.1",
-    "through2": "^3.0.1"
+    "through2": "^3.0.1",
+    "lodash.template": ">=4.5.0"
   },
   "version": "2.0.0",
   "private": true
