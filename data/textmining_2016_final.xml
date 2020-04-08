@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d1 20130915//EN" "JATS-journalpublishing1.dtd">
+<article
+   article-type="research-article"
+   dtd-version="1.1d1" xml:lang="en"
+   xmlns:mml="http://www.w3.org/1998/Math/MathML"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   >
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="publisher"/>
+         <issn/>
+         <publisher>
+            <publisher-name/>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="other"/>
+         <article-categories>
+            <subj-group>
+               <subject/>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Textmining von Konferenzabstracts</article-title>
+            <subtitle>Dokumentation eines Arbeitsprozesses in den Digitalen Geisteswissenschaften. Ein Werkstattbericht</subtitle>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Thoden</surname>
+                  <given-names>Klaus</given-names>
+               </name>
+               <aff>Max-Planck-Institut für Wissenschaftsgeschichte, Berlin </aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Schumacher</surname>
+                  <given-names>Mareike</given-names>
+               </name>
+               <aff>Universität Hamburg </aff>
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Stiller</surname>
+                  <given-names>Juliane</given-names>
+               </name>
+               <aff>Humboldt-Universität zu Berlin, Berlin</aff>
+            </contrib>
+         </contrib-group>
+         <pub-date>
+            <year/>
+         </pub-date>
+         <volume/>
+         <issue/>
+         <elocation-id/>
+         <abstract>
+            <p>In diesem Beitrag wird ein digitaler Arbeitsprozess beschrieben, der durch Textmining automatisch verschiedene Entitäten aus Konferenzabstracts ermittelt und diese dann mit einer Netzwerkanalyse in Beziehung setzt. Ziel ist es, die Verbreitung und Diversität von Tools, die Präsenz von Institutionen und Zusammenschlüssen sowie die thematische und personengebundene Vernetzung von Vortragenden auf einer deutschsprachigen DH-Konferenz zu identifizieren. Zentral ist dabei die Dokumentation des Arbeitsprozesses, der als Anstoß zur Entwicklung fachübergreifender Arbeitsstandards verstanden werden kann.</p>
+         </abstract>
+         <trans-abstract xml:lang="##">
+            <p>This article describes the digital workflow of automatically extracting various entities from a corpus of conference abstracts and performing network analysis on the results in order to find relationships. The aim is to identify the spread and diversity of tools, the representation of institutions and federations, and the thematic and personal networks of speakers at a German-speaking DH conference. Particular emphasis is placed on the documentation of the entire process, which can be interpreted as an initiative to develop interdisciplinary standards in this field.</p>
+         </trans-abstract>
+      </article-meta>
+   </front>
+   <body>
+      <sec>
+         <title/>
+         <sec>
+            <title>1. Einleitung</title>
+            <p>Digitale Tools werden immer häufiger von Geisteswissenschaftlerinnen und Geisteswissenschaftlern für ihre wissenschaftliche Arbeit genutzt. Um diese Tools und Services noch besser und passender in den Forschungsprozess integrieren zu können, müssen Entwickler und Entwicklerinnen sowie Betreiber und Betreiberinnen von Infrastrukturkomponenten auch die Arbeitsweise und -abläufe der Wissenschaftler und Wissenschaftlerinnen besser verstehen. Denn nur ein tieferes Verständnis des wissenschaftlichen Erkenntnisprozesses ermöglicht es, Anforderungen und Bedürfnisse von Wissenschaftlern und Wissenschaftlerinnen in der Entwicklung von Tools und Infrastrukturkomponenten zu berücksichtigen. Die Begleitforschung des BMBF-geförderten Projekts DARIAH-DE<xref ref-type="fn" rid="fn1">
+                  <sup>1</sup>
+               </xref> hat es sich zum Ziel gesetzt, nicht nur die Anforderungen und Erwartungen von Geisteswissenschaftlern und Geisteswissenschaftlerinnen an virtuelle Forschungsumgebungen zu untersuchen, sondern auch in Erfahrung zu bringen, welche Tools zum Einsatz kommen und wie diese den wissenschaftlichen Erkenntnisprozess unterstützen. Auf diese Weise sollten die (digitalen) Geisteswissenschaften im Hinblick auf Arbeitsmethoden und -prozesse genauer ausdifferenziert werden. Hierzu wurden während der Projektlaufzeit mehrere Erhebungen durchgeführt, die in den entsprechenden Arbeitsberichten dokumentiert sind.<xref ref-type="fn" rid="fn2">
+                  <sup>2</sup>
+               </xref>
+            </p>
+            <p>Im Rahmen der wissenschaftlichen Begleitforschung von DARIAH-DE geht dieser Artikel der Frage nach, inwiefern ein konkretes Forschungsvorhaben mit Hilfe digitaler Tools umgesetzt werden kann, welche Schwierigkeiten dabei auftreten und wie diese in Zukunft überwunden werden können. Ausgangspunkt war das Bestreben, den derzeitigen Ist-Stand der Verbreitung von DH-Tools im deutschsprachigen Raum festzuhalten und belegbar zu kartographieren. Dazu wurde ein digitaler Workflow erarbeitet, der sich Tools bedient, die innerhalb der der Digital Humanities entwickelt wurden.</p>
+            <p>Wir haben das Book of Abstracts der DHd-Tagung 2015<xref ref-type="fn" rid="fn3">
+                  <sup>3</sup>
+               </xref> analysiert, um Hinweise über die Erwähnung, Verbreitung und Diversität von DH-Tools, die Präsenz von Institutionen und Zusammenschlüssen sowie die thematische und personengebundene Vernetzung der Vortragenden auf dieser deutschsprachigen Konferenz zu erhalten. Der Verband der Digital Humanities im deutschsprachigen Raum (DHd)<xref ref-type="fn" rid="fn4">
+                  <sup>4</sup>
+               </xref> lädt jährlich interessierte und ausgewählte Wissenschaftler und Wissenschaftlerinnen zu dieser Tagung, um Beiträge aus den digitalen Geisteswissenschaften vorzustellen und zu diskutieren. Das Book of Abstracts der jeweiligen Tagungen, die zu den größten auf dem Gebiet der digitalen Geisteswissenschaften im deutschsprachigen Raum zählen, bieten einen guten Einblick in laufende Projekte, wichtige Erkenntnisse und aktuelle Debatten im Feld.</p>
+            <p>Diese explorativ durchgeführte Fallstudie dient auch der Dokumentation eines Arbeitsflusses, in dem die Textanalyse und die Visualisierung von Netzwerken im Mittelpunkt stehen. Da nach unseren Erkenntnissen im DH-Bereich jedoch noch keine standardisierten Vorgänge für ein solches Vorgehen definiert sind, möchten wir einen Anstoß zur Entwicklung fachübergreifender Arbeitsstandards geben. Wir werden daher den digitalen Workflow nachvollziehbar dokumentieren. Das semi-automatische Verfahren zur Textanalyse, das aus unserer Untersuchung resultiert, wird so weit geöffnet, dass es nachgenutzt und weiterentwickelt werden kann. Hierzu werden das getaggte Trainingskorpus und die damit entwickelten Classifier zur Textanalyse dem Artikel beigefügt.<xref ref-type="fn" rid="fn5">
+                  <sup>5</sup>
+               </xref>
+            </p>
+            <p>In Abschnitt 2 wird ein Überblick über ähnliche Ansätze des Textmining sowie den Einsatz von Tools im geisteswissenschaftlichen Arbeitsprozess gegeben. Die einzelnen Verarbeitungsschritte unserer Analyse und die dabei angewandten Tools werden in Abschnitt 3 vorgestellt. Im darauf folgenden Abschnitt 4 werden die Ergebnisse aus den Analysen präsentiert und diskutiert. Der Artikel endet mit Abschnitt 5, welcher auf Schwierigkeiten des hier vorgestellten digitalen Arbeitsverlaufs verweist und offene Fragen aufgreift.</p>
+         </sec>
+         <sec>
+            <title>2. Hintergrund</title>
+            <p>Der folgende Abschnitt stellt ähnliche Ansätze zur Untersuchung von wissenschaftlichen Texten vor. Für unsere Fallstudie sind zwei thematische Ansatzpunkte von besonderem Interesse. Einerseits wird die Untersuchung bestimmt von der ausgewählten Textsorte der Konferenzabstracts und andererseits vom Methodenkomplex des Textmining und insbesondere von den Verfahren des Natural Language Processing (NLP). Darüber hinaus interessiert, inwiefern der Gebrauch von Tools und Methoden in den DH bereits Gegenstand wissenschaftstheoretischer Forschung ist.</p>
+            <sec>
+               <title>2.1 Textmining wissenschaftlicher Abstracts</title>
+               <p>Die Textsorte <italic>Abstracts</italic> ist in der linguistischen Forschung in vielerlei Hinsicht untersucht worden. Ein entsprechender Überblick findet sich in Busch-Lauer.<xref ref-type="fn" rid="fn6">
+                     <sup>6</sup>
+                  </xref> Konferenzabstracts, wie wir sie als Grundlage dieser Studie verstehen, werden in der Fachliteratur auch als <italic>Extended Abstract</italic>
+                  <italic> </italic>bezeichnet, da sie ursprünglich eine längere Variante der gebräuchlichen Ankündigung eines Vortrags darstellen. Adolphi<xref ref-type="fn" rid="fn7">
+                     <sup>7</sup>
+                  </xref> definiert das »Extended Abstract« und grenzt es von den bei Gläser<xref ref-type="fn" rid="fn8">
+                     <sup>8</sup>
+                  </xref> beschriebenen Konferenzabstracts hinsichtlich dreier Merkmale ab: Erstens sei das <italic>Extended Abstract</italic> deutlich länger, zweitens könne es zu Dokumentationszwecken einer Konferenz veröffentlicht werden, drittens würde es dadurch auch zitierfähig.<xref ref-type="fn" rid="fn9">
+                     <sup>9</sup>
+                  </xref>
+               </p>
+               <p>Diese Merkmale finden sich auch bei den Abstracts, die das Korpus der hier beschriebenen Untersuchung bilden. Im Zuge der durch Infrastrukturprojekte wie DARIAH-DE vorangetriebenen Langzeitarchivierung von Daten ist damit zu rechnen, dass auch weiterhin Veranstaltungen in immer größerem Umfang dokumentiert werden, sei es durch die Publikation von Konferenzabstracts, Foliensätzen oder Audio-/Videomaterial.</p>
+               <p>Eine Untersuchung der Makrostruktur gibt Aufschluss darüber, dass der Aufbau von Abstracts relativ homogen ist und wie folgt gegliedert werden kann:<xref ref-type="fn" rid="fn10">
+                     <sup>10</sup>
+                  </xref>
+               </p>
+               <list list-type="unordered">
+                  <list-item>
+                     <p>Verfasser/Verfasserin mit Affiliation</p>
+                  </list-item>
+                  <list-item>
+                     <p>Titel</p>
+                  </list-item>
+                  <list-item>
+                     <p>Textkörper (ohne integrierte Abbildungen)</p>
+                  </list-item>
+                  <list-item>
+                     <p>Literatur/Referenzen</p>
+                  </list-item>
+               </list>
+               <p>Textmining auf Abstracts anzuwenden ist schon in vielen Kontexten durchgeführt worden, wobei die Anwendungsfälle so gut wie immer thematisch an eine bestimmte Disziplin gebunden sind. Grimbeek et al.<xref ref-type="fn" rid="fn11">
+                     <sup>11</sup>
+                  </xref> beschreiben, wie unter Verwendung des Tools Leximancer<xref ref-type="fn" rid="fn12">
+                     <sup>12</sup>
+                  </xref> die Abstracts einer jährlich stattfindenden Konferenz zum Thema Bildung analysiert werden. Es wird untersucht, ob und wie sich im Laufe von drei Jahren die Themen der Vorträge gewandelt haben. Leximancer benutzt dabei Methoden wie »thematic analysis«, um Themenkomplexe im Korpus festzustellen, worauf eine Analyse der Beziehungen zwischen den identifizierten Konzepten folgt. Es wird dabei das gesamte Korpus verwendet, die Entwicklung im Verlauf der Jahre kann über entsprechendes Tagging der Abstracts nachvollzogen werden. In den Ergebnissen ist ein thematischer Wandel zu beobachten, der nicht zuletzt von der Menge der eingereichten Abstracts, aber auch vom gesetzten Oberthema der jeweiligen Konferenzen abhängt. Shaik und Chakraborty<xref ref-type="fn" rid="fn13">
+                     <sup>13</sup>
+                  </xref> analysieren die Proceedings der seit den 70er Jahren jährlich stattfindenden Konferenz zur Statistiksoftware SAS. Es wird untersucht, welche Themen zu welcher Zeit im Trend liegen. In dieser Arbeit werden dazu Wörter aus den Dokumenten extrahiert und diese mittels Singulärwertzerlegung geclustert. Dabei wird angemerkt, dass die Ausdrücke, die zum Clustern verwendet werden, sorgfältig ausgesucht werden müssen, da sich sonst die Ergebnisse radikal verändern.<xref ref-type="fn" rid="fn14">
+                     <sup>14</sup>
+                  </xref> Der Artikel geht auch gesondert auf die Methode ein und erläutert, wie die heterogenen Quellen aufbereitet werden müssen, um mit ihnen arbeiten zu können.</p>
+               <p>Bezogen auf die Digital Humanities regt Kirschenbaum an, den Begriff »Digital Humanities« nicht nur rein enzyklopädisch zu erklären, sondern auch mit den in dieser Disziplin üblichen Tools und Methoden zu definieren und abzugrenzen.<xref ref-type="fn" rid="fn15">
+                     <sup>15</sup>
+                  </xref> Konkret wird auf das Textmining-Tool Voyant<xref ref-type="fn" rid="fn16">
+                     <sup>16</sup>
+                  </xref> eingegangen, um die Proceedings von Konferenzen zu untersuchen. Die Vorschläge ähneln den oben beschriebenen Projekten: so könnten die Trends der besprochenen Themen oder Kollokationen der Schlüsselbegriffe ermittelt oder Zitationsnetzwerke aufgebaut werden<xref ref-type="fn" rid="fn17">
+                     <sup>17</sup>
+                  </xref> und auf diese Weise würde eine sehr selbstreflexive Definition des Feldes entstehen. Aufgegriffen und teilweise umgesetzt wird diese Idee von Eichmann und Weingart.<xref ref-type="fn" rid="fn18">
+                     <sup>18</sup>
+                  </xref> Sie untersuchen die Konferenz-Abstracts der internationalen DH-Konferenzen der Jahre 2004 bis 2014 auf unterschiedliche Aspekte hin. Die hier entwickelten Statistiken zeigen die Herkunft der Teilnehmer und Teilnehmerinnen, Anzahl, Herkunft und Geschlecht der Autoren und Autorinnen und zusätzlich eine Analyse der thematischen Trends in den Jahren 2013 bis 2015. Diese Auswertung wird im Blog von Weingart weitergeführt,<xref ref-type="fn" rid="fn19">
+                     <sup>19</sup>
+                  </xref> der Fokus liegt aber weiterhin auf den eingereichten Themen und der Analyse der erhobenen Daten von Autoren und Autorinnen.</p>
+               <p>An diese Art von Untersuchungen schließt sich unsere Idee an, die Konferenzabstracts des Verbandes DHd (Digital Humanities im deutschsprachigen Raum)<xref ref-type="fn" rid="fn20">
+                     <sup>20</sup>
+                  </xref> mittels Textmining zu untersuchen. Vor dem Hintergrund des oben kurz beschriebenen Arbeitsgebiets der Begleitforschung von DARIAH-DE – der Erforschung der derzeitigen Verbreitung von DH-Methoden sowie der Ermittlung von Entwicklungsdesiderata – sind für uns vor allem bestimmte, recht klar definierbare Entitäten von Interesse. Das Verfahren der Named Entity Recognition (NER) scheint folglich sowohl methodisch als auch in der praktischen Anwendbarkeit als erster Verfahrensschritt naheliegend.</p>
+               <p>Die Methode wurde im Umfeld des Natural Language Processing (NLP)<italic> </italic>entwickelt und als Machine-Learning-Technik zunächst vor allem auf journalistische Sachtexte trainiert und angewandt.<xref ref-type="fn" rid="fn21">
+                     <sup>21</sup>
+                  </xref> Dabei wurde zunächst eine relativ kleine Anzahl an Kategorien verwendet, bevor der Versuch unternommen wurde, sukzessive mehr Kategorien in NER-Modelle zu integrieren.<xref ref-type="fn" rid="fn22">
+                     <sup>22</sup>
+                  </xref> Anhand weiterer Sachtextkategorien wie Lexikoneinträgen und insbesondere der Artikel der mit Links durchsetzten Online-Enzyklopädie Wikipedia wurden Untersuchungen durchgeführt, die sich nicht nur auf das Aufspüren von Entitäten, sondern auch auf deren Ambiguitäten konzentrierten.<xref ref-type="fn" rid="fn23">
+                     <sup>23</sup>
+                  </xref> In weiteren Experimenten wurde herausgefunden, dass unterschiedliche Textsorten auch unterschiedlicher Modelle bedürfen und dass somit auch verwendete Tools angepasst werden müssen.<xref ref-type="fn" rid="fn24">
+                     <sup>24</sup>
+                  </xref> Neben der Erforschung neuer Textsorten, die durch das Internet entstanden sind, wie z.B. Tweets<xref ref-type="fn" rid="fn25">
+                     <sup>25</sup>
+                  </xref>, wurden auch auf Forschungsliteratur Textmining-Experimente angewandt.<xref ref-type="fn" rid="fn26">
+                     <sup>26</sup>
+                  </xref> So werden z.B. für die Analyse medizinischer Fachtexte beständig bisher entwickelte Tools um neue Kategorien ergänzt.<xref ref-type="fn" rid="fn27">
+                     <sup>27</sup>
+                  </xref> In der deutschsprachigen DH-Forschung gibt es in jüngster Zeit Bestrebungen, das Verfahren auf literarische Texte zu übertragen.<xref ref-type="fn" rid="fn28">
+                     <sup>28</sup>
+                  </xref> In diesem Zusammenhang wird auch experimentell die Domain-Adaption als solche hinterfragt und in Werkstattberichten erläutert, auf welche Weise diese durchgeführt werden kann. Es wird gezeigt, inwiefern es gelingen kann, durch die geschickte Konstruktion eines Trainingskorpus bessere Ergebnisse von NER in Anwendung auf literarische Texte zu erreichen.<xref ref-type="fn" rid="fn29">
+                     <sup>29</sup>
+                  </xref>
+               </p>
+               <p>Für die vorliegende Studie bietet sich Named Entity Recognition an, da hier mit dem Stanford Named Entity Recognizer einerseits ein bestehendes und etabliertes Tool getestet und adaptiert werden kann und auf der anderen Seite die Funktionalität dieses Tools unseren konkreten Fragen nach kleinschrittigen Arbeitsabläufen entgegenkommt. Nachteilig ist allerdings, dass wir die Kategorien »Tools« und »Methoden« selbst zu den bestehenden Kategorien des Stanford-NER hinzufügen müssen. Weitere Tools und Methoden wie das Topic Modelling oder eine explorative Untersuchung der Texte durch Tools wie die bereits erwähnte Toolumgebung Voyant sind ebenfalls naheliegend, gehen aber über das Interesse der vorliegenden Fallstudie hinaus und könnten für Anschlussstudien genutzt werden.</p>
+            </sec>
+            <sec>
+               <title>2.2 Verwendung von Tools und digitale Arbeitsabläufe in den Geisteswissenschaften</title>
+               <p>Das Bedürfnis, Tools und Dienste, die auf den geisteswissenschaftlichen Forschungsprozess zugeschnitten sind, zu entwickeln, ist nicht neu. So reduzierte schon Unsworth mit seinen »Scholarly Primitives« den geisteswissenschaftlichen Forschungsprozess auf sieben Abläufe, die sich einfach mit digitalen Tools abbilden lassen.<xref ref-type="fn" rid="fn30">
+                     <sup>30</sup>
+                  </xref> Das Bedürfnis, den geisteswissenschaftlichen Forschungsprozess zu formalisieren, war auch das Motiv von Gradmann und Hennicke bei der Entwicklung des Scholarly Domain Models.<xref ref-type="fn" rid="fn31">
+                     <sup>31</sup>
+                  </xref> Für Juola hingegen fehlt es den Geisteswissenschaften an »Killer Applications«, welche die Probleme der Disziplin automatisiert lösen und den Wissenschaftlern und Wissenschaftlerinnen somit zu neuen Erkenntnissen verhelfen.<xref ref-type="fn" rid="fn32">
+                     <sup>32</sup>
+                  </xref>
+               </p>
+               <p>Die Problematik den gesamten Forschungskreislauf digital abzubilden, wurde während der Entwicklung von virtuellen Forschungsumgebungen schon frühzeitig erkannt. Generalisierte Arbeitsabläufe umzusetzen, erwies sich jedoch als schwierig, da die Bedürfnisse in unterschiedlichen Disziplinen und unter verschiedenen Fragestellungen sehr voneinander abweichen. In einer von der wissenschaftlichen Begleitforschung DARIAH-DE durchgeführten Befragung zur Nutzung von Tools und deren Bewertung in unterschiedlichen Phasen des Forschungskreislaufs wurde festgestellt, dass Textverarbeitungsprogramme für verschiedenste Aufgaben genutzt werden, auch wenn sie dadurch zweckentfremdet werden.<xref ref-type="fn" rid="fn33">
+                     <sup>33</sup>
+                  </xref> Der Wechsel zu offensichtlich passenderen Programmen wird oftmals nicht vollzogen. Ob dies an der Interoperabilität der Datenformate liegt oder an vorhandenen Berührungsängsten mit neuer Software, kann bisher nur gemutmaßt werden und bedarf weiterer Untersuchungen. Der Befürchtung, dass Tools nicht benutzt werden, da sie nicht bekannt sind, werden mehrere Projekte entgegengesetzt, die Tools und Verfahren verzeichnen. So gibt es beispielsweise das DiRT directory<xref ref-type="fn" rid="fn34">
+                     <sup>34</sup>
+                  </xref>, das verschiedene Werkzeuge für digitale Verfahren auflistet.</p>
+               <p>Das hier dargelegte Experiment ist auch ein Versuch, sich der Thematik von einer anderen Seite zu nähern. Die beschriebene Beispiel-Analyse geht der Frage nach, mit welchen Tools Wissenschaftler und Wissenschaftlerinnen arbeiten, die innerhalb der DH-Community aktiv sind. Daneben zeigt der Selbstversuch des Aufbaus einer Pipeline aus unterschiedlichen DH-Tools, die zur Durchführung der Analyse genutzt werden, inwiefern es möglich und fruchtbar ist, Programme im eigenen Forschungskontext anzuwenden, die in einem anderen Fachzusammenhang entwickelt wurden.</p>
+            </sec>
+         </sec>
+         <sec>
+            <title>3. Digitaler Workflow zur Untersuchung der Abstracts der DHd-Konferenz</title>
+            <p>Zur Analyse der Abstracts arbeiten wir mit dem Tool Stanford Named Entity Recognizer<xref ref-type="fn" rid="fn35">
+                  <sup>35</sup>
+               </xref> (Stanford-NER), um die für die Untersuchung relevanten Entitäten automatisch in den Texten bestimmen zu können. Als Untersuchungskategorien haben wir die Entitäten ›Tools‹, ›Kommunikationsmittel‹, ›Personen‹, ›Institutionen und Zusammenschlüsse‹ vordefiniert. Nach der automatischen Erkennung der Entitäten mithilfe des Stanford-NER, werden die Ergebnisse in das digitale, webbasierte Markup- und Annotationstool CATMA<xref ref-type="fn" rid="fn36">
+                  <sup>36</sup>
+               </xref> (Computer Aided Textual Markup and Analysis) überführt und danach mittels Netzwerkanalyse im Tool Gephi<xref ref-type="fn" rid="fn37">
+                  <sup>37</sup>
+               </xref> ausgewertet. Das folgende Kapitel gibt einen detaillierten Einblick in den Arbeitsprozess.</p>
+            <p>Neben der Anzahl der Nennungen von Entitäten in einem Abstract sind auch die Erwähnungen in mehreren Abstracts für uns relevant. Dabei haben wir die Entitäten näher betrachtet die mindestens drei Mal erwähnt wurden und dies in mindestens zwei Abstracts. Das gewählte Korpus weist die Besonderheit auf, dass in Konferenzabstracts auch häufig Beiträge zu finden sind, die Projektpräsentationen oder Vorstellungen von Tools sind. Beworbene Tools werden demzufolge häufig in einem einzigen Abstract erwähnt, müssen aber nicht in weiteren Abstracts vorkommen. Davon abgesehen nehmen wir an, dass Mitarbeiter und Mitarbeiterinnen eine Institution oder eine Person (die mit diesen Tools arbeiten, diese vorstellen oder sie entwickelt haben) diese häufiger erwähnen (müssen!) als fremde Institutionen und Kollegen und Kolleginnen. Darüber hinaus unterscheiden wir zwischen Sprechern und Sprecherinnen, die auf der Konferenz präsent sind (Zitierende) und den Referenzen, die diese nennen (Zitierte).</p>
+            <sec>
+               <title>3.1 Verwendete Tools</title>
+               <p>Die für den digitalen Arbeitsablauf eingesetzten Tools – Stanford-NER, CATMA und Gephi – haben wir danach ausgewählt, inwiefern die Programme auch von Nicht-Experten der jeweiligen DH-Sparte bedient und angepasst werden könnten.<xref ref-type="fn" rid="fn38">
+                     <sup>38</sup>
+                  </xref> Darüber hinaus haben wir gängige Text- und Tabellenverarbeitungsprogramme eingesetzt, die hauptsächlich dazu dienen, die Kompatibilität der DH-Tools zu erhöhen, indem Formate konvertiert oder Rein-Texte zu XML oder in Tabellen umgewandelt werden.</p>
+               <p>Der Stanford Named Entity Recognizer ist ein Machine Learning Tool, das sowohl durch seine Verfügbarkeit als auch seine Bedienbarkeit einen recht leichten Zugang verspricht. Es gibt erste NER-Modelle (Classifier) für die deutsche Sprache, mit denen gute Ergebnisse erzielt werden können.<xref ref-type="fn" rid="fn39">
+                     <sup>39</sup>
+                  </xref> Allerdings wurden die bestehenden Skripte auf Korpora aus journalistischen Texten trainiert. Dies kann zwar als eine mit dem wissenschaftlichen Text verwandte Textsorte anerkannt werden, da es sich auch um Sachtexte handelt, der Typus des Konferenzabstracts weist allerdings einige Besonderheiten auf, die für diese Analyse bedeutend sind, wie z.B. die Praxis des Zitierens. Außerdem ist es Ziel dieses Projektes, nicht die klassischen Kategorien der NER (Namen, Orte, Personen, Organisationen) aus dem Korpus herauszufiltern, sondern die abgewandelten und ergänzten Entitäten: Tools, Personen, Institutionen, Zusammenschlüsse und Kommunikationsmedien (vgl. Tabelle 1).</p>
+            </sec>
+            <sec>
+               <title>3.2 Aufbereitung der Daten und Erstellung des Trainingskorpus</title>
+               <p>Die Datengrundlage für das verwendete Korpus bilden die Konferenzabstracts der Präsentationen der DHd-Tagung von 2015.<xref ref-type="fn" rid="fn40">
+                     <sup>40</sup>
+                  </xref> Bevor das Korpus dem Textmining-Verfahren unterzogen werden konnte, wurde aus der im Internet verfügbaren PDF-Version mit Hilfe des Adobe Acrobat Reader und dessen Exportfunktion eine Reintext-Version erstellt.</p>
+               <p>Aus diesem Korpus wurde dann ein Trainingskorpus erstellt: entsprechend der Einteilung der Textform »Abstract« in vier Bestandteile (vgl. Abschnitt 2.1), wurden dazu Titel, Verfasserangaben mit Institution, der Haupttextblock sowie die Referenzen und Literaturangaben getrennt berücksichtigt. Zunächst wurde von jedem Abstract die erste Seite des Haupttextblocks und damit rund 400 Tokens pro Abstract extrahiert und in einem neuen Dokument, welches die Grundlage des Trainingskorpus bildet, zusammengefügt. Ergänzend wurden aus drei zufällig ausgewählten Beiträgen die Titel mit Verfasserangaben sowie drei Literaturlisten extrahiert und dem Trainingskorpus beigegeben. So wurde aus jedem Vortragsabstract eine Textpassage in das Trainingskorpus integriert; die Titel und Literaturlisten stammen dagegen aus drei sich nicht überschneidenden Texten. Insgesamt umfasst das Trainingskorpus rund 36.000 Tokens. Das Book of Abstracts der Konferenz enthält auch Posterabstracts, diese sind jedoch für die vorliegende Studie nur geringfügig relevant und wurden deshalb nicht in das Trainingskorpus aufgenommen.</p>
+            </sec>
+            <sec>
+               <title>3.3 Trainingskorpus gestalten und Training des Tools</title>
+               <p>Um die Fallstudie zu leiten, wurden Entitäten definiert, die in Tabelle 1 näher beschrieben sind. Obwohl der Stanford Named Entity Recognizer über einige deutsche Classifier verfügt, wurden alle verwendeten Kategorien (auch die im Stanford NER ebenfalls vorhandene Kategorie »Personen«) manuell im Trainingskorpus hinzugefügt. Mit diesem annotierten Trainingskorpus wurde der Stanford Named Entity Recognizer trainiert, ohne dass die im Tool vordefinierten Features verändert wurden.<xref ref-type="fn" rid="fn41">
+                     <sup>41</sup>
+                  </xref>
+               </p>
+               <p>Durch die Doppelung der Kategorie »Personen« in dem von uns angelegten NER-Modell und im deutschen Classifier des Stanford Named Entity Recognizer hatten wir außerdem die Möglichkeit, ein NER-Modell, welches durch Fachwissenschaftler und Fachwissenschaftlerinnen erstellt wurde, die nicht aus dem Bereich der Computerlinguistik stammen, mit dem etablierten NER-Modell der Stanford University zu vergleichen.</p>
+               <table-wrap specific-use="frame">
+                  <caption>
+                     <p/>
+                  </caption>
+                  <table id="Table1">
+                     <tr>
+                        <td>
+                           <p>Erklärung</p>
+                        </td>
+                        <td>
+                           <p>Kodierung </p>
+                        </td>
+                        <td>
+                           <p>Beispiel einer Entität</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Programm oder Verfahren, das in der Forschung eingesetzt wird</p>
+                        </td>
+                        <td>
+                           <p>TOOL</p>
+                        </td>
+                        <td>
+                           <p>TUSTEP</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Programm oder Webanwendung, welche(s) hauptsächlich der Kommunikation dient</p>
+                        </td>
+                        <td>
+                           <p>KOMM</p>
+                        </td>
+                        <td>
+                           <p>Twitter</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Person, die als Referenz herangezogen oder als Autor des Abstracts erwähnt wird</p>
+                        </td>
+                        <td>
+                           <p>PERS</p>
+                        </td>
+                        <td>
+                           <p>Moretti</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Institution</p>
+                        </td>
+                        <td>
+                           <p>INST</p>
+                        </td>
+                        <td>
+                           <p>Stanford University</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Projekt oder Zusammenschluss</p>
+                        </td>
+                        <td>
+                           <p>ZUS</p>
+                        </td>
+                        <td>
+                           <p>DARIAH-DE</p>
+                        </td>
+                     </tr>
+                  </table>
+               </table-wrap>
+               <p>Nach dem Trainieren des Modells wurde das NER-Verfahren auf das Korpus angewandt, um automatisch die Entitäten im Text zu finden. Zur Evaluation der Ergebnisse wurde ein Teil des Korpus (eine fünf Abstracts umfassende Passage) manuell überprüft und die Kennzahlen Precision, Recall und F-Score ermittelt.</p>
+            </sec>
+            <sec>
+               <title>3.4 XML-Aufbereitung und Import in CATMA</title>
+               <p>Was der Stanford-NER nicht leisten kann, ist die Zusammenfassung von Begriffen zu Typen, die wir hier – in Ergänzung der Token-Typen-Unterscheidung – als Zusammenführung unterschiedlicher Schreibweisen zu einer Entität verstehen. Da CATMA den Import von XML-Dokumenten zulässt, die darin schon enthaltenen Tags (Intrinsic Markup) übernimmt und daraus ein Tag-Set (Markup Collection) erstellt, wurden die automatisch annotierten Daten in dieses Tool überführt.</p>
+               <p>In den von CATMA generierten Tag-Frequenzlisten wird zwar zwischen Tokens und Types unterschieden, die Kategorisierung richtet sich aber nach der Schreibweise, so dass nicht auf den ersten Blick deutlich wird, welche Person (für diese Kategorie ist das Phänomen besonders essentiell) in welcher Häufigkeit genannt wird. So werden z.B. »Matthew Jockers« und »M. L. Jockers« nicht als eine Type erkannt und Frequenzen daher getrennt zugewiesen. Es kann also sein, dass Jockers insgesamt zwölfmal erwähnt wird, in der Tabelle, die wir mittels CATMA erstellt und exportiert haben, aber viermal als »Matthew Jockers« und achtmal als »M.L. Jockers« auftaucht. Zur Zusammenfassung dieser Typen ist die Einführung von Typen-Tags notwendig, die dann semi-automatisch zugewiesen werden können, indem alle Ergebnisse einer Abfrage zusammen unter einem Tag zusammengefasst werden.</p>
+               <p>Auch die automatischen Analysen und Visualisierungen laufen über CATMA. Der Datenimport in dieses Tool ist also nicht nur im Hinblick auf die Möglichkeit, Entitäten zu Tags zusammenzuführen, gewinnbringend. CATMA erlaubt es auch, die Daten als Double Tree oder Distribution Chart zu visualisieren und sowohl von der Visualisierung als auch von der Abfrage eines Tags zurück in den Text zu springen. So konnte in dieser Arbeitsumgebung geprüft werden, welche Entitäten gehäuft in einem Abstract vorkamen und welche Tools, Personen und Institutionen in mehreren Abstracts Erwähnung fanden.</p>
+               <p>Mittels der Funktion CATMA-Suchen wurden die vom Stanford-NER gefundenen Personen, die den Grundannahmen entsprachen, d.h. mindestens drei Mal und in mehr als einem Text erwähnt wurden, noch einmal überprüft. Auf diese Weise hat der Stanford-NER zwar vorgegeben, welche Personen ins Netzwerk aufgenommen werden, die Frequenzen wurden aber aus den CATMA-Abfragen übernommen. Darüber hinaus ermöglicht die Nutzung von CATMA, dass der Kontext der Nennung in die Auswertung mit einbezogen wird. Da das Tool das jeweilige Stichwort in einem frei konfigurierbaren Wortzusammenhang zeigt, wird offenbar, ob es sich tatsächlich um den Namen einer Person handelt oder lediglich um ein Wort, welches sowohl als Eigenname als auch in anderen Zusammenhängen genutzt werden kann. Die Betrachtung der "Keywords in Context" (Bezeichnung der Funktion in CATMA) erleichtert außerdem die Recherche, ob es sich bei häufig vorkommenden Namen um eine oder mehrere Personen handelt. Letztendlich wurde also bei jeder vom NER-Tool gefundenen Nennung im Nachhinein noch einmal differenziert. Anschließend wurden dann die Recherche-Ergebnisse in die Betrachtung übernommen. Ziehen wir noch einmal Jockers als Beispiel heran: Wenn Stanford-NER insgesamt 12 Vorkommnisse erkannt hat, die wir mit einem Typen-Tag zusammengefasst haben, wurde ergänzend noch eine CATMA-Suche nach »Jockers« durchgeführt. Wenn dieses Tool nun 15 Vorkommnisse in der Keyword-in-Context-Tabelle angezeigt hat, so wurden auch alle im Netzwerk berücksichtigt. Für die umfangreiche Analyse und Visualisierung der Daten haben wir diese zusätzlich in ein Tabellenkalkulationsprogramm überführt und dann ergänzend mit beiden Programmen weiter untersucht.</p>
+            </sec>
+            <sec>
+               <title>3.5 Visualisierung des Netzwerks</title>
+               <p>Eine weitere Schwierigkeit in der Arbeit mit den von uns verwendeten DH-Tools musste überwunden werden, da der Export der Daten aus CATMA in die gängigen Tabellenkalkulationsprogramme zwar möglich ist, diese Tabellen aber nicht den Vorgaben hinsichtlich der Importdaten des Netzwerkvisualisierungstools Gephi entsprechen. Eine erneute manuelle Aufbereitung der Daten war notwendig. Die aus CATMA exportierten Tabellen wurden dafür aus der ursprünglichen Form herausgelöst, welche die Spalten »Document«, »Keyword«, »Frequency« vorsieht. Die Stichworte (in diesem Beispiel Personennamen) und die Frequenz wurden beibehalten und Namen, die sich nach manueller Prüfung als gleich erwiesen, zusammengefasst. Anschließend wurden alle Namen gelöscht, die eine Frequenz von zwei und weniger aufwiesen. Nun konnte die entstandene Liste darauf geprüft werden, ob die Namen in mehr als einem Abstract genannt wurden. Dazu wurden die Namen als Stichwort-Abfrage in CATMA aufgerufen. Die Ergebnisse zeigen, welche Namen lediglich an einer Stelle des Korpus gehäuft (ein Peak in der Kurve) und welche an zwei oder mehr Stellen auftraten (Abbildung <xref rid="fig1"/>
+                  <xref rid="fig1"/>).</p>
+               <fig>
+                  <graphic xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="../icono/br/ThodenSchumacherStiller_Abb1.png"/>
+                  <caption>
+                     <title>Abb 1: Häufigkeiten der Beispiel-Entität »Moretti« über das Korpus verteilt.</title>
+                  </caption>
+                  <p>© eigene Darstellung</p>
+               </fig>
+               <p>Alle Namen, deren Kurven nur einen Peak zeigten, wurden aus der Datentabelle gelöscht. So erhielten wir am Ende eine Auflistung von rund 50 Namen, die zwischen 3 und 17 Mal und in mindestens zwei Abstracts genannt wurden. Diese Namen wurden als die ersten Nodes, also Knotenpunkte, in Gephi importiert. Anschließend wurden diese Namen erneut einzeln als Stichworte in CATMA gesucht, um über die automatisch generierte »Keyword-in-Context«-Liste per Mausklick alle Textstellen ansteuern zu können, in denen der jeweilige Name vorkam.</p>
+               <p>Auf diese Weise war es uns möglich, manuell herauszufiltern, welche Belege sich auf Zitierende und Zitierte beziehen. Anschließend konnten diejenigen Zitierenden ergänzt und in die Gephi-Datenbank als weitere Nodes übertragen werden, die bisher noch nicht in der Frequenztabelle berücksichtigt waren. Diese Erwähnungen wurden dann als Edges, also Verbindungen, im Netzwerk in Gephi ebenfalls manuell hinzugefügt.</p>
+               <p>Wir haben das Netzwerk als einen gerichteten Graphen angelegt, d.h. ausgehend von den Autoren eines Abstracts wurden die Verbindungen zu den erwähnten Tools, Personen und Institutionen gezogen. Mehrfachnennungen wurden dabei stärker gewichtet als Einfachnennungen. Außerdem lässt die Funktionalität von Gephi zu, dass Modularity Classes angelegt werden, d.h. Gruppen, die durch gegenseitige Erwähnung als besonders stark vernetzt angesehen werden können. Diese werden dann in der Visualisierung in unterschiedlichen Farben angezeigt. Abschließend haben wir die Netzwerkvisualisierung noch dahingehend nachbearbeitet, dass die Zitierenden in einem äußeren Kreis um die Zitierten stehen.</p>
+               <p>Der gesamte Ablauf der einzelnen Arbeitsschritte ist in Abbildung 2 visualisiert. Eckige Kästen zeigen dabei Aktivitäten, die in generischen Tools (z.B. Tabellenkalkulationsprogramm) vorgenommen wurden, während die anderen Verarbeitungsschritte in jeweils einem DH-Tool stattgefunden haben.</p>
+               <fig>
+                  <graphic xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="../icono/br/ThodenSchumacherStiller_Abb2.png"/>
+                  <caption>
+                     <title>Abb. 2: Visualisierung des digitalen Workflows.</title>
+                  </caption>
+                  <p>© eigene Darstellung</p>
+               </fig>
+               <p>Tabelle <xref rid="tab2"/>
+                  <xref rid="tab2">0</xref>
+                  <xref rid="tab2"/>
+                  <xref rid="tab2"/> 
+                  <xref rid="tab2">ci-dessous</xref>listet die einzelnen Schritte mit dem Output ihres Datenformats auf und zeigt für jeden Verarbeitungsschritt das verwendete Tool.</p>
+               <table-wrap specific-use="frame">
+                  <caption>
+                     <p/>
+                  </caption>
+                  <table id="Table2">
+                     <tr>
+                        <td>
+                           <p>Arbeitsschritt</p>
+                        </td>
+                        <td>
+                           <p>Tool</p>
+                        </td>
+                        <td>
+                           <p>Output</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Umwandlung PDF in Text</p>
+                        </td>
+                        <td>
+                           <p>Adobe Acrobat Reader</p>
+                        </td>
+                        <td>
+                           <p>.txt-Datei</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Textauswahl für Trainingskorpus</p>
+                        </td>
+                        <td>
+                           <p>TextWrangler</p>
+                        </td>
+                        <td>
+                           <p>.txt-Datei</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Trainingskorpus erstellen</p>
+                        </td>
+                        <td>
+                           <p>Stanford NER</p>
+                        </td>
+                        <td>
+                           <p>.tsv-Datei</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Trainingskorpus taggen</p>
+                        </td>
+                        <td>
+                           <p>MS Excel</p>
+                        </td>
+                        <td>
+                           <p>.tsv-Datei</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Modell trainieren</p>
+                        </td>
+                        <td>
+                           <p>Stanford NER</p>
+                        </td>
+                        <td>
+                           <p>.ser.gz-Datei</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>NER durchführen</p>
+                        </td>
+                        <td>
+                           <p>Stanford NER</p>
+                        </td>
+                        <td>
+                           <p>-</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Export der Daten</p>
+                        </td>
+                        <td>
+                           <p>Stanford NER</p>
+                        </td>
+                        <td>
+                           <p>.txt-Datei mit XML-Elementen</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>XML-Aufbereitung</p>
+                        </td>
+                        <td>
+                           <p>TextWrangler</p>
+                        </td>
+                        <td>
+                           <p>.xml-Datei</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Import in CATMA</p>
+                        </td>
+                        <td>
+                           <p>CATMA</p>
+                        </td>
+                        <td>
+                           <p>-</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Zusammenführen der Tags</p>
+                        </td>
+                        <td>
+                           <p>CATMA</p>
+                        </td>
+                        <td>
+                           <p>-</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Erstellung der Frequenztabellen</p>
+                        </td>
+                        <td>
+                           <p>CATMA</p>
+                        </td>
+                        <td>
+                           <p>-</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Überprüfung eines Teilkorpus</p>
+                        </td>
+                        <td>
+                           <p>CATMA</p>
+                        </td>
+                        <td>
+                           <p>-</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Berechnung Recall / Precision</p>
+                        </td>
+                        <td>
+                           <p>MS Excel</p>
+                        </td>
+                        <td>
+                           <p>.xslx-Datei</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Analyse und Visualisierung in CATMA</p>
+                        </td>
+                        <td>
+                           <p>CATMA</p>
+                        </td>
+                        <td>
+                           <p>vgl. Abbildung 2</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Export in Tabellenkalkulationsprogramm</p>
+                        </td>
+                        <td>
+                           <p>Catma</p>
+                        </td>
+                        <td>
+                           <p>.csv- oder .ods-Datei</p>
+                        </td>
+                     </tr>
+                  </table>
+               </table-wrap>
+               <p/>
+            </sec>
+         </sec>
+         <sec>
+            <title>4. Ergebnisse und Beobachtungen</title>
+            <p>Der folgende Abschnitt diskutiert die einzelnen Ergebnisse der Analyse und evaluiert diese im Anschluss kritisch. <inline-formula content-type="math/tex">
+                  <tex-math>6r_3(\frac{\sqrt{3}}{2})=[\frac{(3\sqrt{3})}{2}](1+\sqrt{2})r</tex-math>
+               </inline-formula>
+            </p>
+            <p>
+               <disp-formula content-type="math/tex" id="equ2">
+                  <tex-math>6r_3(\frac{\sqrt{3}}{2})=[\frac{(3\sqrt{3})}{2}](1+\sqrt{2})r</tex-math>
+               </disp-formula>
+            </p>
+            <p>
+               <disp-formula content-type="math/mathml" id="equ3">
+                  <mml:math xmlns="http://www.tei-c.org/ns/1.0"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns:xi="http://www.w3.org/2001/XInclude"
+                            xmlns:ns="http://www.tei-c.org/ns/1.0"
+                            xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                            xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+                            xmlns:dcr="http://www.isocat.org/ns/dcr"
+                            display="block">
+                     <mml:semantics>
+                        <mml:mrow>
+                           <mml:mrow>
+                              <mml:mi>A</mml:mi>
+                              <mml:mo stretchy="false">=</mml:mo>
+                              <mml:mi>π</mml:mi>
+                           </mml:mrow>
+                           <mml:msup>
+                              <mml:mi>r</mml:mi>
+                              <mml:mn>2</mml:mn>
+                           </mml:msup>
+                        </mml:mrow>
+                        <mml:annotation encoding="StarMath 5.0">A = π {r} ^ {2}</mml:annotation>
+                     </mml:semantics>
+                  </mml:math>
+               </disp-formula>
+            </p>
+            <sec>
+               <title>4.1 Erwähnung von Tools in Tagungsbeiträgen</title>
+               <p>Die Untersuchung fand auf Grundlage der im vorigen Abschnitt beschriebenen Auszeichnung des Korpus statt und wurde direkt im Analyzer-Modul von CATMA durchgeführt. Für die Abfrage der Tools wurde die Abfragesyntax <disp-quote>
+                     <p>tag="NER/TOOL%"</p>
+                  </disp-quote> benutzt. Die Anzeige in Catma erlaubt in der Ansicht »Result by Phrase« die Sortierung der Daten nach Frequenz und zusätzlich eine Anzeige als KWIC (Keyword in Context).</p>
+               <p>Tabelle 3 zeigt die 10 am häufigsten gefundenen Tools. Dies ist ein Ausschnitt aus dem unbereinigten Ergebnis der Abfrage nach der Entität »TOOL«. Fundstellen, die ausschließlich oder zum größten Teil (das Tool kommt nur ein weiteres Mal in einem anderen Abstract vor) aus Toolvorstellungen stammen, sind mit einem * gekennzeichnet. Insgesamt wurden 83 verschiedene Tools gefunden, die 224-mal erwähnt wurden. Die einzige Ausnahme bildet GNML, welches kein Tool ist, sondern eine TEI-ähnliche Auszeichnungssprache für Comics<styled-content style-type="term" style="font-style: italic;">Comics</styled-content>.</p>
+               <table-wrap specific-use="frame">
+                  <caption>
+                     <p/>
+                  </caption>
+                  <table id="Table3">
+                     <tr>
+                        <td>
+                           <p>Tool:</p>
+                        </td>
+                        <td>
+                           <p>Häufigkeit:</p>
+                        </td>
+                        <td>
+                           <p>Webseite:</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Textgrid</p>
+                        </td>
+                        <td>
+                           <p>19</p>
+                        </td>
+                        <td>
+                           <p>
+                              <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xlink:href="https://textgrid.de/">
+                                 <underline>https://textgrid.de/</underline>
+                              </ext-link>
+                           </p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>TUSTEP*</p>
+                        </td>
+                        <td>
+                           <p>18</p>
+                        </td>
+                        <td>
+                           <p>
+                              <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xlink:href="http://www.tustep.uni-tuebingen.de/">
+                                 <underline>http://www.tustep.uni-tuebingen.de/</underline>
+                              </ext-link>
+                           </p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>WebLicht*</p>
+                        </td>
+                        <td>
+                           <p>16</p>
+                        </td>
+                        <td>
+                           <p>
+                              <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xlink:href="http://weblicht.sfs.uni-tuebingen.de/weblichtwiki/index.php/Main_Page">
+                                 <underline>http://weblicht.sfs.uni-tuebingen.de/weblichtwiki/index.php/Main_Page</underline>
+                              </ext-link>
+                           </p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>FinderApp*</p>
+                        </td>
+                        <td>
+                           <p>15</p>
+                        </td>
+                        <td>
+                           <p>
+                              <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xlink:href="http://wittfind.cis.uni-muenchen.de/">
+                                 <underline>http://wittfind.cis.uni-muenchen.de/</underline>
+                              </ext-link>
+                           </p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>oXygen XML Author*</p>
+                        </td>
+                        <td>
+                           <p>11</p>
+                        </td>
+                        <td>
+                           <p>
+                              <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://sync.ro/">
+                                 <underline>http://sync.ro/</underline>
+                              </ext-link>
+                           </p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>WiTTFind*</p>
+                        </td>
+                        <td>
+                           <p>10</p>
+                        </td>
+                        <td>
+                           <p>
+                              <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xlink:href="http://wittfind.cis.uni-muenchen.de/">
+                                 <underline>http://wittfind.cis.uni-muenchen.de/</underline>
+                              </ext-link>
+                           </p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>FinderApp WiTTFind*</p>
+                        </td>
+                        <td>
+                           <p>8</p>
+                        </td>
+                        <td>
+                           <p>
+                              <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xlink:href="http://wittfind.cis.uni-muenchen.de/">
+                                 <underline>http://wittfind.cis.uni-muenchen.de/</underline>
+                              </ext-link>
+                           </p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>GNML*</p>
+                        </td>
+                        <td>
+                           <p>8</p>
+                        </td>
+                        <td>
+                           <p>-</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>CATMA</p>
+                        </td>
+                        <td>
+                           <p>7</p>
+                        </td>
+                        <td>
+                           <p>
+                              <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xlink:href="http://www.catma.de/">
+                                 <underline>http://www.catma.de/</underline>
+                              </ext-link>
+                           </p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>ediarum</p>
+                        </td>
+                        <td>
+                           <p>7</p>
+                        </td>
+                        <td>
+                           <p>
+                              <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xlink:href="http://www.bbaw.de/telota/software/ediarum">
+                                 <underline>http://www.bbaw.de/telota/software/ediarum</underline>
+                              </ext-link>
+                           </p>
+                        </td>
+                     </tr>
+                  </table>
+               </table-wrap>
+               <p>Wie in Tabelle 3 sichtbar wird, ist Textgrid das am häufigsten gefundene Tool. Es wird gefolgt von TUSTEP, das allerdings deshalb insgesamt so häufig erwähnt wird, da es Teil eines Abstracts zur Toolvorstellung ist. Die Tabelle zeigt auch drei Namen eines Tools, die nicht zu einem Typ zusammengefasst wurden (FinderApp, FinderApp WITTFind, WiTTFind). Um zu verifizieren, ob es sich dabei tatsächlich um dasselbe Tool handelt, müssen die einzelnen Fundstellen jedoch manuell geprüft werden. Um diesen manuellen Zwischenschritt hervorzuheben, haben wir die Instanzen des Tools in der Tabelle nicht zusammengeführt. Die Zahl der Belege für Textgrid ist aus einem anderen Grunde kritisch zu beleuchten, weil hier mit derselben Bezeichnung entweder das Repositorium<xref ref-type="fn" rid="fn42">
+                     <sup>42</sup>
+                  </xref> oder das Lab<xref ref-type="fn" rid="fn43">
+                     <sup>43</sup>
+                  </xref> gemeint sein kann.</p>
+               <p>Insgesamt ist zu beobachten, dass Tools häufiger erwähnt werden, die in Abstracts oder Texten genannt werden, die der Vorstellung des Tools dienen. Dass auf die Benutzung von spezifischen Programmen hingewiesen wird, ist äußerst selten, und läuft dann auf singuläre Erwähnungen hinaus. Zum einen kann dies daran liegen, dass benutzte Tools so ubiquitär sind, dass sie nicht unbedingt erwähnt werden müssen, wie beispielsweise ein Textverarbeitungsprogramm. Zum anderen scheint die angewandte Methode in der Wissenschaft eine so vorrangige Rolle zu spielen, dass diese Tools nur als Hilfsmittel angesehen werden und deren Erwähnung von geringer Bedeutung ist. Nicht zitierte Tools konnten in dieser automatischen Analyse zwar keine Rolle spielen, es sei dennoch auf die Praxis der Höherbewertung der Methode verwiesen. Um sich dem Ziel reproduzierbarer Forschung zu nähern, wäre die Angabe der benutzten Programme sowie der darin verwendeten Parameter allerdings eine wichtige Voraussetzung.</p>
+               <p>Generell lässt sich feststellen, dass vornehmlich DH-spezifische Tools gefunden und in den Abstracts erwähnt wurden. Dies ist einerseits der Tatsache geschuldet, dass eine Konferenz natürlich dazu genutzt wird, neue Tools vorzustellen, die für die spezifische Community von Interesse sind. Von einer häufigen Erwähnung des vorgestellten Tools in diesen Beiträgen war auszugehen, und dies konnte auch durch die Analyse bestätigt werden. Um diese Fälle auszuschließen, wäre jedoch ein weiteres manuelles Tagging der betroffenen Abstracts notwendig geworden.</p>
+               <sec>
+                  <title>On Cuneiform Writing</title>
+                  <p>From its first beginning, Mesopotamian writing was made on a flattened piece of clay, which was then dried in the air after the inscription (a “tablet”). In the fourth millennium, the signs were drawings made by means of a pointed stylus, mostly drawings of recognizable objects representing simple concepts. Complex concepts could be expressed through combination of the signs; a head and a bowl containing the daily ration of a worker meant “allocation of grain” (and later “to eat”). </p>
+                  <p>The signs for numbers and measures, however, were made by vertical or oblique impression of a cylindrical stylus. </p>
+                  <p>With time, the character of the script changed in two ways. Firstly, instead of tracing signs consisting of curved lines one impressed them with a stylus with sharp edges, dissolving the curved lines into a sequence of straight segments. In this way, the signs seem to be composed of small wedges (whence the name “cuneiform”). </p>
+                  <p>In the second half of the third millennium, numerical and metrological signs came to be written in the same way. The signs became increasingly stylized, loosing their pictographic quality; it is then not possible to guess the underlying drawing unless one knows the historical development behind the sign. Until around 2000 <sc>bce</sc>, however, the variations of characters from one scribe to another show that the scribes knew the original drawings. </p>
+                  <p>Let us for instance look at the character which initially depicted a vase with a spout (left). </p>
+                  <p>In the middle we see three third-millennium variants of the same character (because the script was rotated 90 degrees to the left in the second millennium, it is habitual to show the third-millennium script in the same way). If you know the origin, it is still easy to recognize the underlying picture. To the right we see two Old Babylonian variants; here the picture is no longer suggested. </p>
+                  <p>The other change concerns the use of the way the signs were used (which implies that we should better speak of them as “characters”). The Sumerian word for the vase is <sc>dug</sc>. As various literary genres developed alongside accounting (for instance, royal inscriptions, contracts and proverb collections), the scribes needed ways to write syllables that serve to indicate grammatical declinations or proper nouns. This syllabic system served also in the writing of Akkadian. For this purpose, signs were used according to their approximate phonetic value; the “vase” may thus stand for the syllables <italic>dug, duk, tug</italic> and <italic>tuk</italic>. In Babylonian writing, the Sumerian sign might also serve as a “logogram” or “word sign” for a word meaning the same as <italic>dug</italic>—namely <italic>karpatum</italic> </p>
+                  <p>Words to be read as logograms or in Sumerian are transliterated in <sc>small caps</sc>; specialists (cf. Appendix B) often distinguish Sumerian words whose phonetic value is supposed to be known, which are then written in s p a c e d    w r i t i n g, from those rendered by their “sign name” (corresponding to a <italic>possible</italic> reading), which are written as <sc>small caps</sc>. Phonetic Akkadian writing is transcribed as <italic>italics</italic> . </p>
+                  <p>Assyriologists distinguish “transcriptions” from “transliterations.” A “transcription” is an intended translation into Akkadian written in Latin alphabet. In a “transliteration” each cuneiform character is rendered separately according to its presumed phonetic or logographic value.</p>
+               </sec>
+               <p>Um die erhaltenen Ergebnisse besser einschätzen zu können, wurde einerseits ein Teil des automatisch getaggten Korpus manuell begutachtet und andererseits wurden die Ergebnisse unseres Modells für das Auffinden von Personen mit denen des Stanford-NER verglichen. Im Auffinden von Entitäten schnitt unser Modell schlecht ab, konnte aber aufgefundene Entitäten meist richtig bestimmen (Tabelle 4).</p>
+               <table-wrap specific-use="frame">
+                  <caption>
+                     <p/>
+                  </caption>
+                  <table id="Table5">
+                     <tr>
+                        <td/>
+                        <td>
+                           <p>Accuracy (F1)</p>
+                        </td>
+                        <td>
+                           <p>Precision</p>
+                        </td>
+                        <td>
+                           <p>Recall</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>PERS</p>
+                        </td>
+                        <td>
+                           <p>61,05</p>
+                        </td>
+                        <td>
+                           <p>97</p>
+                        </td>
+                        <td>
+                           <p>45</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>TOOL</p>
+                        </td>
+                        <td>
+                           <p>43,87</p>
+                        </td>
+                        <td>
+                           <p>90</p>
+                        </td>
+                        <td>
+                           <p>29</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>KOMM</p>
+                        </td>
+                        <td>
+                           <p>85,71</p>
+                        </td>
+                        <td>
+                           <p>100</p>
+                        </td>
+                        <td>
+                           <p>75</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>INST</p>
+                        </td>
+                        <td>
+                           <p>84,39</p>
+                        </td>
+                        <td>
+                           <p>100</p>
+                        </td>
+                        <td>
+                           <p>73</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>ZUS</p>
+                        </td>
+                        <td>
+                           <p>88,88</p>
+                        </td>
+                        <td>
+                           <p>80</p>
+                        </td>
+                        <td>
+                           <p>100</p>
+                        </td>
+                     </tr>
+                  </table>
+               </table-wrap>
+               <p>Zusätzlich wurde noch der F1-Wert für alle Entitäten berechnet. Dieser aus Precision und Recall errechnete Wert drückt in einer einzigen Kennzahl die Güte des jeweiligen Ergebnisses aus. Bei Personen lag er lediglich bei rund 61%, bei Tools bei knapp 44%. Die in dieser Fallstudie weniger fokussierten Kategorien KOMM, INST und ZUS erreichten jedoch erstaunlich hohe Quoten. Die Precision-Werte sind in allen Kategorien recht hoch: es wurden zwar relativ wenige Entitäten erkannt, die gefundenen stimmten aber recht häufig mit den vordefinierten Kategorien überein. Der Vergleich des hier benutzten Modells mit dem beim Stanford-NER mitgelieferten Modell zum Identifizieren von Personen erzielt ähnliche Resultate. Im Gesamttext wurden vom deutschen Sprachmodell des Stanford Named Entity Recognizers 2.064 Personen (Tokens) gefunden, während unser Modell lediglich 1.219 Mal mit PERS getaggt hat. Während das von den computerlinguistischen Experten und Expertinnen entwickelte Modell des Stanford NER Tools 1.495 verschiedene Typen als Personen erkannt hat, sind es bei unserer Adaption nur 917. Zwar ist der Precision-Wert mit 91,96% etwas niedriger als der unseres Modells, der Recall-Wert liegt mit 73,05% aber weit höher, sodass sich ein F1 Score von 81,42% ergibt. Damit ist der deutsche Classifier des Stanford-NER-Tools erheblich akkurater als der von uns entwickelte.</p>
+               <p>Die Ergebnisse dieser Analyse unterscheiden sich stark von einer in DARIAH-DE durchgeführten Umfrage<xref ref-type="fn" rid="fn44">
+                     <sup>44</sup>
+                  </xref>, in der der Toolgebrauch in verschiedenen Phasen des wissenschaftlichen Workflows abgefragt wurde. Zielgruppe der Befragung waren dort hauptsächlich Geisteswissenschaftlerinnen und Geisteswissenschaftler, die sich nicht der DH-Community zugehörig fühlen; nur eine kleine Gruppe Forscher und Forscherinnen, die viel mit digitalen Mitteln arbeiten, wurde ebenfalls befragt. Die Tools, die in unserem Textmining-Experiment gefunden wurden, sind in der Auswertung der Umfrage nicht präsent. Stattdessen wurden von den Befragten vornehmlich gängige Softwareumgebungen und Textverarbeitungsprogramme genannt. Dies kann ein Indiz dafür sein, wie unterschiedlich die Arbeitsweisen von digital-affinen und digital-fernen Geisteswissenschaftlerinnen und Geisteswissenschaftlern sind.</p>
+            </sec>
+            <sec>
+               <title>4.2 Ein Netzwerk von Personen, Institutionen und Zusammenschlüssen</title>
+               <p>Wir sind der Frage nachgegangen, welche Personen und Institutionen von der deutschsprachigen DH-Community besonders häufig als Referenz herangezogen werden. Dazu gehören auch die untergeordneten Fragen, ob sich die Nennung von Institutionen und Personen hauptsächlich auf die zum größten Teil noch recht neu eingerichteten Zentren konzentriert und welche Referenzen und Zitationen besonders häufig sind.</p>
+               <p>Das Netzwerk, welches wir mit Hilfe unseres selbst trainierten NER-Modells, CATMA und Gephi erstellt haben, kann wie folgt visualisiert werden (Abbildung 3).</p>
+               <fig>
+                  <graphic xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="../icono/br/ThodenSchumacherStiller_Abb3.png"/>
+                  <caption>
+                     <title>Abb. 3: Netzwerkvisualisierung von genannten Personen in den Abstracts.</title>
+                  </caption>
+                  <p>© eigene Darstellung</p>
+               </fig>
+               <p>Da die Datengrundlage für dieses Netzwerk nicht repräsentativ ist, sollen an dieser Stelle Interpretationsmöglichkeiten lediglich exemplarisch angerissen werden. Als Erstes fällt die zentrale Rolle Franco Morettis<styled-content style-type="term" style="font-style: italic;">Moretti, Franco</styled-content> als demjenigen auf, der nicht nur am häufigsten genannt, sondern der auch von den meisten unterschiedlichen Abstract-Autoren zitiert wird. Gefolgt wird er von John Unsworth, Michael Jordan und Helmut Schmid. Interessant an dieser Konstellation der meistgenannten Autoren ist, welche thematischen Bereiche sie abdecken. Während von Franco Moretti überwiegend literaturwissenschaftliche Texte zitiert werden, wird Michael Jordan häufig herangezogen, wenn es um das Gebiet des Machine-Learning geht. Schmid wird meist im Zusammenhang mit Natural Language Processing genannt, und auf John Unsworth berufen sich die Autoren der Abstracts meist, wenn es um Methodenreflexion oder die Digital Humanities als wissenschaftliche Disziplin geht. Nun ließe sich daraus schlussfolgern, dass diese Wissenschaftsbereiche besonders stark vertreten sind. Das ist wenig überraschend, denn schon lange gelten die Textwissenschaften als in den DH besonders präsent. Außerdem geht dem thematischen Schwerpunkt der Tagung »Von Daten zu Erkenntnissen« auch eine Hinwendung zur theoretischen Reflexion des eigenen Feldes einher. Es zeigt sich der deutliche Schwerpunkt der Textwissenschaften allerdings auch noch zusätzlich durch die nächst häufig gefundenen Autoren Ray Siemens, Susan Schreibman und Matthew L. Jockers, die alle mit den in den Abstracts zitierten Quellen insbesondere zu diesem Fachbereich beigetragen haben.</p>
+               <p>Auffällig ist der grün gefärbte Bereich rechts unten, der nicht unbedingt eine Thematik, sondern eher einen Projektzusammenhang aufzeigt. Hier referenzieren sich die Projektbeteiligten des computernarratologischen HeureCLÉA-Zusammenschlusses<xref ref-type="fn" rid="fn45">
+                     <sup>45</sup>
+                  </xref>, geleitet von Jan Christoph Meister und Michael Gertz, gegenseitig. Es zeigt sich also eine intensive Zusammenarbeit von Computerlinguisten und Computerlinguistinnen und Literaturwissenschaftlern und Literaturwissenschaftlerinnen.</p>
+               <p>Außerdem sticht die relativ häufige Nennung von Christof Schöch als deutschem Nachwuchswissenschaftler ins Auge. Mit Matej Ďurčo wird ein Vertreter des österreichischen DH-Zentrums recht häufig genannt, was wenig verwundert, da der Austragungsort der Tagung in Österreich lag. Abgesehen von Manfred Thaller vom Kölner Zentrum für digitale Geisteswissenschaften fallen allerdings keine weiteren Vertreter deutschsprachiger Zentren ins Auge.</p>
+               <p>Es lohnt sich der ergänzende Blick in die Tabellen, die die NER-Daten zu Institutionen und Zusammenschlüssen auflisten. Ganz oben steht die Universität Leipzig<styled-content style-type="term" style="font-style: italic;">Leipzig</styled-content>, die zwar kein Digital Humanities Zentrum ist, an der es aber einen Lehrstuhl für dieses Forschungsfeld gibt. Präsent ist an dieser Stelle auch die SUB Göttingen, die ein ganz neues DH-Zentrum aufgebaut hat. Hamburg, Wien, Berlin, Passau und München als Studien-Standorte, an denen DH gelehrt wird, werden ebenfalls mehrfach genannt. Natürlich werden die Universitäten häufig in Zusammenhang mit den Vortragenden markiert. Hier werden also weniger die Zitierten wichtig, sondern vielmehr die Zitierenden, d.h. nicht die Frage, wer genannt wird, ist zentral, sondern wer die Konferenz durch seine Anwesenheit und seinen Vortrag mitgestaltet. An dieser Stelle werden also sämtliche Autoren der Abstracts gleichermaßen wichtig und es ist keine Netzwerkvisualisierung notwendig, um Gewichtungen vorzunehmen.</p>
+               <p>Die letzte Kategorie, die für unsere experimentelle Exploration von Interesse war, ist die der Zusammenschlüsse. Wie oben beschrieben, kann man einen Projektzusammenhang bereits im Netzwerk ablesen. Andere Projekte finden sich in der gehäuften Nennung in den Abstracts wieder. Ebenso wie bei den Tools sind hier die Vorstellungen von Projekten vorrangig, weshalb nur selten Projekte gehäuft und in mehr als einem Abstract genannt werden. Da die Gesamtmenge der genannten Projekte aber nicht allzu hoch ist, können sämtliche genannten und vom NER-Tool aufgespürten Projekte berücksichtigt werden. Besonders interessant ist hier die Mischung aus großen, eher infrastrukturell ausgerichteten Projektzusammenschlüssen wie DARIAH, CLARIN und DHd sowie Projekte, die die Digitalisierung vorantreiben wie Handke Online und eher auf fachwissenschaftliche Forschung ausgerichtete Projekten wie e-Identity. Auffallend ist auch, dass die Streuung der Anzahl der vom Stanford-NER getaggten Projektnennungen recht gering ist. Das am häufigsten zitierte Projekt Hidden Kosmos wird lediglich vier Mal genannt (allerdings haben wir hier keine Tags verwendet, die unterschiedliche Schreibweisen zusammenführen). Anders als bei der Vorstellung von Tools geht es also bei der Vorstellung von Projekten offenbar weniger um die Platzierung von Nennungen, sondern vielmehr um die Einbettung in fachliche Zusammenhänge. Obwohl also Großprojekte die Tagung nutzen, um dort gezielt eigene Entwicklungen und Tools vorzustellen, können diese nicht unbedingt als marktführend angesehen werden. Dennoch soll an dieser Stelle eingeräumt werden, dass wirklich nur ein Bruchteil der derzeit im deutschsprachigen Raum laufenden DH-Projekte in einem zeitlich begrenzten Rahmen, wie dem einer Fachtagung, vorgestellt werden können.</p>
+            </sec>
+         </sec>
+         <sec>
+            <title>5. Digitaler Arbeitsablauf in den digitalen Geisteswissenschaften – eine Diskussion</title>
+            <p>Anhand des hier dokumentierten Experiments konnten wir vor allem aufzeigen, dass es mit einem generalistischen Ansatz, der mehr Gewicht auf die Fachwissenschaften als auf die Informatik legt, noch nicht ohne Weiteres möglich ist, vorhandene DH-Tools zu einer Pipeline zu verbinden. Anhand einer beispielhaften Exploration von Konferenzabstracts wurde gezeigt, dass Tools nur mangelhaft zusammengeführt werden können und eine Domain-Adaption nur schwer umsetzbar ist. Die Verbesserung von Schnittstellen, die den Wechsel von einem zum anderen Tool ermöglichen, und die Erleichterung von Adaptierbarkeit für andere Fachbereiche konnten als wesentliche Entwicklungsdesiderata ausgemacht werden. Inhaltlich ist für uns der Hinweis von besonderem Interesse, dass noch keine verbindliche Form der Referenzierung von Tools gefunden werden konnte.</p>
+            <p>Die Aufbereitung der Daten für dieses Projekt hat sich als weit schwieriger erwiesen, als wir zunächst angenommen haben. Überraschend war vor allem die Erkenntnis, dass die genutzten Tools sich nicht einfach zu einer Pipeline verbinden lassen und dass das, was optimistisch »Workflow« genannt wird, eher einem »Stop and Go« ähnelt. Darüber hinaus lagen die Abstracts, die uns als Korpus dienten, zwar in einer sehr guten TEI-Codierung vor, doch war es sehr umständlich, diese Version aus den vorhandenen Datenbanken im ConfTool, wo die Abstracts abgelegt waren, herauszulösen. Letztendlich wurde darum auf die PDF-Version der Abstracts zurückgegriffen.</p>
+            <p>Die Optimierung von Arbeitsabläufen innerhalb der deutschsprachigen DH-Community ist sehr wünschenswert. Der Wechsel zwischen den einzelnen Tools war zeitaufwendig und bedurfte immer einiger manueller Nacharbeiten. Vorhandene Schnittstellen sind zum Teil noch zu basal ausgelegt (wie der Dokumentenexport im Stanford-NER als Textdatei mit XML-Versatzstücken), als dass sich ein reibungsloser Wechsel von einem zum anderen Tool ergeben würde. Kalkuliert man jedoch den dazu notwendigen Arbeitsaufwand mit ein, ist die ergänzende Nutzung der entsprechenden Tools möglich. Die Einarbeitung in die Tools und deren Nutzung war arbeitsintensiv und wurde vornehmlich anhand von Web-Tutorials vorgenommen. Zum einen lag dies der Nutzung von Methoden, die in unterschiedlichen Sparten der DH entwickelt wurden, die nur zum kleinen Teil einem der Fachgebiete entstammen, die auch von den AutorInnen abgedeckt werden. Der für dieses Experiment zentrale generalistische Ansatz, bei dem Methoden aus der Computerlinguistik, der digitalen Literaturwissenschaft und den Sozialwissenschaften zusammengeführt wurden, konnte also noch nicht als unmittelbar umsetzbar und zeitlich gewinnbringend ausgemacht werden. Zum anderen ist die Benutzerführung der Tools oft umständlich und kompliziert, was die Nutzung erschwert.</p>
+            <p>Ein anderer Punkt, der hier zur erwähnen wäre, ist die Auseinandersetzung mit dem in den digitalen Geisteswissenschaften häufig verwendeten Textmining-Verfahren. Obwohl die Fragestellung spezifisch für das Digital Humanities-Feld war, ist das angewandte Textmining-Verfahren der Named Entity Recognition in der Computerlinguistik wesentlich etablierter. Eine enge Zusammenarbeit mit einem Computerlinguisten oder einer Informatikerin hätte die Ergebnisse vermutlich verbessert. Autor und Autorinnen ziehen das Fazit, dass der manuelle Aufwand für die Verarbeitung der Daten sehr hoch war und eine manuelle Auswertung des gesamten Korpus möglicherweise exakter gewesen wäre und eindeutigere Ergebnisse erzielt hätte. Eine solche Aufarbeitung des Korpus wäre in einem einzigen DH-Tool des hier verwendeten Workflows, dem Annotations- und Analysetool CATMA, möglich gewesen. Letztendlich findet das automatische NER-Verfahren nur explizit erwähnte Tools – implizite oder indirekte Erwähnungen können mit dem Verfahren noch nicht extrahiert werden. Hier wäre eine erneute Aufbereitung des Trainingskorpus vonnöten, die eine genauere Definition der Kategorie »Tool« (vor allem die hier nicht vorgenommene Unterscheidung zwischen »Software« und »Verfahren«) einschließen müsste.</p>
+            <p>Unabhängig vom Ergebnis unseres Verfahrens wurden zu einem großen Teil in den Abstracts digitale Verfahren beschrieben, die dafür verwendeten Tools jedoch nicht benannt. Eine bessere Sichtbarkeit für Tools kann nur dadurch hergestellt werden, dass sich eine wissenschaftliche Praxis der Tool-Zitierung etabliert. So wäre es empfehlenswert, wenn Entwickler und Entwicklerinnen Richtlinien angeben würden, wie ihr Tool referenziert werden soll.<xref ref-type="fn" rid="fn46">
+                  <sup>46</sup>
+               </xref>
+            </p>
+            <p>Kritisch ist deswegen auch die Wahl der Methode für diese Betrachtungen zu sehen. Da die wissenschaftliche Praxis, der Workflow und die Tools meist nicht ausreichend in den Abstracts beschrieben werden, hätte dies möglicherweise zu einer anderen Wahl, eventuell zu einer manuellen Methode führen können. So enttäuschend das inhaltliche Ergebnis auch ist, so können doch zwei Dinge als zukunftsweisend festgehalten werden. Zunächst einmal ist es wünschenswert, dass Texte, die als Korpusgrundlage dienen können, in anschlussfähigen Formaten zugänglich gemacht werden. Dies ist allerdings eine Entwicklung, die bereits als angestoßen betrachtet werden kann.<xref ref-type="fn" rid="fn47">
+                  <sup>47</sup>
+               </xref> Zum zweiten sollten Tools so weiterentwickelt werden, dass Daten und Ergebnisse für andere Tools les- und übertragbar bleiben bzw. werden.</p>
+         </sec>
+      </sec>
+   </body>
+   <back>
+      <fn-group>
+         <fn fn-type="other" id="fn1">
+            <label>1</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="https://de.dariah.eu/">
+                  <underline>https://de.dariah.eu/</underline>
+               </ext-link>
+               <underline>.</underline>
+            </p>
+         </fn>
+         <fn fn-type="other" id="fn2">
+            <label>2</label>
+            <p> Juliane Stiller et al. 2015; Natasa Bulatovic et al. 2016.<ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="https://wiki.de.dariah.eu/download/attachments/26150061/Report1.2.1-final.pdf?version=6&amp;modificationDate=1430303390972&amp;api=v2"> </ext-link>
+            </p>
+         </fn>
+         <fn fn-type="other" id="fn3">
+            <label>3</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://dhd2015.uni-graz.at/">
+                  <underline>http://dhd2015.uni-graz.at/</underline>
+               </ext-link>, 23.–28. Februar 2015 in Graz.</p>
+         </fn>
+         <fn fn-type="other" id="fn4">
+            <label>4</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://www.dig-hum.de/">
+                  <underline>http://www.dig-hum.de/</underline>
+               </ext-link>.</p>
+         </fn>
+         <fn fn-type="other" id="fn5">
+            <label>5</label>
+            <p> Auf Anfrage erteilen die AutorInnen Zugang zum getaggten Korpus, welches im Webdienst CATMA gespeichert wird.</p>
+         </fn>
+         <fn fn-type="other" id="fn6">
+            <label>6</label>
+            <p> Busch-Lauer 2012, passim.</p>
+         </fn>
+         <fn fn-type="other" id="fn7">
+            <label>7</label>
+            <p> Adolphi 1996, S. 478–500.</p>
+         </fn>
+         <fn fn-type="other" id="fn8">
+            <label>8</label>
+            <p> Gläser 1990, S. 120ff.</p>
+         </fn>
+         <fn fn-type="other" id="fn9">
+            <label>9</label>
+            <p> Vgl. Adolphi 1996, S. 483f.</p>
+         </fn>
+         <fn fn-type="other" id="fn10">
+            <label>10</label>
+            <p> Vgl. Gläser 1990, S. 121.</p>
+         </fn>
+         <fn fn-type="other" id="fn11">
+            <label>11</label>
+            <p> Grimbeek et al. 2005, passim.</p>
+         </fn>
+         <fn fn-type="other" id="fn12">
+            <label>12</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://info.leximancer.com/">
+                  <underline>http://info.leximancer.com/</underline>
+               </ext-link>.</p>
+         </fn>
+         <fn fn-type="other" id="fn13">
+            <label>13</label>
+            <p> Shaik / Chakraborty 2011, passim.</p>
+         </fn>
+         <fn fn-type="other" id="fn14">
+            <label>14</label>
+            <p> Vgl. Chakraborty / Shaik 2011, S. 6.</p>
+         </fn>
+         <fn fn-type="other" id="fn15">
+            <label>15</label>
+            <p> Kirschenbaum 2010, S. 55–61.</p>
+         </fn>
+         <fn fn-type="other" id="fn16">
+            <label>16</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://www.voyant-tools.org/">
+                  <underline>http://www.voyant-tools.org/</underline>
+               </ext-link>.</p>
+         </fn>
+         <fn fn-type="other" id="fn17">
+            <label>17</label>
+            <p> Vgl. Kirschenbaum 2010, S. 56.</p>
+         </fn>
+         <fn fn-type="other" id="fn18">
+            <label>18</label>
+            <p> Eichmann / Weingart 2015, passim.</p>
+         </fn>
+         <fn fn-type="other" id="fn19">
+            <label>19</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://www.scottbot.net/HIAL/?tag=dhconf">
+                  <underline>http://www.scottbot.net/HIAL/?tag=dhconf</underline>
+               </ext-link>.</p>
+         </fn>
+         <fn fn-type="other" id="fn20">
+            <label>20</label>
+            <p> https://dig-hum.de/</p>
+         </fn>
+         <fn fn-type="other" id="fn21">
+            <label>21</label>
+            <p> Sekine 2004, passim.</p>
+         </fn>
+         <fn fn-type="other" id="fn22">
+            <label>22</label>
+            <p> Sekine 2004, passim; Cucerzan 2007, S. 708–716.</p>
+         </fn>
+         <fn fn-type="other" id="fn23">
+            <label>23</label>
+            <p> Vgl. Cucerzan 2007, S. 713f.</p>
+         </fn>
+         <fn fn-type="other" id="fn24">
+            <label>24</label>
+            <p> Clark et al. 2011.</p>
+         </fn>
+         <fn fn-type="other" id="fn25">
+            <label>25</label>
+            <p> Vgl. Ritter et al. 2011, passim.</p>
+         </fn>
+         <fn fn-type="other" id="fn26">
+            <label>26</label>
+            <p> Leser / Hakenberg 2005, S. 357-369; Gaudan et al. 2008, S. 3.</p>
+         </fn>
+         <fn fn-type="other" id="fn27">
+            <label>27</label>
+            <p> Vgl. Jimeno et al. 2008, passim.</p>
+         </fn>
+         <fn fn-type="other" id="fn28">
+            <label>28</label>
+            <p> Jannidis et al. 2015, passim.</p>
+         </fn>
+         <fn fn-type="other" id="fn29">
+            <label>29</label>
+            <p> Vgl. Jannidis et al. 2011.</p>
+         </fn>
+         <fn fn-type="other" id="fn30">
+            <label>30</label>
+            <p> (Unsworth 2000).</p>
+         </fn>
+         <fn fn-type="other" id="fn31">
+            <label>31</label>
+            <p> Hennicke et al. 2015.</p>
+         </fn>
+         <fn fn-type="other" id="fn32">
+            <label>32</label>
+            <p> Juola 2008, S. 73–83.</p>
+         </fn>
+         <fn fn-type="other" id="fn33">
+            <label>33</label>
+            <p> Gnadt et al. 2016.</p>
+         </fn>
+         <fn fn-type="other" id="fn34">
+            <label>34</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://dirtdirectory.org/">
+                  <underline>http://dirtdirectory.org/</underline>
+               </ext-link>.</p>
+         </fn>
+         <fn fn-type="other" id="fn35">
+            <label>35</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://nlp.stanford.edu/software/CRF-NER.shtml">
+                  <underline>http://nlp.stanford.edu/software/CRF-NER.shtml</underline>
+               </ext-link>
+               <underline>.</underline>
+            </p>
+         </fn>
+         <fn fn-type="other" id="fn36">
+            <label>36</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://www.catma.de/">
+                  <underline>http://www.catma.de/</underline>
+               </ext-link>.</p>
+         </fn>
+         <fn fn-type="other" id="fn37">
+            <label>37</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://gephi.github.io/">
+                  <underline>http://gephi.github.io/</underline>
+               </ext-link>.</p>
+         </fn>
+         <fn fn-type="other" id="fn38">
+            <label>38</label>
+            <p> Die Autorinnen und der Autor dieses Artikels verstehen in diesem Sinne ihren Ansatz als generalistisch.</p>
+         </fn>
+         <fn fn-type="other" id="fn39">
+            <label>39</label>
+            <p> Faruqui / Pado 2010.</p>
+         </fn>
+         <fn fn-type="other" id="fn40">
+            <label>40</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://gams.uni-graz.at/o:dhd2015.abstracts-gesamt">
+                  <underline>http://gams.uni-graz.at/o:dhd2015.abstracts-gesamt</underline>
+               </ext-link>.</p>
+         </fn>
+         <fn fn-type="other" id="fn41">
+            <label>41</label>
+            <p> Eine Anleitung zum Training eines eigenen Modells ist auf <xref rid="a">
+                  <underline>http://nlp.stanford.edu/software/crf-faq.shtml#a</underline>
+               </xref> beschrieben.</p>
+         </fn>
+         <fn fn-type="other" id="fn42">
+            <label>42</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="https://textgridrep.org/">
+                  <underline>https://textgridrep.org/</underline>
+               </ext-link>.</p>
+         </fn>
+         <fn fn-type="other" id="fn43">
+            <label>43</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="https://textgrid.de/download">
+                  <underline>https://textgrid.de/download</underline>
+               </ext-link>.</p>
+         </fn>
+         <fn fn-type="other" id="fn44">
+            <label>44</label>
+            <p> Juliane Stiller et al. 2015 und Natasa Bulatovic et al. 2016 </p>
+         </fn>
+         <fn fn-type="other" id="fn45">
+            <label>45</label>
+            <p> 
+               <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://www.heureclea.de">
+                  <underline>www.heureclea.de</underline>
+               </ext-link>. </p>
+         </fn>
+         <fn fn-type="other" id="fn46">
+            <label>46</label>
+            <p> Beispiele dafür finden sich auf <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://esm.mi.ingv.it/processing/index.php">
+                  <underline>http://esm.mi.ingv.it/processing/index.php</underline>
+               </ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="http://www.policy-powertools.org/Tools/Understanding/SIM.html">
+                  <underline>http://www.policy-powertools.org/Tools/Understanding/SIM.html</underline>
+               </ext-link> oder <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="https://engineering.purdue.edu/~isl/vlantool/">
+                  <underline>https://engineering.purdue.edu/~isl/vlantool/</underline>
+               </ext-link> (die aber auf ein begleitendes Paper verweisen). </p>
+         </fn>
+         <fn fn-type="other" id="fn47">
+            <label>47</label>
+            <p> Für die DHd-Konferenz 2016 ist mit dem DH-Convalidator (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xlink:href="https://github.com/mpetris/dhconvalidator">
+                  <underline>https://github.com/mpetris/dhconvalidator</underline>
+               </ext-link>) ein System entwickelt worden, das der Weiterverwendung der Daten mehr entgegenkommt.</p>
+         </fn>
+      </fn-group>
+      <ref-list>
+         <title>Bibliographische Angaben</title>
+      </ref-list>
+   </back>
+</article>

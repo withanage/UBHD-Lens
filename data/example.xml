@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns:svg="http://www.w3.org/2000/svg" >
+    <front>
+
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">Heidelberg University Publishing</journal-id>
+            <issn pub-type="epub">1234-1234</issn>
+            <publisher>
+                <publisher-name>Heidelberg University Publishing</publisher-name>
+            </publisher>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name></meta-name>
+                    <meta-value></meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="publisher-id">published-id</article-id>
+            <article-id pub-id-type="doi">https://www.doi.org/10.77777.123456</article-id>
+            <article-categories>
+                <subj-group subj-group-type="display-channel">
+                    <subject>Research Monogrraph</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                    <subject>Sbject </subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Title</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="editor" corresp="yes" id="author-1">
+                    <name>
+                        <surname>Miller</surname>
+                        <given-names>David</given-names>
+                    </name>
+                    <bio>
+                        <p>Biography of david miller</p>
+                    </bio>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes" id="editor-1">
+                    <name>
+                        <surname>Groves</surname>
+                        <given-names>Jay</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="other" rid="par-1"/>
+                    <xref ref-type="fn" rid="con5"/>
+                </contrib>
+                <aff id="aff1"><institution content-type="dept"
+                >Department of Chemistry</institution>,
+                    <institution>Berkeley</institution>,
+                    <addr-line>
+                        <named-content content-type="city">Berkeley</named-content>
+                    </addr-line>
+                    ,
+                    <country>United States</country>
+                </aff>
+            </contrib-group>
+
+
+            <!--author-notes>
+                <corresp id="cor1">
+                    <label>*</label>For correspondence: <email>JTGroves@lbl.gov</email></corresp>
+                <fn fn-type="con" id="equal-contrib">
+                    <label>†</label>
+                    <p>These authors contributed equally to this work</p>
+                </fn>
+            </author-notes-->
+            <pub-date pub-type="epub">
+                <day>30</day>
+                <month>08</month>
+                <year>2017</year>
+            </pub-date>
+            <volume>2</volume>
+            <elocation-id>e00778</elocation-id>
+            <history>
+                <date date-type="received">
+                    <day>26</day>
+                    <month>03</month>
+                    <year>2017</year>
+                </date>
+                <date date-type="accepted">
+                    <day>17</day>
+                    <month>05</month>
+                    <year>2017</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>Text © 2017 by the authors.</copyright-statement>
+                <copyright-year>2017</copyright-year>
+                <license license-type="open-access"
+                         xlink:href="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="de">
+                    <license-p><inline-graphic
+                            xlink:href="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"
+                    />Dieses Werk ist unter der Creative-Commons-Lizenz 4.0 (CC BY-SA 4.0)
+                        veröffentlicht.
+                    </license-p>
+                </license>
+                <license license-type="open-access"
+                         xlink:href="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en">
+                    <license-p><inline-graphic
+                            xlink:href="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"
+                    />This book is published under the Creative Commons License 4.0 (CC BY-SA
+                        4.0).
+                    </license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="elife00778.pdf"/>
+            <abstract>
+                <title>Abstract Title</title>
+
+                    <p>Abstract text ...</p>
+                <p>
+                    <bold>DOI:</bold>
+                    <ext-link ext-link-type="doi" xlink:href="10.77777.123456.001"
+                    >http://dx.doi.org/10.77777.123456.001
+                    </ext-link>
+                </p>
+
+
+            </abstract>
+            <kwd-group kwd-group-type="author-keywords">
+                <title>Author keywords</title>
+                <kwd>TCR triggering</kwd>
+                <kwd>single molecule kinetics</kwd>
+                <kwd>T cells</kwd>
+            </kwd-group>
+            <kwd-group kwd-group-type="research-organism">
+                <title>Research organism</title>
+                <kwd>Mouse</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group id="par-1">
+                    <funding-source>Funding source</funding-source>
+                    <award-id>PO1 AI091580</award-id>
+                    <principal-award-recipient>
+                        <name>
+                            <surname>O'Donoghue</surname>
+                            <given-names>Geoff P</given-names>
+                        </name>
+                        <name>
+                            <surname>Pielak</surname>
+                            <given-names>Rafal M</given-names>
+                        </name>
+                        <name>
+                            <surname>Smoligovets</surname>
+                            <given-names>Alexander A</given-names>
+                        </name>
+                        <name>
+                            <surname>Lin</surname>
+                            <given-names>Jenny J</given-names>
+                        </name>
+                        <name>
+                            <surname>Groves</surname>
+                            <given-names>Jay T</given-names>
+                        </name>
+                    </principal-award-recipient>
+                </award-group>
+                <funding-statement>The funders had no role in study design, data collection and
+                    interpretation, or the decision to submit the work for
+                    publication.
+                </funding-statement>
+            </funding-group>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>elife-xml-version</meta-name>
+                    <meta-value>2</meta-value>
+                </custom-meta>
+                <custom-meta specific-use="meta-only">
+                    <meta-name>Author impact statement</meta-name>
+                    <meta-value>Quantitative.</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </article-meta>
+    </front>
+    <body>
+
+
+        <sec>
+            <title>Paragraph Formatting</title>
+            <p>this is a simple paragraph</p>
+            <p content-type="text-orientation-vertical-lr">I am vertical text</p>
+        </sec>
+        <sec>
+            <title>References</title>
+            <p>Text <xref ref-type="bibr" rid="ref1">reference 1</xref>
+            Text    <xref ref-type="bibr" rid="ref2">reference 2</xref>
+            Text    <xref ref-type="bibr" rid="ref3">reference 3</xref>
+            Text <xref ref-type="bibr" rid="ref1">reference 1</xref>
+            </p>
+        </sec>
+        <sec><title>Footnotes</title>
+        <p>
+            Text <xref ref-type="fn" rid="fn1">Footnote 1</xref>
+            Text <xref ref-type="fn" rid="fn2">Footnote 2</xref>
+            Text <xref ref-type="fn" rid="fn2">Footnote 2</xref>
+        </p></sec>
+        <sec>
+            <title>Multimedia elements</title>
+            <p>
+                <xref ref-type="other" rid="media1">Video from Remote Repository</xref>
+            </p>
+            <p>
+                <media content-type="play-in-place height-250 width-310" id="media301" mime-subtype="mov"
+                       mimetype="video"
+                       xlink:href="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/703f4d81-8bda-4a80-99e6-bb3cb82e1bf1/file/id/490634/file_version/name/original">
+                    <label>Seq. 3.1</label>
+                    <caption>
+                        <title>Seq. 3.1 Prousts Diktat (0:02:10–0:02:50)</title> <!-- <bold> </bold> -->
+                        <p>
+                            <ext-link ext-link-type="doi" xlink:href="http://heidicon.ub.uni-heidelberg.de/id/609745">
+                                http://heidicon.ub.uni-heidelberg.de/id/609745
+                            </ext-link>
+                        </p>
+                    </caption>
+                    <object-id specific-use="poster">
+                        http://heiup.uni-heidelberg.de/heiup/reader/index/310/310-75-79580-1-2-20171120.png
+                    </object-id>
+                </media>
+            </p>
+            <p>  <media content-type="play-in-place height-250 width-310" id="314_audio_1"
+                        mime-subtype="wav" mimetype="video"
+                        xlink:href="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8182b803-34ea-49ff-ac8f-d8d526837320/file/id/540991/file_version/name/original">
+                <label>Audio 1</label>
+                <caption>
+                    <title/>
+                    <p>Extrait de <italic toggle="yes">Je suis vivant</italic> (Mars 2015 :
+                        38–44) lu par Kettly Mars le 14 octobre 2015 lors de la soirée de
+                        lecture au « Salon Littéraire » de l’Université Leibniz de Hanovre
+                        (Allemagne). © Editions Mercure de France (photographie © Philip
+                        Bartz).</p>
+                    <p>Online resource: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                  ext-link-type="uri"
+                                                  xlink:href="http://heidicon.ub.uni-heidelberg.de/id/662643"
+                    >http://heidicon.ub.uni-heidelberg.de/id/662643</ext-link></p>
+                </caption>
+                <object-id specific-use="poster">314-75-81368-1-2-20180608.jpg</object-id>
+            </media>
+            </p>
+        </sec>
+        <sec>
+            <title>Speech Element</title>
+            <p>
+                <speech id="s1">
+                    <speaker>Paul</speaker>
+                    <p>I am talking.
+                    </p>
+                </speech>
+            </p>
+            <p>
+                <speech id="s20">
+                    <speaker>Speaker</speaker>
+                    <p>I have a link &lt;L&gt;.<xref ref-type="fn"
+                                                     rid="bibd2e50">1
+                    </xref>
+                    </p>
+                </speech>
+            </p>
+        </sec>
+        <sec>
+            <title>
+                List elements
+            </title>
+            <list list-type="bullet">
+                <list-item>
+                    <p>This is a <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                           xlink:href="http://heiup.uni-heidelberg.de/" ext-link-type="uri"
+                                           xlink:type="simple">link
+                    </ext-link>
+                    </p>
+                    <p>This is a
+                        <italic>
+                            <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                      xlink:href="http://heiup.uni-heidelberg.de/" ext-link-type="uri"
+                                      xlink:type="simple"
+                            >italic link
+                            </ext-link>
+                        </italic>
+                        and a text
+                    </p>
+                    <p>Any <xref rid="ref3" ref-type="bibr" id="e1236218736"
+                    >mixed-citation
+                    </xref>  necessarily conserves the <ext-link
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xlink:href="http://heiup.uni-heidelberg.de/" ext-link-type="uri"
+                            xlink:type="simple"
+                    >meaning
+                    </ext-link>
+                    </p>
+                </list-item>
+
+            </list>
+            <list>
+                <list-item>
+                    <p>Unordered List without Attribute list-type 1</p>
+                </list-item>
+                <list-item>
+                    <list>
+                        <list-item>
+                            <p>Unordered List without Attribute list-type level 2.1</p>
+                        </list-item>
+                        <list-item>
+                            <list>
+                                <list-item>
+                                    <p>Unordered List without Attribute list-type level 2.2.1</p>
+                                </list-item>
+                            </list>
+                        </list-item>
+                        <list-item>
+                            <p>Unordered List without Attribute list-type level 2</p>
+                        </list-item>
+                        <list-item>
+                            <list>
+                                <list-item>
+                                    <p>Unordered List without Attribute list-type level 2.1</p>
+                                </list-item>
+                                <list-item>
+                                    <list>
+                                        <list-item>
+                                            <p>Unordered List without Attribute list-type level 2.2.1</p>
+                                        </list-item>
+                                    </list>
+                                </list-item>
+                                <list-item>
+                                    <p>Unordered List without Attribute list-type level 2</p>
+                                </list-item>
+                                <list-item>
+                                    <p>Element</p>
+                                    <p>
+                                        <disp-quote id="dispquote8">
+                                            <p>Display Quote
+                                                <italic>Italic text</italic>
+                                            </p>
+                                        </disp-quote>
+                                    </p>
+
+                                </list-item>
+                            </list>
+                        </list-item>
+                    </list>
+                </list-item>
+                <list-item>
+                    <p>Unordered List without Attribute list-type 3</p>
+                </list-item>
+            </list>
+
+        </sec>
+        <sec>
+            <title>Table Element</title>
+            <table-wrap specific-use="rules">
+
+                <table specific-use="other-class" style="width:auto;font-family: verdana,arial,sans-serif;
+	font-size:20px;
+	  border: 1px solid red;
+  margin: 5px 0;
+	color:#111;
+	border-width: 1px;
+	border-color: #55555;"
+	>
+                    <tr>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                    <tr>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td style="color:green;">Cell</td>
+                        <td><p><italic>Italic</italic></p></td>
+                        <td>Cell</td>
+                    </tr>
+                </table>
+            </table-wrap>
+
+        </sec>
+        <sec>
+            <title>SVG images</title>
+            <p>SVG example</p>
+
+                <svg:svg><!-- SVG image goes here --></svg:svg>s
+            <fig-group>
+                <fig id="_figure-1">
+                    <label>Figure 1</label>
+                    <caption id="_caption-1">
+                        <p id="p-267741be4cfdee6715fa1774318d0e4d">caption</p>
+                    </caption>
+                    <graphic id="_graphic-1" mime-subtype="png" mimetype="image"
+                             xlink:href="ee3d402c1903b35591f040316ca6c656.png"/>
+                </fig>
+            </fig-group>
+        </sec>
+
+    </body>
+    <back>
+        <fn-group>
+            <fn id="fn2">
+                <p>This is a <xref rid="ref1" ref-type="bibr" id="xref1">Internal Bibliographical reference in the same window</xref>link </p>
+
+            </fn>
+
+            <fn id="fn1">
+                <p>
+                <table-wrap>
+                    <table>
+                        <tr><td>row 1</td> <td>row1 </td><td>row 2</td> <td>row2 </td></tr>
+                            <tr><td>row 2</td> <td>row2 </td><td>row 2</td> <td>row2 </td></tr>
+                        <tr><td>row 2</td> <td  style="background:#00ACEA;">row2 </td></tr>
+                        <tr><td>row 2</td> <td>row2 </td></tr>
+                        <tr><td>row 2</td> <td>row2 </td></tr>
+                    </table>
+                </table-wrap>
+                </p>
+                <p>Footnote 1 <xref ref-type="sec" rid="s1">Internal section link</xref>        </p>
+
+            </fn>
+
+        </fn-group>
+
+        <ref-list>
+            <ref id="ref1">
+                <mixed-citation>This is a <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xlink:href="http://heiup.uni-heidelberg.de/" ext-link-type="uri"
+                                                    xlink:type="simple">link
+                </ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref2">
+                <mixed-citation>M&#252;ller, Johannes (1826).
+                    <italic>Zur vergleichenden Physiologie des Gesichtssinnes des <ext-link
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xlink:href="http://heiup.uni-heidelberg.de/" ext-link-type="uri"
+                            xlink:type="simple"
+                    >Menschen
+                    </ext-link> und der Thiere nebst einem Versuch &#252;ber die Bewegungen der Augen und &#252;ber den
+                        menschlichen Blick
+                    </italic>
+                    . Leipzig: C. Cnobloch.
+                </mixed-citation>
+            </ref>
+            <ref id="ref3">
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Adams</surname>
+                            <given-names>JJ</given-names>
+                        </name>
+                        <name>
+                            <surname>Narayanan</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <name>
+                            <surname>Liu</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <name>
+                            <surname>Birnbaum</surname>
+                            <given-names>ME</given-names>
+                        </name>
+                        <name>
+                            <surname>Kruse</surname>
+                            <given-names>AC</given-names>
+                        </name>
+                        <name>
+                            <surname>Bowerman</surname>
+                            <given-names>NA</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <year>2011</year>
+                    <article-title>T cell receptor signaling is limited by docking geometry to
+                        peptide-major histocompatibility complex
+                    </article-title>
+                    <source>Immunity</source>
+                    <volume>35</volume>
+                    <fpage>681</fpage>
+                    <lpage>93</lpage>
+                    <pub-id pub-id-type="doi">10.1016/j.immuni.2011.09.013</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="ref4">
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Altan-Bonnet</surname>
+                            <given-names>G</given-names>
+                        </name>
+                        <name>
+                            <surname>Germain</surname>
+                            <given-names>RN</given-names>
+                        </name>
+                    </person-group>
+                    <year>2005</year>
+                    <article-title>Modeling T Cell antigen discrimination based on feedback control
+                        of digital ERK responses
+                    </article-title>
+                    <source>PLoS Biol</source>
+                    <volume>3</volume>
+                    <fpage>e356</fpage>
+                    <pub-id pub-id-type="doi">10.1371/journal.pbio.0030356</pub-id>
+                </element-citation>
+            </ref>
+        </ref-list>
+    </back>
+</article>

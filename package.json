@@ -1,0 +1,32 @@
+{
+  "name": "lens-starter",
+  "description": "UB Heidelberg - Lens Development",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "*",
+    "express": "^4.16.4",
+    "lens": "github:withanage/lens",
+    "method-override": "^3.0.0",
+    "npm": "^6.14.4",
+    "path": "^0.12.7",
+    "rename": "^1.0.4",
+    "st": "^1.2.2",
+    "tar": "^4.4.8",
+    "underscore": "1.9.x",
+    "yallist": "^4.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.1",
+    "gulp": "^4.0.2",
+    "gulp-livereload": "^4.0.2",
+    "gulp-reload": "0.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.13.1",
+    "through2": "^3.0.1"
+  },
+  "version": "2.0.0",
+  "private": true
+}
