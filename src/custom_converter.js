@@ -67,7 +67,7 @@ CustomConverter.Prototype = function () {
     for (var i = 0; i < paragraphs.length; i++) {
       var paragraph = paragraphs[i];
       var parentNode = paragraph.parentNode;
-      if (paragraph.innerHTML === "" && parentNode.tagName == "caption")
+      if (paragraph !== undefined && paragraph.innerHTML === "" && parentNode.tagName == "caption")
         paragraph.innerHTML = ".";
 
     }
@@ -85,10 +85,11 @@ CustomConverter.Prototype = function () {
       }
       if (hasCaption===false) {
         var caption = document.createElement("caption");
-        var paragraphElement = document.createElement("p");
+        var element = document.createElement("p");
         var content = document.createTextNode(".");
-        paragraphElement.appendChild(content);
-        caption.appendChild(paragraphElement);
+        element.appendChild(content);
+        element.style.visibility = "hidden";
+        caption.appendChild(element);
         figure.appendChild(caption);
 
       }
