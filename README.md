@@ -79,25 +79,6 @@ Example assumes port **4001**. Change port accordingly.
 * Open with http://localhost:4001/?url=data/my_file.xml
 
  
-## Intergration in an external environment
-
-```
-gulp
-```
-
-Distribution will be generate in `dist` folder. Change to dist folder.
-
-### Local
-```
-cd dist/
-firefox index.html # Or  use the open file in your browser.
-```
-or use any in-built server e.g.
-* python -m SimpleHTTPServer 4001
-* php -S localhost:4001
-* node server
-
-
 
 ### Integration  procedure for external services. 
 
@@ -109,7 +90,7 @@ or use any in-built server e.g.
 
 
   
-#### Integration examples
+### Integration examples
 
 wep2py application
 
