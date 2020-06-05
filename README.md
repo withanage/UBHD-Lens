@@ -105,14 +105,8 @@ wep2py application
   * [JS Datei](https://github.com/withanage/lensGalleyBits/blob/master/libs/lens/lens.js)  
   
  
+## Developer
 
-
-
-
-
-
-## Developers
-
-* Dulip Withanage
+* https://github.com/withanage
 
 
