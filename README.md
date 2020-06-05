@@ -99,9 +99,33 @@ or use any in-built server e.g.
 
 
 
-### Server integraton
-Copy tie  `dist` folder into a server environment and make sure the XML file is loaded accodingly.
-You can change the file rendering mechanism, `function qs()` in the index.html file.
+### Integration  procedure for external services. 
+
+| command | exaplanation 
+|  --- | ---
+| `gulp` | Complies the lens distribution  in the dist folder
+| Copy  `dist` folder | Copy folder into the external environment 
+| Change index.html file   according to  the environment   | make sure the XML file is loaded accordingly and the lens.css and lens.js are in the correct paths, if you rename them.
+
+
+  
+#### Integration examples
+
+wep2py application
+
+ * [Index.html](https://github.com/UB-Heidelberg/UBHD-OMPPortal/blob/master/views/reader/index.html)
+ * [CSS Datei](https://github.com/UB-Heidelberg/UBHD-OMPPortal/blob/master/static/css/lens.css)
+ * [JS Datei](https://github.com/UB-Heidelberg/UBHD-OMPPortal/blob/master/static/js/lens2.js)  
+ 
+ Open Journal Systems
+ 
+ * [Index.html as php template](https://github.com/withanage/lensGalleyBits/blob/master/templates/display.tpl)
+  * [CSS Datei](https://github.com/withanage/lensGalleyBits/blob/master/libs/lens/lens.css)
+  * [JS Datei](https://github.com/withanage/lensGalleyBits/blob/master/libs/lens/lens.js)  
+  
+ 
+
+
 
 
 
