@@ -8,7 +8,7 @@
     "express": "^4.16.4",
     "lens": "github:withanage/lens",
     "method-override": "^3.0.0",
-    "npm": "^6.14.4",
+    "npm": "^6.14.6",
     "path": "^0.12.7",
     "rename": "^1.0.4",
     "st": "^1.2.2",
