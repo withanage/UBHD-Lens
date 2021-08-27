@@ -25,7 +25,7 @@ HTMLTableView.Prototype = function () {
         }
 
         if (attrs.getNamedItem('specific-use')===null) {
-            htmlTable.setAttribute('class', 'layout-tabelle');
+            htmlTable.setAttribute('class', 'gitter-tabelle');
         }
         else {
             htmlTable.setAttribute('class', attrs.getNamedItem('specific-use').nodeValue);
