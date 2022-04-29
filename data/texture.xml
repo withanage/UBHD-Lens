@@ -42,9 +42,11 @@
   <back>
     <ref-list>
       <ref id="book-ref-2fb92b74b57f09fcabeb7fa6da2bd8c5">
-        <element-citation publication-type="book">
-          <source>teest</source>
-        </element-citation>
+        <mixed-citation publication-type="book">
+
+          <p>Clinical methods: the history,
+            physical, and laboratory examinations</p>
+        </mixed-citation>
       </ref>
     </ref-list>
   </back>
