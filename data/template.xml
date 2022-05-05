@@ -84,6 +84,9 @@
             </sec>
             <sec>
               <title>Beispiel f&#252;r die Einbindung von Tabellen:</title>
+                <caption>
+                    <title>ssss</title>
+                </caption>
               <table-wrap specific-use="rules" position="float" orientation="portrait">
                 <table>
                   <tr>

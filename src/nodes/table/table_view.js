@@ -14,6 +14,8 @@ HTMLTableView.Prototype = function () {
 
     this.render = function () {
 
+
+
         NodeView.prototype.render.call(this);
         var childView, childViewEl, htmlTable, row,  td;
         htmlTable = document.createElement('table');
@@ -65,9 +67,20 @@ HTMLTableView.Prototype = function () {
             }
         }
 
+        // Display caption
+
+        if (this.node.caption) {
+            var captionView = this.createView(this.node.caption);
+            this.content.appendChild(captionView.render().el);
+        }
+
+
         this.content.appendChild(htmlTable);
 
         this.el.appendChild(this.content);
+
+
+
 
         return this;
     };
@@ -79,20 +92,3 @@ HTMLTableView.prototype = new HTMLTableView.Prototype();
 module.exports = HTMLTableView;
 
 
-/**
- var footers = $$('.footers', {
-      children: _.map(this.node.footers, function(footer) {
-        return $$('.footer', { html: "<b>"+footer.label+"</b> " + footer.content });
-      })
-    });
-
- // Display caption
-
-
- if (this.node.caption) {
-      var captionView = this.createView(this.node.caption);
-      this.content.appendChild(captionView.render().el);
-    }
-
- this.content.appendChild(footers);
- **/

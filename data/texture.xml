@@ -23,7 +23,120 @@
         <p id="heading-da1360e38c122472b69d25ecaad0c15f" level="2">text</p>
         <sec id="heading-bfe4ed5b1b89ceb3260f1b63b16678f9">
           <title>Sec 1.1.1</title>
-          <p id="heading-e933be467627e1010f3e294d2d085dba" level="3">text</p>
+
+          <table-wrap specific-use="rules" position="float" orientation="portrait">
+            <caption>
+              <title></title>
+             Composition of printable fine-grained concrete under investigation
+
+            </caption>
+
+
+            <table >
+
+              <tr id="table-row-56196db9aa14a9ccac2e70bcfc815ca0">
+                <td id="00969f3b339436dd712dc1e8f9a21f62"><p>
+                  <bold id="_bold-13">Constituent</bold>
+                </p>
+                </td>
+                <td id="b79d39c3ef900560d51088dc10e734a4">
+                  <bold id="_bold-14">Supplier / product name</bold>
+                </td>
+                <td id="8f60a789ba339461b3bb41fe2c61cac5">
+                  <bold id="_bold-15">[kg/m  ]</bold>
+                </td>
+              </tr>
+              <tr id="table-row-d7fd62ae22ea688f31af026c90f0ec1f">
+                <td id="473035cfea3b57721dfe90073090d708">Cement CEM I 52.5 R ft </td>
+                <td id="573e3714cc1db33dc01e56c9b1af3584">Opterra</td>
+                <td id="c4d64b5e69e44c5f4bf478155e9f9bf5">392</td>
+              </tr>
+              <tr id="table-row-d7dc396d20c3e8397c2d1d41ff49ca61">
+                <td id="fb6849ff9367377ae88a36aa161af019">Fly ash SFA</td>
+                <td id="7deece25e858ccef30985d3862c3abea">Steament H4</td>
+                <td id="49c2b27e80eb603712fe3a112df47205">214</td>
+              </tr>
+              <tr id="table-row-99f3f4e4977d5d8bf3dae099cad9f987">
+                <td id="c750bc5852a0e9e9eebc94ce48387df8">Microsilica </td>
+                <td id="ab7ee2fbcb8d4209a8be04a1b6f96a07">EMSAC 500 SE, BASF</td>
+                <td id="4d2bcaa4e3d7e4d0a21f2b6c97e5d53e">214</td>
+              </tr>
+              <tr id="table-row-80e1cd226d145d391880b833caa74e57">
+                <td id="8d6d0e15fcafde39c366d09e31d0cca5">Sand 0.06-0.2</td>
+                <td id="04ea866f75661773a302f0daba8550f8">BCS 413</td>
+                <td id="4dc3855f6d92af5a58fd84b9fa2c1149">253</td>
+              </tr>
+              <tr id="table-row-0545df7fc8adf5a4752eb6b095b0da85">
+                <td id="0087e47886ad49ff38e4a863baa7251f">Sand 0-1</td>
+                <td id="f44875b2a213e20c15f323634d6b3b16">Ottendorf</td>
+                <td id="6a7dc564d5d71cc3daa2ee7a56132d6c">253</td>
+              </tr>
+              <tr id="table-row-860b0f2134dfa9ae65df0f6d73c46d2c">
+                <td id="8074d2a2d9cadc9ef6ab92eed3373100">Sand 0-2</td>
+                <td id="eeb03466a3e42c8d1e38b7b02cbf7707">Ottendorf</td>
+                <td id="d68b2af96169bc660ae2d160ba396f15">759</td>
+              </tr>
+              <tr id="table-row-d19eec6c9b6375c699bd703eb20a3447">
+                <td id="356848eb88ec76535723184f8bb55839">Water</td>
+                <td id="4d5265d6e4c80efea9d9b1f65157cd82">Tab water</td>
+                <td id="a640f9f754539a29de586505652ca19d">139</td>
+              </tr>
+              <tr id="table-row-b7cc611033fb916fc5aee2434dbd20d3">
+                <td id="0dc372cbc5b3e941bf3291a5a8a153cd">Superplasticizer</td>
+                <td id="c99f4dbe33dbe0de15e254eb4e8a3557">Sky 593, BASF</td>
+                <td id="66a7fc5dd62049e7a550ff228cb4423f">11</td>
+              </tr>
+
+
+            </table>
+            <table-wrap-foot>
+              <fn-group>
+                <fn id="TF1-150"><p>Data not available for 1 trial.</p></fn>
+                <fn id="TF1-151"><p>P&#x003C;0.05 (random effects model).</p></fn>
+              </fn-group>
+            </table-wrap-foot>
+          </table-wrap>
+
+
+          <table-wrap specific-use="rules" position="float" orientation="portrait">
+            <caption>
+              <title>Patient Care at End of Follow Up</title>
+
+            </caption>
+            <table>
+
+              <tr>
+                <td rowspan="1" colspan="1">&#220;berschrift A</td>
+                <td rowspan="1" colspan="1">&#220;berschrift B</td>
+                <td rowspan="1" colspan="1">&#220;berschrift C</td>
+                <td rowspan="1" colspan="1">&#220;berschrift D</td>
+                <td rowspan="1" colspan="1">&#220;berschrift E </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">10</td>
+                <td rowspan="1" colspan="1">-</td>
+                <td rowspan="1" colspan="1">10</td>
+                <td rowspan="1" colspan="1">10</td>
+                <td rowspan="1" colspan="1">10</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">10</td>
+                <td rowspan="1" colspan="1">-</td>
+                <td rowspan="1" colspan="1">10</td>
+                <td rowspan="1" colspan="1">10</td>
+                <td rowspan="1" colspan="1">-</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">10</td>
+                <td rowspan="1" colspan="1">10</td>
+                <td rowspan="1" colspan="1">-</td>
+                <td rowspan="1" colspan="1">10</td>
+                <td rowspan="1" colspan="1">10</td>
+              </tr>
+            </table>
+          </table-wrap>
+
+
           <fig-group>
           <fig id="_figure-1" position="float">
             <label>Figure 1</label>
