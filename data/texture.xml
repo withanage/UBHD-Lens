@@ -26,14 +26,14 @@
 
           <table-wrap specific-use="rules" position="float" orientation="portrait">
             <caption>
-              <title></title>
+              <title>
              Composition of printable fine-grained concrete under investigation
-
+              </title>
             </caption>
 
 
             <table >
-
+<tbody>
               <tr id="table-row-56196db9aa14a9ccac2e70bcfc815ca0">
                 <td id="00969f3b339436dd712dc1e8f9a21f62"><p>
                   <bold id="_bold-13">Constituent</bold>
@@ -86,7 +86,7 @@
                 <td id="c99f4dbe33dbe0de15e254eb4e8a3557">Sky 593, BASF</td>
                 <td id="66a7fc5dd62049e7a550ff228cb4423f">11</td>
               </tr>
-
+</tbody>
 
             </table>
             <table-wrap-foot>
