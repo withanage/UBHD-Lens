@@ -68,12 +68,15 @@ HTMLTableView.Prototype = function () {
         }
 
         // Display caption
+        var labelView = this.createTextPropertyView([this.node.id, 'label'], {
+            classes: 'enum-label'
+        });
+        this.content.appendChild(labelView.render().el);
 
         if (this.node.caption) {
             var captionView = this.createView(this.node.caption);
             this.content.appendChild(captionView.render().el);
         }
-
 
         this.content.appendChild(htmlTable);
 
