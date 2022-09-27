@@ -40,9 +40,10 @@ Functionality for BITS (Book extension for JATS)  is limited and constantly impr
 
 ## Installation
 
-
-
  ```
+
+
+
 # Clone source repository 
 git clone https://github.com/withanage/UBHD-Lens.git
 cd UBHD-Lens
@@ -50,6 +51,7 @@ cd UBHD-Lens
 # Install npm for your distribution e.g. sudo apt-get install npm
 
 # Install gulp
+ rm -rf node_modules; nvm install 8.17.0; nvm use 8.17.0; 
 npm install gulp gulp-sass gulp-uglify browserify gulp-rename through2 path gulp-livereload rename st
 
 #  install submodues
