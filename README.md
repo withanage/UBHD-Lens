@@ -51,11 +51,12 @@ cd UBHD-Lens
 # Install npm for your distribution e.g. sudo apt-get install npm
 
 # Install gulp
- rm -rf node_modules; nvm install 8.17.0; nvm use 8.17.0; 
+rm -rf node_modules; nvm install 8.17.0; nvm use 8.17.0; 
 npm install gulp gulp-sass gulp-uglify browserify gulp-rename through2 path gulp-livereload rename st
-
-#  install submodues
 npm install
+npm rebuild node-sass
+gulp
+
 
  ```
 
