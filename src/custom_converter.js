@@ -102,15 +102,15 @@ CustomConverter.Prototype = function () {
   // Resolve figure urls
   // --------
   //
-  /*
-
-    this.enhanceFigure = function(state, node, element) {
-      var graphic = element.querySelector("graphic");
+  this.enhanceFigure = function(state, node, element) {
+    var graphic = element.querySelector("graphic");
+    if (graphic) {
       var url = graphic.getAttribute("xlink:href");
-      node.url = this.resolveURL(state, url);
-    };
-
-  */
+      if (url) {
+        node.url = this.resolveURL(state, url);
+      }
+    }
+  };
 
   // Example url to JPG: http://cdn.elifesciences.org/elife-articles/00768/svg/elife00768f001.jpg
   /*
@@ -277,11 +277,69 @@ CustomConverter.Prototype = function () {
     // Update the document node
     doc.set(['publication_info', 'subjects'], pubInfoNode.subjects);
   };
+
+  // Handle fig-group elements by processing the individual figures inside them
+  this.figureGroup = function(state, figGroup) {
+    var figures = figGroup.querySelectorAll("fig");
+    var nodes = [];
+    for (var i = 0; i < figures.length; i++) {
+      var figNode = this.figure(state, figures[i]);
+      if (figNode) {
+        nodes.push(figNode);
+      }
+    }
+    return nodes;
+  };
+
+  // Override paragraph element handling to support inline figures
+  // Remove fig and fig-group from ignored elements
+  this.ignoredParagraphElements = {
+    "comment": true,
+    "supplementary-material": true,
+    "media": true,
+  };
+
+  // Add fig and fig-group to accepted paragraph elements so they appear inline
+  this.acceptedParagraphElements = {
+    "boxed-text": {handler: "boxedText"},
+    "disp-quote": {handler: "quoteText"},
+    "list": {handler: "list"},
+    "disp-formula": {handler: "formula"},
+    "speech": {handler: "speechText"},
+    "table-wrap": {handler: "tableWrap"},
+    "fig": {handler: "figure"},
+    "fig-group": {handler: "figureGroup"}
+  };
+
+  // Override resolveURL to handle both HTTP and HTTPS URLs
+  this.resolveURL = function(state, url) {
+    if (!url) return "";
+    // Return absolute URLs (both http and https)
+    if (url.match(/^https?:\/\//)) return url;
+    // For relative URLs, prepend the baseURL
+    return [
+      state.options.baseURL || "",
+      url
+    ].join('');
+  };
+
+  // Override viewMapping to show figures inline in content instead of figures panel
+  this.viewMapping = {
+    "box": "content",
+    "supplement": "figures",
+    "figure": "content",  // Changed from "figures" to "content" for inline display
+    "video": "figures"
+  };
 };
 
 
 CustomConverter.Prototype.prototype = LensConverter.prototype;
 CustomConverter.prototype = new CustomConverter.Prototype();
 CustomConverter.prototype.constructor = CustomConverter;
+
+// Add fig-group handler to support figures inside fig-group elements
+CustomConverter.prototype._bodyNodes["fig-group"] = function(state, child) {
+  return this.figureGroup(state, child);
+};
 
 module.exports = CustomConverter;
