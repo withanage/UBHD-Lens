@@ -30,3 +30,8 @@
 .altmetrics-panel .altmetrics {
   padding: 20px;
 }
+
+// Enable horizontal scrolling for content surface
+.article .document .surface.content {
+  overflow-x: auto !important;
+}
