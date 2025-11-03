@@ -204,32 +204,78 @@ CustomConverter.Prototype = function () {
     for (var j = 0; j < cells.length; j++) {
       var tds = {};
       var cell = cells[j];
-      var childNodes = cell.childNodes;
 
-      for (var k = 0; k < childNodes.length; k++) {
-        var child = childNodes[k];
-        tds[k] = {};
+      // Check if cell has p elements
+      var hasParagraphs = false;
+      for (var m = 0; m < cell.childNodes.length; m++) {
+        if (cell.childNodes[m].nodeName === 'p') {
+          hasParagraphs = true;
+          break;
+        }
+      }
 
-        if (child.nodeName === '#text') {
-          var textContent = child.data.trim();
-          if (textContent.length > 0) {
-            var p = document.createElement('p');
-            var t = document.createTextNode(textContent);
-            p.appendChild(t);
-            tds[k].nodes = this.paragraphGroup(state, p);
-          }
-        } else if (child.nodeName === 'p') {
-          tds[k].nodes = this.paragraphGroup(state, child);
+      if (hasParagraphs) {
+        // Process p elements directly
+        var pElements = cell.querySelectorAll('p');
+        for (var k = 0; k < pElements.length; k++) {
+          tds[k] = {};
+          tds[k].nodes = this.paragraphGroup(state, pElements[k]);
+          tds[k].attributes = cell.attributes;
+          tds[k].isHeader = isHeader;
+        }
+      } else {
+        // Wrap all cell content in a paragraph for processing
+        var p = document.createElement('p');
+
+        // Clone all child nodes into the paragraph
+        for (var k = 0; k < cell.childNodes.length; k++) {
+          var clonedNode = cell.childNodes[k].cloneNode(true);
+          p.appendChild(clonedNode);
         }
 
-        tds[k].attributes = cell.attributes;
-        tds[k].isHeader = isHeader; // Mark if this is a header cell
+        // Only process if there's content
+        if (p.childNodes.length > 0) {
+          tds[0] = {};
+          tds[0].nodes = this.paragraphGroup(state, p);
+          tds[0].attributes = cell.attributes;
+          tds[0].isHeader = isHeader;
+        }
       }
 
       trs[j] = tds;
     }
 
     return trs;
+  };
+
+  // Override enhancePublicationInfo to extract subjects from article-categories
+  this.enhancePublicationInfo = function(state, pubInfoNode) {
+    var doc = state.doc;
+    var article = state.xmlDoc.querySelector("article");
+
+    // Extract subjects from article-categories
+    var articleCategories = article.querySelector("article-categories");
+    if (articleCategories) {
+      var subjectGroups = articleCategories.querySelectorAll("subj-group");
+      var subjects = [];
+
+      for (var i = 0; i < subjectGroups.length; i++) {
+        var subjectElements = subjectGroups[i].querySelectorAll("subject");
+        for (var j = 0; j < subjectElements.length; j++) {
+          var subjectText = subjectElements[j].textContent.trim();
+          if (subjectText && subjects.indexOf(subjectText) === -1) {
+            subjects.push(subjectText);
+          }
+        }
+      }
+
+      if (subjects.length > 0) {
+        pubInfoNode.subjects = subjects;
+      }
+    }
+
+    // Update the document node
+    doc.set(['publication_info', 'subjects'], pubInfoNode.subjects);
   };
 };
 
