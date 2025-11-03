@@ -147,6 +147,90 @@ CustomConverter.Prototype = function () {
     node.poster = "http://api.elifesciences.org/v2/articles/"+state.doc.id+"/media/file/"+name+".jpg";
   };
    **/
+
+  // Override tableWrap to handle thead and tbody properly
+  this.tableWrap = function(state, tableWrap) {
+    var doc = state.doc;
+    var label = tableWrap.querySelector("label");
+    var table = tableWrap.querySelector("table");
+
+    var content = {};
+    var rowIndex = 0;
+
+    // Process thead rows first
+    var thead = table.querySelector("thead");
+    if (thead) {
+      var theadRows = thead.querySelectorAll("tr");
+      for (var i = 0; i < theadRows.length; i++) {
+        var row = this.processTableRow(state, theadRows[i], true);
+        content[rowIndex] = row;
+        rowIndex++;
+      }
+    }
+
+    // Process tbody rows
+    var tbody = table.querySelector("tbody");
+    var bodyRows = tbody ? tbody.querySelectorAll("tr") : table.querySelectorAll("tr");
+    for (var i = 0; i < bodyRows.length; i++) {
+      // Skip rows that are already processed in thead
+      if (thead && bodyRows[i].parentNode === thead) continue;
+      var row = this.processTableRow(state, bodyRows[i], false);
+      content[rowIndex] = row;
+      rowIndex++;
+    }
+
+    var tableNode = {
+      "id": state.nextId("table"),
+      "source_id": tableWrap.getAttribute("id"),
+      "type": "table",
+      "title": "",
+      "label": label ? label.textContent : "",
+      "children": content,
+      "table_attributes": table.attributes,
+      "caption": null,
+      footers: [],
+    };
+
+    this.extractTableCaption(state, tableNode, tableWrap);
+    doc.create(tableNode);
+    return tableNode;
+  };
+
+  // Helper method to process a single table row
+  this.processTableRow = function(state, tr, isHeader) {
+    var trs = {};
+    var cells = tr.children; // Get all td or th elements
+
+    for (var j = 0; j < cells.length; j++) {
+      var tds = {};
+      var cell = cells[j];
+      var childNodes = cell.childNodes;
+
+      for (var k = 0; k < childNodes.length; k++) {
+        var child = childNodes[k];
+        tds[k] = {};
+
+        if (child.nodeName === '#text') {
+          var textContent = child.data.trim();
+          if (textContent.length > 0) {
+            var p = document.createElement('p');
+            var t = document.createTextNode(textContent);
+            p.appendChild(t);
+            tds[k].nodes = this.paragraphGroup(state, p);
+          }
+        } else if (child.nodeName === 'p') {
+          tds[k].nodes = this.paragraphGroup(state, child);
+        }
+
+        tds[k].attributes = cell.attributes;
+        tds[k].isHeader = isHeader; // Mark if this is a header cell
+      }
+
+      trs[j] = tds;
+    }
+
+    return trs;
+  };
 };
 
 

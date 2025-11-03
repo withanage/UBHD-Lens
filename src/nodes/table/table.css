@@ -28,10 +28,15 @@
   white-space: nowrap;
 }
 
-.gitter-tabelle td {
+.gitter-tabelle td, .gitter-tabelle th {
   border: 1px solid lightgray;
   border-collapse: collapse;
   padding: 3px; }
+
+.gitter-tabelle th {
+  font-weight: bold;
+  background-color: #f5f5f5;
+  text-align: center; }
 
 /** Layout Daten-Tabelle Issue Nr. 58
  für heiUP auskommentiert, um mehrspaltigen Satz ohne Färbung zu ermöglichen, - neues default ist layout-tabelle, deshalb testweise wieder einkommentiert - 07.08. voe**/
@@ -51,6 +56,11 @@
 .daten-tabelle tr:nth-child(odd) td:empty {
   background-color: #f8f8f8; }
 
-.daten-tabelle td {
+.daten-tabelle td, .daten-tabelle th {
   border-right: 1px solid #f8f8f8;
   padding: 10px; }
+
+.daten-tabelle th {
+  font-weight: bold;
+  background-color: #e8e8e8;
+  text-align: center; }

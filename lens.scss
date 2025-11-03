@@ -1,32 +1,32 @@
 /* Lens Base styles */
-@import 'node_modules/lens/article/nodes/text/text';
-@import 'node_modules/lens/article/nodes/paragraph/paragraph';
-@import 'node_modules/lens/article/nodes/heading/heading';
-@import 'node_modules/lens/article/nodes/list/list';
-@import 'node_modules/lens/article/nodes/image/image';
-@import 'node_modules/lens/article/nodes/codeblock/codeblock';
-@import 'node_modules/lens/article/nodes/cover/cover';
-@import 'node_modules/lens/article/nodes/supplement/supplement';
-@import 'node_modules/lens/article/nodes/box/box';
-@import 'node_modules/lens/article/nodes/quote/quote';
-@import 'node_modules/lens/article/nodes/citation/citation';
-@import 'node_modules/lens/article/nodes/definition/definition';
-@import 'node_modules/lens/article/nodes/figure/figure';
-@import 'src/nodes/table/table';
-@import 'node_modules/lens/article/nodes/video/video';
-@import 'node_modules/lens/article/nodes/caption/caption';
-@import 'node_modules/lens/article/nodes/contributor/contributor';
-@import 'node_modules/lens/article/nodes/publication_info/publication_info';
-@import 'src/nodes/sec_meta/sec_meta';
-@import 'node_modules/lens/article/nodes/footnote/footnote';
-@import 'node_modules/lens/article/nodes/footnote_reference/footnote_reference';
-@import 'node_modules/lens/styles/surface';
-@import 'node_modules/lens/styles/reader';
-@import 'node_modules/lens/styles/lens';
+@use 'node_modules/lens/article/nodes/text/text' as *;
+@use 'node_modules/lens/article/nodes/paragraph/paragraph' as *;
+@use 'node_modules/lens/article/nodes/heading/heading' as *;
+@use 'node_modules/lens/article/nodes/list/list' as *;
+@use 'node_modules/lens/article/nodes/image/image' as *;
+@use 'node_modules/lens/article/nodes/codeblock/codeblock' as *;
+@use 'node_modules/lens/article/nodes/cover/cover' as *;
+@use 'node_modules/lens/article/nodes/supplement/supplement' as *;
+@use 'node_modules/lens/article/nodes/box/box' as *;
+@use 'node_modules/lens/article/nodes/quote/quote' as *;
+@use 'node_modules/lens/article/nodes/citation/citation' as *;
+@use 'node_modules/lens/article/nodes/definition/definition' as *;
+@use 'node_modules/lens/article/nodes/figure/figure' as *;
+@use 'src/nodes/table/table' as *;
+@use 'node_modules/lens/article/nodes/video/video' as *;
+@use 'node_modules/lens/article/nodes/caption/caption' as *;
+@use 'node_modules/lens/article/nodes/contributor/contributor' as *;
+@use 'node_modules/lens/article/nodes/publication_info/publication_info' as *;
+@use 'src/nodes/sec_meta/sec_meta' as *;
+@use 'node_modules/lens/article/nodes/footnote/footnote' as *;
+@use 'node_modules/lens/article/nodes/footnote_reference/footnote_reference' as *;
+@use 'node_modules/lens/styles/surface' as *;
+@use 'node_modules/lens/styles/reader' as *;
+@use 'node_modules/lens/styles/lens' as *;
 
 
 // Custom styles
-@import 'src/nodes/speech/speech';
+@use 'src/nodes/speech/speech' as *;
 .altmetrics-panel .altmetrics {
   padding: 20px;
 }

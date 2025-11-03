@@ -17,7 +17,7 @@ HTMLTableView.Prototype = function () {
 
 
         NodeView.prototype.render.call(this);
-        var childView, childViewEl, htmlTable, row,  td;
+        var childView, childViewEl, htmlTable, row,  cell;
         htmlTable = document.createElement('table');
         var attrs = this.node.properties.table_attributes;
         if (attrs.length > 0) {
@@ -35,34 +35,64 @@ HTMLTableView.Prototype = function () {
 
         var tr, i, j, k;
         var rows = this.node.getChildrenIds();
+        var thead = null;
+        var tbody = null;
 
         if (rows !== undefined) {
             for (var r in rows) {
                 row = rows[r];
                 tr = document.createElement('tr');
+                var isHeaderRow = false;
+
                 for (i in row) {
-                    td = document.createElement('td');
-                    var cell = row[i];
-                    for (j in cell) {
-                        var cell_nodes = cell[j].nodes;
-                        var attr = cell[j].attributes;
+                    var cellData = row[i];
+                    // Check if this is a header cell
+                    var isHeader = false;
+                    for (j in cellData) {
+                        if (cellData[j].isHeader) {
+                            isHeader = true;
+                            isHeaderRow = true;
+                            break;
+                        }
+                    }
+
+                    // Create th or td based on header flag
+                    cell = document.createElement(isHeader ? 'th' : 'td');
+
+                    for (j in cellData) {
+                        var cell_nodes = cellData[j].nodes;
+                        var attr = cellData[j].attributes;
                         if (cell_nodes !== undefined) {
                             for (k = 0; k < cell_nodes.length; k++) {
                                 childView = this.createChildView(cell_nodes[k].id);
                                 childViewEl = childView.render().el;
-                                td.appendChild(childViewEl);
+                                cell.appendChild(childViewEl);
 
                             }
                             for (var m=0; m < attr.length; m++) {
-                                td.setAttribute(attr[m].nodeName, attr[m].nodeValue);
+                                cell.setAttribute(attr[m].nodeName, attr[m].nodeValue);
 
                             }
                         }
 
 
                     }
-                    tr.appendChild(td);
-                    htmlTable.appendChild(tr);
+                    tr.appendChild(cell);
+                }
+
+                // Add row to thead or tbody
+                if (isHeaderRow) {
+                    if (!thead) {
+                        thead = document.createElement('thead');
+                        htmlTable.appendChild(thead);
+                    }
+                    thead.appendChild(tr);
+                } else {
+                    if (!tbody) {
+                        tbody = document.createElement('tbody');
+                        htmlTable.appendChild(tbody);
+                    }
+                    tbody.appendChild(tr);
                 }
             }
         }
