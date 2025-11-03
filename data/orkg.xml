@@ -1,0 +1,2785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0">
+    <front>
+        <article-meta>
+            <article-categories>
+                <subj-group xml:lang="en">
+                    <subject>Astrophysics and Astronomy</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>The spectrum of highly charged ions (HCI), from laboratory experiments and space
+                    observations.
+                </article-title>
+            </title-group>
+            <contrib-group content-type="author">
+                <contrib contrib-type="person">
+                    <string-name>Enrique Iglesias</string-name>
+                </contrib>
+            </contrib-group>
+            <pub-date date-type="pub" iso-8601-date="
+                            2023-2-19">
+                <day>19</day>
+                <month>2</month>
+                <year>2023</year>
+            </pub-date>
+            <permissions id="permission">
+                <copyright-year>2023</copyright-year>
+                <copyright-holder>Open Research Knowledge Graph</copyright-holder>
+                <license>
+                    <ali:license_ref>http://creativecommons.org/licenses/by-sa/4.0/</ali:license_ref>
+                    <license-p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+                        International License (CC BY-SA 4.0)
+                    </license-p>
+                </license>
+            </permissions>
+        </article-meta>
+    </front>
+    <body id="body">
+        <sec sec-type="">
+            <title>PREFACE About...</title>
+            <p>
+                <bold>About the ORKG</bold>
+                The <bold>OPEN RESERARCH KNOWLEDGE GRAPH (ORKG)</bold>- is a Knowledge Graph that will lunch the
+                classical scientific publication exposure into a bidirectional user-knowledge relation, that is also
+                machine actionable. This more dynamic relation is empowered through structured knowledge capsules called
+                COMPARISONS, provided by users. The users can predigest additional information into existing comparisons
+                and exploit the available possibilities provided by the ORKG platform.
+                <bold>About Smart review (SR)</bold>
+                Smart Reviews (SM) is a document that contains a set of published comparisons in the ORKG. This format
+                allows to integrate, explain and interlink information from the comparisons. It also gives the
+                opportunity to discuss visualizations.
+                <bold>About comparisons</bold>
+                All comparisons have a dark grey column on the left; this column is dedicated to the properties whose
+                object is reported in every CONTRIBUTION -vertical columns-. In the comparisons presented here the
+                structure underlying every contribution (one publication can have more than one contribution) is
+                separated under two major sets of properties: <bold>Has system qualities and Has system
+                measurements</bold>; -<bold>please check on the &quot;graph view&quot;</bold> of any contribution-.
+                Under <bold>Has system qualities</bold>  there is a <bold>glossary of qualities</bold> :Atomic, Plasma
+                and Spectroscopy characteristics, <bold>and quality types</bold>. Under <bold>Has system measurements
+            </bold> there are listed all the measurable quality types appending the word &quot;measurement&quot; .
+            </p>
+            <p>
+                <bold>Structure of comparisons</bold>
+            </p>
+            <p>SYSTEM QUALITIES</p>
+            <table-wrap id="table-1992215a">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>CONTRIBUTION &amp;gt;&amp;gt;--</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <bold>--&amp;gt;Predicate=</bold>
+                            </td>
+                            <td>
+                                <bold>Has system qualities &amp;gt;&amp;gt;--</bold>
+                            </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Atomic characteristics</td>
+                            <td>
+                                <bold>--&amp;gt;&amp;gt;Predicate=</bold>
+                            </td>
+                            <td>
+                                <bold>Has quality type &amp;gt;&amp;gt;--</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Charge state</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Element</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Ionization state</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Isoelectronicity</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Transitions</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Plasma characteristics</td>
+                            <td>
+                                <bold>--&amp;gt;&amp;gt;Predicate=</bold>
+                            </td>
+                            <td>
+                                <bold>Has quality type &amp;gt;&amp;gt;--</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Plasma type</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Spectroscopy characteristics</td>
+                            <td>
+                                <bold>--&amp;gt;&amp;gt;Predicate=</bold>
+                            </td>
+                            <td>
+                                <bold>Has quality type &amp;gt;&amp;gt;--</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Laboratory</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Lamb shift analysis</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>QED analysis</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Spectral range</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Spectral study</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Spectrometer</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Transition energy</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+            <hr/>
+            <p>SYSTEM MEASUREMENTS</p>
+            <table-wrap id="table-7cf833d6">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>CONTRIBUTION &amp;gt;&amp;gt;--</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <bold>--&amp;gt;&amp;gt;Predicate=</bold>
+                            </td>
+                            <td>
+                                <bold>Has system measurements&amp;gt;&amp;gt;--</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Charge state measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Element measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Ionization state measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Isoelectronicity measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Transitions measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Plasma type measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Laboratory measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Lamb shift analysis measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>QED analysis measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Spectral range measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Spectral study measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Spectrometer measurement</td>
+                        </tr>
+                        <tr>
+                            <td><bold>--&amp;gt;</bold>Object
+                                <bold>--&amp;gt;</bold>
+                            </td>
+                            <td>Transition energy measurement</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+
+    </sec>
+    <sec sec-type="">
+        <title>About this Smart Review (SR) : The spectrum originated from highly charged ions (HCI) produced in
+            laboratory experiments, and space observation
+        </title>
+        <p>
+            <p>The broader line of research of this SR is
+                <italic>
+                    <bold>X-ray radiation originated from Highly Charged Ions(HCI)</bold>
+                </italic>
+                . HCIs can be produced in the laboratory as well as observed in the cosmos. The information presented in
+                the SR showcases: observational, experimental, modeling and theoretical, as well as some outlook and
+                review publications. All the publications can fit well within the new field of <bold>X-ray Astronomy
+                </bold> and the general field of <bold>Plasma Spectroscopy.</bold>   This SR is part of a series of
+                three, listed in the table below.
+                <bold>TABLE 1</bold>
+            </p>
+            <table-wrap id="table-5d7243bd">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>TITLE</th>
+                            <th>#Comparisons</th>
+                            <th>#Publications</th>
+                            <th>#Contributions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1- Highly charged ions (HCI) used in fundamental research and state of the art
+                                applications. https://orkg.org/review/R320876
+                            </td>
+                            <td>3</td>
+                            <td>38</td>
+                            <td>38</td>
+                        </tr>
+                        <tr>
+                            <td>2- <bold>The spectrum originated from highly charged ions (HCI) produced in laboratory
+                                experiments, and space observations
+                            </bold> .https://orkg.org/review/R288591
+                            </td>
+                            <td>
+                                <bold>3</bold>
+                            </td>
+                            <td>
+                                <bold>41</bold>
+                            </td>
+                            <td>
+                                <bold>70</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3- Observation of cosmic bodies in the X-ray https://orkg.org/review/R320691</td>
+                            <td>5</td>
+                            <td>58</td>
+                            <td>58</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+            <p>
+                <bold>The spectrum originated from highly charged ions (HCI) produced in laboratory experiments, and
+                    space observations
+                </bold>
+                Transition energies of highly charged ions is a topic of much interest in atomic physics. In the
+                laboratory, the production of HCIs requires high technology plasma sources and precision measurements
+                from dedicated spectrometers. The emission is also of utmost interest for the interpretation of the
+                spectrum from astrophysical sources; hence fundamental for the designing of tasks of recent and future
+                space observatories. Here is the list of four comparisons that present the richness of the HCIs spectrum
+                and highlights the collaboration between laboratory measurements and space observations of cosmic
+                sources.
+                <bold>TABLE 2</bold>
+            </p>
+            <p>| |COMPARISON TITLE | #Publications | #Contributions
+                | ------ | ------ | ------ | ------ |
+                | 1 | Transition energies of highly charged ions (HCI) produced in an electron beam ion trap (EBIT), for
+                the purpose of Quantum Electrodynamic (QED) studies. https://orkg.org/comparison/R221781/| 10 | 13 |
+                | 2 | Transition energies and intensities of transitions on the X-ray spectral range, from highly
+                charged Iron ions (HCI) produced in the laboratory. https://orkg.org/comparison/R246270/| 11 | 12 |
+                | 3 | Transition energies and intensities on the UV and visible spectral range, from highly charged ions
+                (HCI) produced in an electron beam ion trap (EBIT). https://orkg.org/comparison/R246269/| 10 | 13 |
+                | 4 a,b | Comparison of experimental and calculated values of the energy of x-ray in transitions in
+                heliumlike ions a) https://orkg.org/comparison/R191658/ b) https://orkg.org/comparison/R191978/ | 2,2 |
+                14,2 |
+                | 4 c,d | Experimental and calculated values of the energy of x-ray in transitions in heliumlike ions c)
+                https://orkg.org/comparison/R191975/ d) https://orkg.org/comparison/R191976/ | 8,8 | 8,18 |
+                | <bold>NOTE</bold>  | <bold>Only the comparison 4a is shown in this SR. 4b,4c and 4d are related
+                    comparison, with different publication/contribution display.</bold>| | |
+            </p>
+        </p>
+    </sec>
+    <sec sec-type="">
+        <title>Transition energies of highly charged ions (HCI) produced in an electron beam ion trap (EBIT), for the
+            purpose of Quantum Electrodynamic (QED) studies.
+        </title>
+        <p>
+            <p>The precision measurement of wavelengths in hydrogen-like HCIs is complementary to wavelength
+                measurements using neutral hydrogen Phys. Rev. Lett. 92, 230802 – 2004 [@10.1103/PhysRevLett.92.230802].
+                However, with enough spectral resolution the Lamb shift is measurable in Hy- like and He-like where the
+                S states have a dominant presence, hence can probe the finite size of the nucleus. In a quote by
+                [@10.1088/0953-4075/43/7/074021] &quot;….a much lower resolution is required to probe the same physics
+                (or to go beyond it) when working with highly charged ions …. “
+            </p>
+            <p>The comparisons in this SR cover also ions from: Hy-like, He-like, Li-like Na-like, Al-like, Mg-like and
+                Si-like HCIs. Here stands out the Doublet transitions in Na-like ions, produced by the spin-orbit
+                interaction. The Doublet is hard to measure simultaneously for large enough Z, but they are still very
+                interesting because the QED effects also have a strong dependence in Z. “…This measurement tests the
+                predictions of QED for sodium-like ions (D1 and D2 lines at Z=72, 73, 74, and 79.) to more fractional
+                accuracy than even the best results available in hydrogen-like uranium…” In a quote by 2010 JINST 5
+                C10005 [@10.1088/1748-0221/5/10/C10005]
+            </p>
+            <p>This research topic had a rapid growth in the 80s, when the EUV to X-ray spectrum of HCIs -from medium
+                and large Z atoms-, was available in smaller scale experimental set ups. The electron beam ion trap
+                (EBIT) had a dominant role, being an ideal plasma device for line identification due to the negligible
+                influence of the Doppler effect. The following comparison is a sample (see table 2 above) of
+                publications in the period 1983 – 2013 on the problem of relativistic corrections and QED on energy
+                levels of HCIs.
+            </p>
+            <p>
+                <bold>NOTE for the user</bold>
+            </p>
+            <table-wrap id="table-f86b6d89">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>This more recent review in this specific topic, is recommended to the user:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A recent review is recommended to the user: Topical Review: QED tests with highly
+                                charged ions <bold>P Indelicato</bold> 2019 J. Phys. B: At. Mol. Opt. Phys. 52 (2019)
+                                232001 (48pp) [@10.1088/1361-6455/ab42c9 ]
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+        </p>
+    </sec>
+    <sec sec-type="comparison">
+        <title>COMPARISON 1</title>
+        <p>
+            <table-wrap>
+                <label>Transition energies of highly charged ions (HCI) produced in an electron beam ion trap (EBIT),
+                    for the purpose of Quantum Electrodynamic (QED) studies.
+                </label>
+                <caption>
+                    <title>Transition energies of highly charged ions (HCI) is a topic of interest in atomic physics,
+                        that requires high technology plasma sources and precision measurements from dedicated
+                        spectrometers. Here is a comparison of reported transitions in the Extreme UV (EUV) and the
+                        X-ray spectral regions, for the purpose of Quantum Electrodynamic (QED) analysis. The plasma is
+                        produced in an electron beam ion trap (EBIT).
+                    </title>
+                </caption>
+                <table border="1" class="dataframe">
+                    <thead>
+                        <tr style="text-align: right;">
+                            <th></th>
+                            <th>High-Precision Spectroscopic Studies of Lyman alpha Lines of Hydrogenlike Iron: A
+                                Measurement of the 1s Lamb Shift/HCI QED Hy-like Briand 1983
+                            </th>
+                            <th>The use of an electron beam ion trap in the study of highly charged ions/HCI QED Hy-like
+                                Levine 1989
+                            </th>
+                            <th>Precision X-ray Spectroscopy at the NIST Electron-Beam Ion Trap: Resolution of Major
+                                Systematic Error/HCI QED Hy-like Chantler 1999
+                            </th>
+                            <th>Absolute Test of Quantum Electrodynamics for Helium-Like Vanadium/HCI QED He-like
+                                Paterson 2001
+                            </th>
+                            <th>Measurement of the D-line doublet in high-Z highly charged sodiumlike ions/HCI QED
+                                Al-like Gillapsy 2009 3/4
+                            </th>
+                            <th>Measurement of the D-line doublet in high-Z highly charged sodiumlike ions/HCI QED
+                                Mg-like Gillapsy 2009 4/4
+                            </th>
+                            <th>Measurement of the D-line doublet in high-Z highly charged sodiumlike ions/HCI QED
+                                Na-like Gillapsy 2009 1/4
+                            </th>
+                            <th>Measurement of the D-line doublet in high-Z highly charged sodiumlike ions/HCI QED
+                                Si-like Gillapsy 2009 2/4
+                            </th>
+                            <th>X-ray laser spectroscopy of highly charged ions at FLASH/HCI QED Li-like Epp 2010</th>
+                            <th>First measurement of Lyman alpha x-ray lines in hydrogen-like vanadium: results and
+                                implications for precision wavelength metrology and tests of QED/HCI QED Hy-like
+                                Gillapsy 2010
+                            </th>
+                            <th>Testing QED in sodium-like gold and xenon: using atomic spectroscopy and an EBIT to
+                                probe the quantum vacuum/HCI QED Na-like Gillapsy 2010
+                            </th>
+                            <th>Testing Three-Body Quantum Electrodynamics with Trapped Ti ^20+ ions. Evidence for a
+                                Z-dependent Divergence Between Experiment and Calculation/HCI QED He-like Chantler 2012
+                            </th>
+                            <th>Transition energies of the D lines in Na-like ions/HCI QED Na-like Gillapsy 2013</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>research problem</th>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                            <td>Precision analysis of transitions in highly charged ions (HCI)</td>
+                        </tr>
+                        <tr>
+                            <th>research objective</th>
+                            <td>Lamb shift measurement Lyman$${\alpha}$$ lines of Hy-like iron.</td>
+                            <td>Precision energies of Hy-like Ni transitions.</td>
+                            <td>Reducing error budget in the measurement of Hy-like V resonance lines.</td>
+                            <td>Absolute energy and QED contribution He-like Va transitions.</td>
+                            <td>Absolute energy and QED on $$\Delta n=0 $$ in Al-like HCIs</td>
+                            <td>Absolute energy and QED on $$\Delta n=0 $$ in Mg-like HCIs</td>
+                            <td>Absolute energy and QED on D-line doublet in Na-like HCIs</td>
+                            <td>Absolute energy and QED on $$\Delta n=0 $$ in Si-like HCIs</td>
+                            <td>Soft X-ray laser spectroscopy of HCI, relevant to Astrophysics, QED and Standards</td>
+                            <td>Experimentally independent measurements of Hy-like V lines.</td>
+                            <td>Testing of QED measurements in an EBIT in Na-like ions.</td>
+                            <td>Accuracy of QED in He-like Ti, comparison to charge state trends</td>
+                            <td>Absolute energies of the D lines in Na-like HCIs Z=54 to Z=83</td>
+                        </tr>
+                        <tr>
+                            <th>paper type</th>
+                            <td>Experimental</td>
+                            <td>Review</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experiment and Model</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities</th>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/atomic characteristics/has definition</th>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                            <td>Related to the intrinsic properties of the emitting entity: atom, ion, molecule,
+                                metastable,....etc
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/atomic characteristics/has quality type</th>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                            <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Element&lt;SEP&gt;Charge
+                                state
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/charge state measurement/has value</th>
+                            <td>26</td>
+                            <td>28</td>
+                            <td>23</td>
+                            <td>23</td>
+                            <td>73</td>
+                            <td>74</td>
+                            <td>79</td>
+                            <td>72</td>
+                            <td>26</td>
+                            <td>23</td>
+                            <td>54</td>
+                            <td>22</td>
+                            <td>83</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/element measurement/has resource</th>
+                            <td>Iron[Fe]</td>
+                            <td>Nickel[Ni]</td>
+                            <td>Vanadium[V]</td>
+                            <td>Vanadium[V]</td>
+                            <td>Tantalum[Ta]</td>
+                            <td>Tungsten[W]</td>
+                            <td>Gold[Au]</td>
+                            <td>Hafnium[Hf]</td>
+                            <td>Copper[Cu]&lt;SEP&gt;Iron[Fe]</td>
+                            <td>Vanadium[V]</td>
+                            <td>Gold[Au]&lt;SEP&gt;Xenon[Xe]</td>
+                            <td>Titanium[Ti]</td>
+                            <td>Bismuth[Bi]</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/ionization state measurement/has text</th>
+                            <td>Fe XXVI</td>
+                            <td>Ni XXVIII</td>
+                            <td>V XXIII</td>
+                            <td>V XXII</td>
+                            <td>Ta LXI</td>
+                            <td>W LXIII</td>
+                            <td>Au LXVIII</td>
+                            <td>Hf LIX</td>
+                            <td>Fe XXIV</td>
+                            <td>V XXIII</td>
+                            <td>Xe XLIV</td>
+                            <td>Ti XXI</td>
+                            <td>Bi LXXIII</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/isoelectronicity measurement/has resource</th>
+                            <td>Hy-like</td>
+                            <td>Hy-like</td>
+                            <td>Hy-like</td>
+                            <td>He-like</td>
+                            <td>Al-like</td>
+                            <td>Mg-like</td>
+                            <td>Na-like</td>
+                            <td>Si-like</td>
+                            <td>Li-like</td>
+                            <td>Hy-like</td>
+                            <td>Na-like</td>
+                            <td>He-like</td>
+                            <td>Na-like</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/atomic characteristics/has quality type/transitions/has
+                                definition
+                            </th>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                            <td>Properties that further describe the transition involved</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/atomic characteristics/has quality type/transitions/has quality
+                                type
+                            </th>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U) &lt;SEP&gt;Transitions type</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transitions configuration measurement/has text</th>
+                            <td>$$1s (^2S)_{\frac{1}{2}} - 2p(^2P)_{\frac{1}{2}}$$&lt;SEP&gt; $$1s (^2S)_{\frac{1}{2}} -
+                                2p(^2P)_{\frac{3}{2}}$$
+                            </td>
+                            <td>$$1s (^2S)_{\frac{1}{2}} -- 2p(^2P)_{\frac{3}{2}}$$</td>
+                            <td>$$1s (^2S)_{\frac{1}{2}} - 2p(^2P)_{\frac{1}{2}}$$&lt;SEP&gt; $$1s (^2S)_{\frac{1}{2}} -
+                                2p(^2P)_{\frac{3}{2}}$$
+                            </td>
+                            <td>$$1s^2(^1S)\,- \,1s2p(^1P_1) E1,w$$</td>
+                            <td>$$3p_{1/2} - 3d_{3/2}$$</td>
+                            <td>$$3s^2(1/2,1/2)_0 - 3s3p(1/2,3/2)_1 $$</td>
+                            <td>$$2p^63s(^2S) _{\frac{1}{2}} -&gt;2p^63p(^2P) _{\frac{3}{2}}$$</td>
+                            <td>$$3p^2(1/2,1/2)_0 - 3p3d (1/2,3/2)_1 $$</td>
+                            <td>$$1s^22s \; ^2S(1/2,1/2) - 1s^22p \;^2P(1/2,3/2) $$</td>
+                            <td>$$1s\, ^2S(1/2,1/2)$$ - $$2p \,^2P(1/2,3/2)$$</td>
+                            <td>D2 $$2p^63s(^2S) _{\frac{1}{2}} -2p^63p(^2P) _{\frac{3}{2}}$$</td>
+                            <td>$$1s^2(^1S)\,- \,1s2p(^1P_1) E1,w$$</td>
+                            <td>D1 $$2p^63s(^2S) _{\frac{1}{2}} -2p^63p(^2P) _{\frac{1}{2}}$$</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transitions type measurement/has resource</th>
+                            <td>Resonance lines</td>
+                            <td>Resonance lines</td>
+                            <td>Resonance lines</td>
+                            <td>Resonance lines</td>
+                            <td>\Delta n=0, n=3</td>
+                            <td>\Delta n=0, n=3</td>
+                            <td>Doublet D-line {D2}</td>
+                            <td>\Delta n=0, n=3</td>
+                            <td>Resonant fluorescence</td>
+                            <td>Resonance lines</td>
+                            <td>Doublet D-line {D2}</td>
+                            <td>Resonance lines</td>
+                            <td>Doublet D-line{D1}</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/plasma characteristics/has definition</th>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                            <td>Properties that describe the plasma medium</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/plasma characteristics/has quality type</th>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/plasma type measurement/has resource</th>
+                            <td>Ion beam excited foil.</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Soft X-ray beam excited HCI plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/spectroscopy characteristics/has definition</th>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                            <td>Properties that describe the spectroscopic measuring process and/or end results.</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/spectroscopy characteristics/has quality type</th>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                            <td>Lamb shift analysis &lt;SEP&gt;QED analysis &lt;SEP&gt;Transition energy &lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectral
+                                range
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/laboratory measurement/has text</th>
+                            <td>Berkeley Super HILAC</td>
+                            <td>LLNL Original EBIT</td>
+                            <td>NIST - EBIT</td>
+                            <td>NIST - EBIT</td>
+                            <td>NIST - EBIT</td>
+                            <td>NIST - EBIT</td>
+                            <td>NIST - EBIT</td>
+                            <td>NIST - EBIT</td>
+                            <td>Hamburg-FEL- FLASH // Heilderberg - EBIT</td>
+                            <td>NIST - EBIT</td>
+                            <td>NIST - EBIT</td>
+                            <td>NIST - EBIT</td>
+                            <td>NIST - EBIT</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/lamb shift analysis measurement/has binary</th>
+                            <td>true</td>
+                            <td></td>
+                            <td>true</td>
+                            <td>false</td>
+                            <td>false</td>
+                            <td>false</td>
+                            <td>false</td>
+                            <td>false</td>
+                            <td>false</td>
+                            <td>true</td>
+                            <td>true</td>
+                            <td>true</td>
+                            <td>true</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/qed analysis measurement/has binary</th>
+                            <td>true</td>
+                            <td></td>
+                            <td>true</td>
+                            <td>true</td>
+                            <td>true</td>
+                            <td>true</td>
+                            <td>true</td>
+                            <td>true</td>
+                            <td>true</td>
+                            <td>true</td>
+                            <td>true</td>
+                            <td>true</td>
+                            <td>true</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/spectral range measurement/has resource</th>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>EUV</td>
+                            <td>EUV</td>
+                            <td>EUV</td>
+                            <td>EUV</td>
+                            <td>EUV</td>
+                            <td>X-ray</td>
+                            <td>EUV</td>
+                            <td>X-ray</td>
+                            <td>EUV</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/spectrometer measurement/has text</th>
+                            <td>High precision plane-crystal spectrometer</td>
+                            <td>Johan Spectrometer</td>
+                            <td>Curved Crystal spectrometer</td>
+                            <td>Johan Spectrometer</td>
+                            <td>Modified flat field VUV spectrometer</td>
+                            <td>Modified flat field VUV spectrometer</td>
+                            <td>Modified flat field VUV spectrometer</td>
+                            <td>Modified flat field VUV spectrometer</td>
+                            <td>Flat Field EUV</td>
+                            <td>Johan Spectrometer</td>
+                            <td>Modified flat field VUV spectrometer</td>
+                            <td>Curved crystal spectrometer</td>
+                            <td>Modified flat field VUV spectrometer</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transition energy measurement/has uncertainty unit</th>
+                            <td>[eV]</td>
+                            <td></td>
+                            <td>[ppm]</td>
+                            <td>[ppm]</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>[eV]</td>
+                            <td>[eV]</td>
+                            <td>[nm]</td>
+                            <td>[eV]</td>
+                            <td>[eV]</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transition energy measurement/has uncertainty value</th>
+                            <td>0.7&lt;SEP&gt;0.6</td>
+                            <td></td>
+                            <td>25</td>
+                            <td>26.7</td>
+                            <td>0.003</td>
+                            <td>0.0011</td>
+                            <td>0.0015</td>
+                            <td>0.00090</td>
+                            <td>0.00050</td>
+                            <td>0.25</td>
+                            <td>0.0015</td>
+                            <td>0.07</td>
+                            <td>0.0005</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transition energy measurement/has unit</th>
+                            <td>[eV]</td>
+                            <td></td>
+                            <td>[eV]</td>
+                            <td>[eV]</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>[eV]</td>
+                            <td>[eV]</td>
+                            <td>[nm]</td>
+                            <td>[eV]</td>
+                            <td>[eV]</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transition energy measurement/has value</th>
+                            <td>6951.9&lt;SEP&gt;6973.8</td>
+                            <td></td>
+                            <td>5444</td>
+                            <td>5205.10</td>
+                            <td>2.17410</td>
+                            <td>2.27280</td>
+                            <td>1.8066</td>
+                            <td>2.2184</td>
+                            <td>64.54658</td>
+                            <td>5443.95</td>
+                            <td>6.6574</td>
+                            <td>4749.85</td>
+                            <td>6.4547</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+        </p>
+    </sec>
+    <sec sec-type="">
+        <title>Transition energies and intensities of transitions on the X-ray spectral range, from highly charged Iron
+            ions (HCI) produced in the laboratory.
+        </title>
+        <p>
+            <p>Besides iron (Fe) being the most abundant metal in the Universe, Neon-like Fe XVII is the dominant iron
+                ion over a broad temperature range in coronal equilibrium. Its X-ray emission has been observed in a
+                wide range of astrophysical sources. L-shell emission from Fe XVII, -which falls between 9.8 and 17.5 A-
+                , has been observed in supernova remnants , solar active regions, stellar coronae and X-ray binaries;
+                and it has been extensively studied in order to fully exploit its diagnostic potential. Adapted from [@
+                10.1086/305941]
+                Here it is shown relevant laboratory spectrum for Hy-like (Fe XXVI), He-like(Fe XXV), Ne-like (Fe
+                XXVII), Ar-like (Fe IX). Emphasis is made in Dielectronic (DR) transitions (and its ratios) for Hy-like,
+                He-like an Ne-like of Iron (Chandra XRO). DR transitions are a prime candidate to determine electron
+                temperature in hot plasmas. Because of its use in the diagnostics of low- electron density environments,
+                a more recent study case is that of EUV transitions Ar-like Fe IX [@10.3390/ atoms10040115]. Other ions
+                like Fe XVIII – Fe XXV and Fe XII – XIV are also reported. This comparison is a sample (see table 2
+                above) of publications on the study of the spectrum of Iron (Fe) from HCIs, in the period 1993 – 2022
+            </p>
+        </p>
+    </sec>
+    <sec sec-type="comparison">
+        <title>COMPARISON 2</title>
+        <p>
+            <table-wrap>
+                <label>Transition energies and intensities of transitions on the X-ray spectral range, from highly
+                    charged Iron ions (HCI) produced in the laboratory
+                </label>
+                <caption>
+                    <title>Transition energies of highly charged ions is a topic of much interest in atomic physics. In
+                        the laboratory, the observation of the emitted radiation requires high technology plasma sources
+                        and precision measurements from dedicated spectrometers. The spectrum emitted by HCIs is also of
+                        utmost interest for the interpretation of astrophysical sources; therefore, fundamental for
+                        recent and future space observatories. Here is a comparison of the reported spectrum originating
+                        from Iron HCIs produced in the laboratory. The majority are from electron beam ion traps (EBIT).
+                    </title>
+                </caption>
+                <table border="1" class="dataframe">
+                    <thead>
+                        <tr style="text-align: right;">
+                            <th></th>
+                            <th>High-resolution measurements, line identification, and spectral modeling of K-alpha
+                                transitions in Fe XVIII-Fe XXV/HCI FE X-like Beiersdorfer 1993
+                            </th>
+                            <th>Laboratory Measurements and Modeling of the Fe XVII X‐Ray Spectrum/HCI FE Ne-like Brown
+                                1998
+                            </th>
+                            <th>Emission-Line Intensity Ratios in Fe XVII Observed with a Microcalorimeter on an
+                                Electron Beam Ion Trap/HCI FE Ne-like Laming 2000
+                            </th>
+                            <th>Diagnostic Utility of the Relative Intensity of 3C to 3D in Fe XVII/HCI Ne-like Brown
+                                2001
+                            </th>
+                            <th>Laboratory Measurements of the Relative Intensity of the 3s → 2p and 3d → 2p Transitions
+                                in Fe XVII/HCI FE Ne-like Beiersdorfer 2002
+                            </th>
+                            <th>Fe XVII X-RAY LINE RATIOS FOR ACCURATE ASTROPHYSICAL PLASMA DIAGNOSTICS/HCI FE Ne-like
+                                Gillapsy 2011
+                            </th>
+                            <th>An unexpectedly low oscillator strength as the origin of the Fe xvii emission
+                                problem/HCI FE Ne-like Bernitt 2012
+                            </th>
+                            <th>Laboratory measurements of the dielectronic recombination satellite transitions of
+                                He-like Fe XXV and H-like Fe XXVI/HCI CALFE He-like Gu 2012
+                            </th>
+                            <th>Laboratory measurements of the dielectronic recombination satellite transitions of
+                                He-like Fe XXV and H-like Fe XXVI/HCI CALFE Hy-like Gu 2012
+                            </th>
+                            <th>Temperature Measurements Using the Dielectronic Satellite Lines of Fe xvii/HCI FE
+                                Ne-like Beiersdorfer 2018
+                            </th>
+                            <th>Laboratory Calibrations of Fe XII - XIV Line-intensity Ratios for Electron Density
+                                Diagnostics/HCI FE P to Al-like Arthanayaka 2020
+                            </th>
+                            <th>Laboratory Search for Fe IX Solar Diagnostic Lines Using an Electron Beam Ion Trap/HCI
+                                FE Ar-like Trabert 2022
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>research problem</th>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                            <td>Spectroscopy in highly charged Iron ions</td>
+                        </tr>
+                        <tr>
+                            <th>research objective</th>
+                            <td>Identifications and absolute energies $$K_\alpha$$ in HCIs</td>
+                            <td>Identifications and absolute energies of Fe XVII transitions</td>
+                            <td>Study of the origin of the FeXVII line intensity ratios.</td>
+                            <td>Line intensity measurement of Fe XVII lines , in the presence of F XVI and Fe XV</td>
+                            <td>FeXVII line intensities in comparison with satellite observations.</td>
+                            <td>Study of Fe XVII transitions,, for astrophysical diagnostics.</td>
+                            <td>Study of He-like FeXVII spectrum, using a short laser pulse</td>
+                            <td>Study of Fe XXV and Fe XXVI, in an EBIT using X-ray calorimeter</td>
+                            <td>Study of Fe XXV and Fe XXVI, in an EBIT using X-ray calorimeter</td>
+                            <td>Relative intensities of F XVII lines for electron temperatue diagnostics</td>
+                            <td>Relative intensities of F XII - XIV lines for electron density diagnostics</td>
+                            <td>Study of the relative intensities of F IX lines for electron density diagnostics</td>
+                        </tr>
+                        <tr>
+                            <th>paper type</th>
+                            <td>Experiment and Model</td>
+                            <td>Experiment and Model</td>
+                            <td>Experiment and Model</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental and Observational</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Observational and Modeling</td>
+                            <td>Experiment and Model</td>
+                            <td>Experiment and Model</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities</th>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Plasma characteristics&lt;SEP&gt;Spectroscopy characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Atomic characteristics&lt;SEP&gt;Spectroscopy characteristics&lt;SEP&gt;Plasma
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/atomic characteristics/partition label</th>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/atomic characteristics/has quality type</th>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/charge state measurement/has value</th>
+                            <td>26</td>
+                            <td>26</td>
+                            <td>26</td>
+                            <td>26</td>
+                            <td>26</td>
+                            <td>26</td>
+                            <td>26</td>
+                            <td>26</td>
+                            <td>26</td>
+                            <td>26</td>
+                            <td>26</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/element measurement/has resource</th>
+                            <td>Iron[Fe]</td>
+                            <td>Iron[Fe]</td>
+                            <td>Iron[Fe]</td>
+                            <td>Iron[Fe]</td>
+                            <td>Iron[Fe]</td>
+                            <td>Iron[Fe]</td>
+                            <td>Iron[Fe]</td>
+                            <td>Iron[Fe]</td>
+                            <td>Iron[Fe]</td>
+                            <td>Iron[Fe]</td>
+                            <td>Iron[Fe]</td>
+                            <td>Iron[Fe]</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/ionization state measurement/has text</th>
+                            <td>Fe XVII to Fe XXV</td>
+                            <td>Fe XVII</td>
+                            <td>Fe XVII</td>
+                            <td>Fe XVII</td>
+                            <td>Fe XVII</td>
+                            <td>Fe XVII</td>
+                            <td>Fe XVII</td>
+                            <td>Fe XXV</td>
+                            <td>Fe XXVI</td>
+                            <td>Fe XVII</td>
+                            <td>Fe XII - Fe XIV</td>
+                            <td>Fe IX</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/isoelectronicity measurement/has resource</th>
+                            <td>Ne-like to He-like</td>
+                            <td>Ne-like</td>
+                            <td>Ne-like</td>
+                            <td>Ne-like</td>
+                            <td>Ne-like</td>
+                            <td>Ne-like</td>
+                            <td>Ne-like</td>
+                            <td>He-like</td>
+                            <td>Hy-like</td>
+                            <td>Ne-like</td>
+                            <td>O-like to Al-like</td>
+                            <td>Ar-like</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/atomic characteristics/has quality type/transitions/has quality
+                                type
+                            </th>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transitions configuration measurement/has text</th>
+                            <td>$$1s^q2s^r2p^s $$</td>
+                            <td>$$n=2\; -\;3≤n≤11 \;\;2p^6 -1s^2 2s^r2p^s 3l$$</td>
+                            <td>$$2p^6 - 2p^5\{3d,3s\}$$</td>
+                            <td>$$ 2p^6 1S_0 - 2p^5_{1/2} \;\{3d_{3/2} \;^1P_1 ,3d_{5/2} \;^3D_1 \}\;\;$$ (3C and 3D)
+                            </td>
+                            <td>$$2s^22p^6 - 2s^22p^5\{ 3s,3d\} \;\;$$,3C,3D,3E,3F,3G</td>
+                            <td>$$ 2s^22p^6 - 2s^22p^5 \;\{3s,3d \}\; $$,3C,3D,3E,3F,3G,3H</td>
+                            <td>$$2p^6 - 2p^5\;\{3s,3d\} \;$$,3C,3D</td>
+                            <td>$$K_\alpha,K_\beta, K_\gamma, K_\delta\;$$ and DR satellites $$1s^2\,n´l – 1snp\,n´l$$
+                            </td>
+                            <td>$$Ly_\alpha$$ and DR satellites $$1s\,nl -2p\,nl $$</td>
+                            <td>$$1s^2\;2s^\;2p^6\;4l´ - 1s^2\;2s^2\;2p^5_{1/2}\; 3d_{3/2}\;\; 4l´$$</td>
+                            <td>n=3 $$\Delta n=0$$</td>
+                            <td>$$3p^6 \,^1S_0 \,-\, 3p^53d \;^3P^o_ {1,2}\,$$</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transitions type measurement/has text</th>
+                            <td>K$$_\alpha$$</td>
+                            <td>L Shell transiitions</td>
+                            <td>L Shell transiitions</td>
+                            <td>Resonance and Intercombination lines</td>
+                            <td>Resonance and Intercombination lines .</td>
+                            <td>Resonance and Intercombination lines</td>
+                            <td>Resonance and Intercombination lines .</td>
+                            <td>Dielectronic and collisional excited, resonance and satellite lines</td>
+                            <td>Dielectronic and collisional excited, resonance and satellite lines</td>
+                            <td>Dielectronic satellites</td>
+                            <td>See table</td>
+                            <td>Intercombination and Forbiden M2 transition</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/plasma characteristics/partition label</th>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/plasma characteristics/has quality type</th>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/plasma type measurement/has resource</th>
+                            <td>Fusion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>X-ray FEL, EBIT plasma target</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Plasma from binary star in Capella</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/spectroscopy characteristics/partition label</th>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/spectroscopy characteristics/has quality type</th>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Spectral study&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/detector measurement/has text</th>
+                            <td>Multiwire Proportional Counter in He</td>
+                            <td>Single-wire proportional counter</td>
+                            <td>Microcalorimeter</td>
+                            <td>Position sensitive proportional counter</td>
+                            <td>CCD TES Microcalorimeter</td>
+                            <td>Microcalorimeter</td>
+                            <td>High-purity Germanium detector</td>
+                            <td>Goddard XRS Calorimeter</td>
+                            <td>Goddard XRS Calorimeter</td>
+                            <td>CCD Array</td>
+                            <td>Cryogenic CCD camera</td>
+                            <td>Cryogenic CCD camera</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/laboratory measurement/has text</th>
+                            <td>PLT - Princeton</td>
+                            <td>EBIT facility LLNL</td>
+                            <td>EBIT-NIST</td>
+                            <td>EBITII-LLNL</td>
+                            <td>EBITII - LLNL</td>
+                            <td>EBIT-NIST</td>
+                            <td>LCLS-X-ray FEL @ SLAC California and EBIT-FLASH @Heildeerberg</td>
+                            <td>EBIT-1 LLNL</td>
+                            <td>EBIT-1 LLNL</td>
+                            <td>Chandra X-ray team</td>
+                            <td>EBIT-1 LLNL</td>
+                            <td>EBIT-1 / Super EBIT LLNL</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/spectral range measurement/has resource</th>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>X-ray</td>
+                            <td>EUV / Soft X-ray</td>
+                            <td>EUV / Soft X-ray</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/spectral range measurement/has text</th>
+                            <td>1.840 - 1.940</td>
+                            <td>9.8 - 17.5</td>
+                            <td>15.01 - 7.10</td>
+                            <td>15.01 &amp; 15.26</td>
+                            <td>14 - 18</td>
+                            <td>15 - 17</td>
+                            <td>810 - 830</td>
+                            <td>7600 to 8500</td>
+                            <td>6880 - 7020</td>
+                            <td>14.90 - 15.15</td>
+                            <td>18.5 - 27.6</td>
+                            <td>23.7 - 26.2</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/spectral range measurement/has unit</th>
+                            <td>[Å]</td>
+                            <td>[Å]</td>
+                            <td>[Å]</td>
+                            <td>[Å]</td>
+                            <td>[Å]</td>
+                            <td>[Å]</td>
+                            <td>[eV]</td>
+                            <td>[eV]</td>
+                            <td>[eV]</td>
+                            <td>[Å]</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/spectral study measurement/has text</th>
+                            <td>Line identification and intensities</td>
+                            <td>Line identification and intensities</td>
+                            <td>Relative intensities</td>
+                            <td>Relative intensities</td>
+                            <td>Relative intensities</td>
+                            <td>Relative intensities</td>
+                            <td>Oscillation strength ratios</td>
+                            <td>Line identification</td>
+                            <td>Line identification</td>
+                            <td>Plasma diagnostic</td>
+                            <td>Line identification and intensities</td>
+                            <td>Line identification and intensities</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/spectrometer measurement/has text</th>
+                            <td>Johan type crstal spectrometer</td>
+                            <td>Flat crystal spectrometer</td>
+                            <td>Crystal spectrometer</td>
+                            <td>Flat crystal spectrometer</td>
+                            <td>Flat field grazing Incidence spectrometer</td>
+                            <td>Microcalorimeter spectrometer</td>
+                            <td>FEL energy scan</td>
+                            <td>XRS Calorimeter</td>
+                            <td>XRS Calorimeter</td>
+                            <td>High Energy Transmission Grating Spectrometer</td>
+                            <td>HiGGS grazing incidencespectrometer</td>
+                            <td>LoWEUS and HiGGS spectrometers</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+        </p>
+    </sec>
+    <sec sec-type="">
+        <title>Transition energies and intensities on the UV and visible spectral range, from highly charged ions (HCI)
+            produced in an electron beam ion trap (EBIT).
+        </title>
+        <p>
+            <p>This unexpected radiation originates from forbidden transitions of the ground state of HCIs. In 1991 <bold>
+                U. Feldman, P. Indelicato, and J. Sugar
+            </bold> pointed out that a particular sequence of magnetic dipole (M1) transitions for the Ti-like ions,
+                Xe+32 through U+70, remain relatively constant in the 320–400-nm range[<italic>Magnetic dipole line from
+                    U lxxi ground-term levels predicted at 3200 Å</italic>J. Opt. Soc. Am. B 8(1), 3-5 (1991)
+                [@10.1364/JOSAB.8.000003]. This wavelength scaling behavior is very suitable for diagnostics in high
+                energy tokomaks due to its characteristic high ion temperature and low electron density; the later being
+                a favorable condition for the population of the ground state levels. For its very small energy in
+                comparison to the binding energies and its convenient wavelength region, these lines are also suitable
+                for high sensitive tests of atomic structure of HCIs. Discussion partially quoted and adapted
+                from <bold>Morgan et a.</bold>l 1995 <italic>Observation of Visible and UV Magnetic Dipole Transitions
+                    in Highly Charged Xenon and Barium</italic>, Phys. Rev. Lett. 74, 1716
+                [@10.1103/PhysRevLett.74.1716]
+            </p>
+            <p>Besides Ti-like ions other isoelectronicities are referred in this review: Va-like, P-like, Si-like,
+                B-like, and a very extensive compendium of Ar-like to Kr-like by <bold>J.R. Crespo Lopez-Urrutia et
+                    a</bold>. <italic>Visible spectrum of highly charged ions: The forbidden optical lines of Kr, Xe,
+                    and Ba ions in the Ar I to Kr I isoelectronic sequence
+                </italic> Can. J. Phys. [@10.1139/p02-080].
+            </p>
+            <p>This comparison is a sample (see table 2 above) of publications on the study Transition energies and
+                intensities on the UV and visible spectral range, from highly charged ions (HCI) produced in an electron
+                beam ion trap (EBIT)., in the period 1995 – 2008.
+            </p>
+        </p>
+    </sec>
+    <sec sec-type="comparison">
+        <title>COMPARISON 3</title>
+        <p>
+            <table-wrap>
+                <label>Transition energies and intensities on the UV and visible spectral range, from highly charged
+                    ions (HCI) produced in an electron beam ion trap (EBIT).
+                </label>
+                <caption>
+                    <title>Transition energies of highly charged ions is a topic of much interest in atomic physics. In
+                        the laboratory, the observation of the emitted radiation requires high technology plasma sources
+                        and precision measurements from dedicated spectrometers. The spectrum emitted by HCIs is also of
+                        utmost interest for the interpretation of astrophysical sources; therefore, fundamental for
+                        recent and future space observatories. Here is a comparison of reported spectra in the UV and
+                        visible region, originating from forbidden transitions from the ground state.
+                    </title>
+                </caption>
+                <table border="1" class="dataframe">
+                    <thead>
+                        <tr style="text-align: right;">
+                            <th></th>
+                            <th>Observation of Visible and uv Magnetic Dipole Transitions in Highly Charged Xenon and
+                                Barium/HCI UV-VIS Ti-like Morgan 1995
+                            </th>
+                            <th>Observation of Visible and uv Magnetic Dipole Transitions in Highly Charged Xenon and
+                                Barium/HCI UV-VIS V-like Morgan 1995
+                            </th>
+                            <th>Fabry-Perot spectroscopy of a visible magnetic dipole transition in Ba34+/HCI UV-VIS
+                                Ti-like Adler 1995
+                            </th>
+                            <th>Anomalous Z dependence of a magnetic dipole transition in the Ti I isoelectronic
+                                sequence/HCI UV-VIS Ti-like Serpa 1996
+                            </th>
+                            <th>Kr spectra from an electron-beam ion trap: 300 nm to 460 nm/HCI UV-VIS Al-like Serpa
+                                1997
+                            </th>
+                            <th>Forbidden Transitions in the Visible Spectra of an Electron Beam Ion Trap (EBIT)/HCI
+                                UV-VIS Ti-like Trabert 1998
+                            </th>
+                            <th>Forbidden Transitions in the Visible Spectra of an Electron Beam Ion Trap (EBIT)/HCI
+                                UV-VIS Si-like Trabert 1998
+                            </th>
+                            <th>Lifetime measurements in the ground configuration of and using an electron beam ion
+                                trap/HCI UV-VIS B-like Serpa 1998
+                            </th>
+                            <th>Lifetime measurements in the ground configuration of and using an electron beam ion
+                                trap/HCI UV-VIS Si-like Serpa 1998
+                            </th>
+                            <th>UV light from the ground term of Ti-like ytterbium, tungsten, and bismuth/HCI UV-VIS
+                                Ti-like Porto 2000
+                            </th>
+                            <th>First results from the Freiburg Electron Beam Ion Trap FreEBIT/HCI UV-VIS Si-like Crespo
+                                2001
+                            </th>
+                            <th>Visible spectrum of highly charged ions: The forbidden optical lines of Kr, Xe, and Ba
+                                ions in the Ar I to Kr I isoelectronic sequence/HCI UV-VIS Kr-like Crespo 2002
+                            </th>
+                            <th>The visible spectrum of highly charged ions: A window to fundamental physics/HCI UV-VIS
+                                Outlook Crespo 2008
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>research problem</th>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                            <td>UV Visible spectroscopy in highly charged ions (HCI)</td>
+                        </tr>
+                        <tr>
+                            <th>research objective</th>
+                            <td>Study of new UV-VIS transitions in Highly Ionized atoms.</td>
+                            <td>Study of new UV-VIS transitions in Highly Ionized atoms.</td>
+                            <td>Study of posible new dianostics of magnetic field from M1 lines .</td>
+                            <td>Study of new UV-VIS transitions in HCIs.</td>
+                            <td>Study of new UV-VIS transitions in Kr HCIs.</td>
+                            <td>Forbiden transitions from Highly ionized atoms</td>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>Life times of M1 transitions from Kr and Ar HCIs</td>
+                            <td>Life times of M1 transitions from Ar and Kr HCIs</td>
+                            <td>Measuring M1 transitions from highly ionized Ti-like ions.</td>
+                            <td>Measurement survey of Visible lines in highly ionized ions</td>
+                            <td>Measurement survey of Visible lines in highly ionized ions</td>
+                            <td>Outlook of the relevance of visible transitions in HCIs for applications, laboratory and
+                                astrophysical plasmas.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>paper type</th>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experimental</td>
+                            <td>Experiment and Model</td>
+                            <td>Outlook</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities</th>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                            <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                                characteristics
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/atomic characteristics/partition label</th>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                            <td>$$Atomic\;\; characteristics$$</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/atomic characteristics/has quality type</th>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                            <td>Charge state&lt;SEP&gt;Element&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Transitions</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/charge state measurement/has value</th>
+                            <td>54</td>
+                            <td>54</td>
+                            <td>56</td>
+                            <td>60</td>
+                            <td>36</td>
+                            <td>42</td>
+                            <td>79</td>
+                            <td>18</td>
+                            <td>36</td>
+                            <td>74</td>
+                            <td>36</td>
+                            <td>54</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/element measurement/has resource</th>
+                            <td>Xenon[Xe]</td>
+                            <td>Xenon[Xe]</td>
+                            <td>Barium[Ba]</td>
+                            <td>Neodimium[Nd]</td>
+                            <td>Kripton[Kr]</td>
+                            <td>Molibdenum[Mo]</td>
+                            <td>Gold[Au]</td>
+                            <td>Argon[Ar]</td>
+                            <td>Kripton[Kr]</td>
+                            <td>Ytterbium[Yb]</td>
+                            <td>Kripton[Kr]</td>
+                            <td>Xenon[Xe]</td>
+                            <td>See publication</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/ionization state measurement/has text</th>
+                            <td>Xe XXXIII</td>
+                            <td>Xe XXXII</td>
+                            <td>Ba XXXV</td>
+                            <td>Nd XXXIX</td>
+                            <td>Kr XXII</td>
+                            <td>Mo XXIX</td>
+                            <td>Au LVIII</td>
+                            <td>Ar XIV</td>
+                            <td>Kr XXIII</td>
+                            <td>Yb XLIX</td>
+                            <td>Kr XXIII</td>
+                            <td>Xe XIX to Xe XXXIV</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/isoelectronicity measurement/has resource</th>
+                            <td>Ti-like</td>
+                            <td>Va-like</td>
+                            <td>Ti-like</td>
+                            <td>Ti-like</td>
+                            <td>P-like</td>
+                            <td>Si-like</td>
+                            <td>Ti-like</td>
+                            <td>B-like</td>
+                            <td>Si-like</td>
+                            <td>Ti-like</td>
+                            <td>Si-like</td>
+                            <td>Kr-like to Sc-like</td>
+                            <td>Independent of Z</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/atomic characteristics/has quality type/transitions/has quality
+                                type
+                            </th>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                            <td>Configuration(L-U)&lt;SEP&gt;Transitions type</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transitions configuration measurement/has text</th>
+                            <td>$$3d^4\;^5D_2 - 3d^4\;^5D_3$$</td>
+                            <td>$$3d^5 \;^5G_{7/2} - 3d^5 \;^5G_{9/2} $$</td>
+                            <td>$$3d^4 \;^5D_2 - 3d^4 \;^5D_3$$</td>
+                            <td>$$3d^4\; ^5D_2 - 3d^4\;^5D_3$$</td>
+                            <td>$$3s^23p^3\; ^3D_{3/2} - 3s^23p^3\; ^2P_{5/2} $$</td>
+                            <td>$$3s^23p^2\;^3P_1- 3s^23p^2\;^3P2$$</td>
+                            <td>$$3d^4\; ^5D_2 - \;^5D_3$$</td>
+                            <td>$$2s^22p ^2P_{1/2} -- ^2P_{3/2}$$</td>
+                            <td>$$3s^23p^2 3P_1 -^3P_2 $$</td>
+                            <td>J=2 - 3 ground state $$3d^4$$</td>
+                            <td>J=1 - 2 ground state $$3s^2 3p^2 \{^3P_1 - ^3P_2 \}$$</td>
+                            <td>Configuration $$3s^l \;3p^m \; 3d^n$$$</td>
+                            <td>Forbiden ground state transitions</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transitions type measurement/has text</th>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>M1 ground state forbiden lines</td>
+                            <td>Ground state M1 and E2 forbiden transitions</td>
+                            <td>Forbiden transitions</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/plasma characteristics/partition label</th>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                            <td>$$Plasma\;\; characteristics$$</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/plasma characteristics/has quality type</th>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                            <td>Plasma type</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/plasma type measurement/has resource</th>
+                            <td>Electron beam excited Ion plasma</td>
+                            <td>Electron beam excited Ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Electron beam excited ion plasma</td>
+                            <td>Laboratory and astrophysical plasmas</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/spectroscopy characteristics/partition label</th>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                            <td>$$Spectroscopy\;\;characteristics$$</td>
+                        </tr>
+                        <tr>
+                            <th>has system qualities/spectroscopy characteristics/has quality type</th>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                            <td>Transition energy&lt;SEP&gt;Spectral range&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory&lt;SEP&gt;Detector</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/detector measurement/has text</th>
+                            <td>Photon Counting PMT</td>
+                            <td>Photon Counting PMT</td>
+                            <td>Photon Counting PMT</td>
+                            <td>cooled PMT</td>
+                            <td>cooled PMT</td>
+                            <td>Cryogenic Cooled CCD</td>
+                            <td>Cryogenic Cooled CCD</td>
+                            <td>cooled PMT</td>
+                            <td>cooled PMT</td>
+                            <td>cooled blue PMT</td>
+                            <td>Cooled CCD</td>
+                            <td>Cooled CCD</td>
+                            <td>UV - Vis spectrometer</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/laboratory measurement/has text</th>
+                            <td>EBIT-NIST</td>
+                            <td>EBIT-NIST</td>
+                            <td>EBIT-NIST</td>
+                            <td>EBIT-NIST</td>
+                            <td>EBIT-NIST</td>
+                            <td>SuperEBIT-LLNL</td>
+                            <td>SuperEBIT-LLNL</td>
+                            <td>EBIT-NIST</td>
+                            <td>EBIT-NIST</td>
+                            <td>EBIT-NIST</td>
+                            <td>Freiburg-FreEBIT</td>
+                            <td>EBIT-LLNL</td>
+                            <td>International</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/spectral range measurement/has resource</th>
+                            <td>UV - Visible</td>
+                            <td>UV - Visible</td>
+                            <td>UV - Visible</td>
+                            <td>UV - Visible</td>
+                            <td>UV - Visible</td>
+                            <td>UV - Visible</td>
+                            <td>UV - Visible</td>
+                            <td>UV - Visible</td>
+                            <td>UV - Visible</td>
+                            <td>UV - Visible</td>
+                            <td></td>
+                            <td>Visible</td>
+                            <td>UV - Visible</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/spectrometer measurement/has text</th>
+                            <td>UV - Vis CT spectrometer</td>
+                            <td>UV - Vis CT spectrometer</td>
+                            <td>Fabry-Perot</td>
+                            <td>UV - Vis CT spectrometer</td>
+                            <td>UV - Vis CT spectrometer</td>
+                            <td>Normal Incidence UV</td>
+                            <td>Normal Incidence UV</td>
+                            <td>EBIT-NIST</td>
+                            <td>UV - Vis CT spectrometer</td>
+                            <td>UV - Vis CT spectrometer</td>
+                            <td>UV - Vis CT spectrometer</td>
+                            <td>Prism spectrograph</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transition energy measurement/has unit</th>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>Not reported</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>Not reported</td>
+                            <td>Not reported</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>See table</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transition energy measurement/has value</th>
+                            <td>413.94</td>
+                            <td>396.25</td>
+                            <td></td>
+                            <td></td>
+                            <td>346.47</td>
+                            <td>284.0</td>
+                            <td>353.2</td>
+                            <td></td>
+                            <td></td>
+                            <td>367.64</td>
+                            <td>384.3</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transition energy measurement/has uncertainty unit</th>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>Not reported</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>[nm]</td>
+                            <td>Not reported</td>
+                            <td>Not reported</td>
+                            <td>[nm]</td>
+                            <td>Not reported</td>
+                            <td>Not reported</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>has system measurements/transition energy measurement/has uncertainty value</th>
+                            <td>0.2</td>
+                            <td>0.20</td>
+                            <td></td>
+                            <td>0.2</td>
+                            <td>0.06</td>
+                            <td>0.2</td>
+                            <td>0.2</td>
+                            <td></td>
+                            <td></td>
+                            <td>0.15</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+        </p>
+    </sec>
+    <sec sec-type="">
+        <title>Comparison of experimental and calculated values of the energy of x-ray in transitions in heliumlike
+            ions
+        </title>
+        <p>
+            <p>This research topic had a rapid growth in the 80s. Most of the measurements in this comparison are from
+                EBIT experiments, however earlier measurements performed in accelerators at various large laboratories
+                are also referred in the comparison. The measurements reported are centered in the well know helium like
+                transitions (E1,w) 1s2p 1P1 →1s2, (M2,x) 1s2p 3P2 →1s2 (E1,y) 1s2p 3P1 →1s2 and (M1,z) 1s2s 3S →1s2
+                transitions. from He-like ions of : Fe, Ti, V, Cr, Ge, Ar, Kr.
+            </p>
+            <p>This comparison is a sample (see table 2 above) of publications on the study Comparison of experimental
+                and calculated values of the energy of x-ray in transitions in heliumlike ions, in the period 1982 –
+                2000.
+            </p>
+            <table-wrap id="table-92e87d16">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <bold>Some comments for the user</bold>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>This comparison <bold>(4a)</bold> responds to a different internal structure, however
+                                the glossary shown at the beginning is still valid
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>The comparison shows a survey of experimental and theoretical values – using 14
+                                contributions- of energies of transitions from two compilation publications <bold>Drake
+                                    et al.
+                                </bold> [@10.1139/p88-100] and <bold>Chantler et al.</bold>[@10.1103/PhysRevA.62.042501].
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>There is a second equivalent version of this comparison<bold>(4b)</bold> https://orkg.org/comparison/R191978/
+                                can be found in the ORKG. The later is presented in a format where only two
+                                contributions are shown; the rest are “hidden but accessible”. The intend of this second
+                                version is to display the potions of the ORKG platform.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Other 2 similar comparisons on this topic are the following <bold>(4c,4d)</bold>    https://orkg.org/comparison/R191975/
+                                and https://orkg.org/comparison/R191976/
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+        </p>
+    </sec>
+    <sec sec-type="comparison">
+        <title>COMPARISON 4a</title>
+  
+        <table-wrap>
+            <label>Comparison of experimental and calculated values of the energy of x-ray in transitions in heliumlike
+                ions*
+            </label>
+            <caption>
+                <title>Transition energies of highly ionized atoms, is a topic of interest in atomic physics that
+                    requires precision measurements from high technology plasma sources and dedicated high resolution
+                    x-ray crystal spectrometers. This comparison is a survey experimental and theoretical values of
+                    energies of transitions, from ions in the heliumlike sequence. Two compilation publications were
+                    used Drake et al. 1988 [ https://doi.org/10.1139/p88-100 ] and Chantler et al. 2000 [
+                    https://doi.org/10.1103/PhysRevA.62.042501 ].
+                </title>
+            </caption>
+            <table border="1" class="dataframe">
+                <thead>
+                    <tr style="text-align: right;">
+                        <th></th>
+                        <th>Theoretical energies for the n = 1 and 2 states of the helium isoelectronic sequence up to
+                            Z = 100/Ar XVII Drake 1/2
+                        </th>
+                        <th>Theoretical energies for the &lt;i&gt;n&lt;/i&gt; = 1 and 2 states of the helium
+                            isoelectronic sequence up to &lt;i&gt;Z&lt;/i&gt; = 100/Ar XVII Drake 2/2
+                        </th>
+                        <th>Theoretical energies for the n = 1 and 2 states of the helium isoelectronic sequence up to
+                            Z = 100/Fe XXV Drake 1/2
+                        </th>
+                        <th>Theoretical energies for the n = 1 and 2 states of the helium isoelectronic sequence up to
+                            Z = 100/Fe XXV Drake 2/2
+                        </th>
+                        <th>Theoretical energies for the n = 1 and 2 states of the helium isoelectronic sequence up to
+                            Z = 100/Kr XXXV Drake 1/2
+                        </th>
+                        <th>Theoretical energies for the n = 1 and 2 states of the helium isoelectronic sequence up to
+                            Z = 100/Kr XXXV Drake 2/2
+                        </th>
+                        <th>Absolute measurement of the resonance lines in heliumlike vanadium on an electron-beam ion
+                            trap/Cr XXIII Chantler 1/1
+                        </th>
+                        <th>Absolute measurement of the resonance lines in heliumlike vanadium on an electron-beam ion
+                            trap/Fe XXV Chantler 1/1
+                        </th>
+                        <th>Absolute measurement of the resonance lines in heliumlike vanadium on an electron-beam ion
+                            trap/Ge XXXI Chantler 1/1
+                        </th>
+                        <th>Absolute measurement of the resonance lines in heliumlike vanadium on an electron-beam ion
+                            trap/Ti XXI Chantler 1/1
+                        </th>
+                        <th>Absolute measurement of the resonance lines in heliumlike vanadium on an electron-beam ion
+                            trap/V XXII Chantler 1/4
+                        </th>
+                        <th>Absolute measurement of the resonance lines in heliumlike vanadium on an electron-beam ion
+                            trap/V XXII Chantler 2/4
+                        </th>
+                        <th>Absolute measurement of the resonance lines in heliumlike vanadium on an electron-beam ion
+                            trap/V XXII Chantler 3/4
+                        </th>
+                        <th>Absolute measurement of the resonance lines in heliumlike vanadium on an electron-beam ion
+                            trap/V XXII Chantler 4/4
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>has research problem</th>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                        <td>Xray spectroscopy of highly ionized atoms</td>
+                    </tr>
+                    <tr>
+                        <th>research objective</th>
+                        <td>Measurement of he-like Argon lines</td>
+                        <td>Measurement of he-like Argon lines</td>
+                        <td>Measurement of he-like Iron lines</td>
+                        <td>Measurement of he-like Iron lines</td>
+                        <td>Measurement of he-like Kripton lines</td>
+                        <td>Measurement of he-like Kripton lines</td>
+                        <td>Measurement of he-like Chromium lines</td>
+                        <td>Measurement of he-like Iron lines</td>
+                        <td>Measurement of he-like Germanium lines</td>
+                        <td>Measurement of he-like Titanium lines</td>
+                        <td>Measurement of he-like Vanadium lines</td>
+                        <td>Measurement of he-like Vanadium lines</td>
+                        <td>Measurement of he-like Vanadium lines</td>
+                        <td>Measurement of he-like Vanadium lines</td>
+                    </tr>
+                    <tr>
+                        <th>paper type</th>
+                        <td>Theoretical</td>
+                        <td>Theoretical</td>
+                        <td>Theoretical</td>
+                        <td>Theoretical</td>
+                        <td>Theoretical</td>
+                        <td>Theoretical</td>
+                        <td>Experimental</td>
+                        <td>Experimental</td>
+                        <td>Experimental</td>
+                        <td>Experimental</td>
+                        <td>Experimental</td>
+                        <td>Experimental</td>
+                        <td>Experimental</td>
+                        <td>Experimental</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities</th>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Atomic characteristics&lt;SEP&gt;Plasma
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Atomic characteristics&lt;SEP&gt;Plasma
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt; Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                        <td>Spectroscopy characteristics&lt;SEP&gt;Plasma characteristics&lt;SEP&gt;Atomic
+                            characteristics
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/atomic characteristics/has quality</th>
+                        <td>Transitions&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Ionization state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Charge state&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state
+                            &lt;SEP&gt;Element
+                        </td>
+                        <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                        <td>Transitions&lt;SEP&gt;Isoelectronicity&lt;SEP&gt;Ionization state &lt;SEP&gt;Charge state&lt;SEP&gt;Element</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/atomic characteristics/has quality/charge state/has measurement/plasma
+                            measurement/has value
+                        </th>
+                        <td>18</td>
+                        <td>18</td>
+                        <td>26</td>
+                        <td>26</td>
+                        <td>36</td>
+                        <td>36</td>
+                        <td>24</td>
+                        <td>26</td>
+                        <td>32</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>23</td>
+                        <td>23</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/atomic characteristics/has quality/element/has measurement/plasma
+                            measurement/has text
+                        </th>
+                        <td>Argon [Ar]</td>
+                        <td>Argon[Ar]</td>
+                        <td>Iron[Fe]</td>
+                        <td>Iron[Fe]</td>
+                        <td>Krypton [Kr]</td>
+                        <td>Krypton[Kr]</td>
+                        <td>Chromium [Cr]</td>
+                        <td>Iron [Fe]</td>
+                        <td>Germanium[Ge]</td>
+                        <td>Titanium[Ti]</td>
+                        <td>Vanadium[V]</td>
+                        <td>Vanadium[V]</td>
+                        <td>Vanadium [V]</td>
+                        <td>Vanadium[V]</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/atomic characteristics/has quality/ionization state/has
+                            measurement/plasma measurement/has text
+                        </th>
+                        <td>Ar XVII</td>
+                        <td>Ar XVII</td>
+                        <td>Fe XXV</td>
+                        <td>Fe XXV</td>
+                        <td>Kr XXXV</td>
+                        <td>Kr XXXV</td>
+                        <td>Cr XXIII</td>
+                        <td>Fe XXV</td>
+                        <td>Ge XXXI</td>
+                        <td>Ti XXI</td>
+                        <td>V XXII</td>
+                        <td>V XXII</td>
+                        <td>V XXII</td>
+                        <td>V XXII</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/atomic characteristics/has quality/isoelectronicity/has
+                            measurement/plasma measurement/has resource
+                        </th>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                        <td>He-like</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/atomic characteristics/has quality/transitions/has measurement/plasma
+                            measurement/has text
+                        </th>
+                        <td>$$1s2p(^1P_1)\,- \,1s^2(^1S), E1,w$$</td>
+                        <td>$$1s2p(^3P_1)\,- \,1s^2(^1S), E1,y$$</td>
+                        <td>$$1s2p(^3P_1)\,- \,1s^2(^1S), E1,y$$</td>
+                        <td>$$1s2p(^1P_1)\,- \,1s^2(^1S), E1,w$$</td>
+                        <td>$$1s2p(^3P_1)\,- \,1s^2(^1S), E1,y$$</td>
+                        <td>$$1s2p(^1P_1)\,- \,1s^2(^1S), E1,w$$</td>
+                        <td>$$1s2p(^1P_1)\,- \,1s^2(^1S), E1,w$$</td>
+                        <td>$$1s2p(^1P_1)\,- \,1s^2(^1S), E1,w$$</td>
+                        <td>$$1s2p(^1P_1)\,- \,1s^2(^1S), E1,w$$</td>
+                        <td>$$1s2p(^1P_1)\,- \,1s^2(^1S), E1,w$$</td>
+                        <td>$$1s2p(^1P_1)\,- \,1s^2(^1S), E1,w$$</td>
+                        <td>$$1s2p(^3P_2)\,- \,1s^2(^1S), M2,x$$</td>
+                        <td>$$1s2p(^3P_1)\,- \,1s^2(^1S), E1,y$$</td>
+                        <td>$$1s2p(^3S_1)\,- \,1s^2(^1S), M1,z$$</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/plasma characteristics/has quality</th>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                        <td>Plasma type</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/plasma characteristics/has quality/plasma type/has measurement/plasma
+                            measurement/has text
+                        </th>
+                        <td>Beam on gas experiment [U$$^{66+}$$ -&gt; Ar$$^{16+}$$]</td>
+                        <td>Beam on gas experiment [U$$^{66+}$$ -&gt; Ar$$^{16+}$$]</td>
+                        <td>Striping beam-foil experiment</td>
+                        <td>Striping beam-foil experiment</td>
+                        <td>Striping beam-foil(Al, C) experiment</td>
+                        <td>Striping beam-foil(Al, C) experiment</td>
+                        <td>Tokomak plasma</td>
+                        <td>Striping beam-foil experiment</td>
+                        <td>Electron beam ion trap</td>
+                        <td>Tokomak plasma</td>
+                        <td>Electron beam ion trap</td>
+                        <td>Electron beam ion trap</td>
+                        <td>Electron beam ion trap</td>
+                        <td>Electron beam ion trap</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality</th>
+                        <td>Transition energy&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectrometer</td>
+                        <td>Transition energy&lt;SEP&gt;Laboratory&lt;SEP&gt;Spectrometer</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                        <td>Transition energy&lt;SEP&gt;Spectrometer&lt;SEP&gt;Laboratory</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/laboratory/has
+                            measurement/plasma measurement/has text
+                        </th>
+                        <td>UNILAC - GSI / Darmstadt</td>
+                        <td>UNILAC - GSI / Darmstadt</td>
+                        <td>Acelerator GANIL / Caen</td>
+                        <td>Acelerator GANIL / Caen</td>
+                        <td>Acelerator GANIL / Caen</td>
+                        <td>Acelerator GANIL / Caen</td>
+                        <td>Princeton Large Torus / Princeton</td>
+                        <td>Oxford</td>
+                        <td>LLNL - EBIT2 / Livermore</td>
+                        <td>Princeton Large Torus / Princeton</td>
+                        <td>NIST - EBIT / Gaithersburg</td>
+                        <td>NIST - EBIT / Gaithersburg</td>
+                        <td>NIST - EBIT / Gaithersburg</td>
+                        <td>NIST - EBIT / Gaithersburg</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/spectrometer/has
+                            measurement/plasma measurement/has text
+                        </th>
+                        <td>Curved crystal Johan spectrometer</td>
+                        <td>Curved crystal Johan spectrometer</td>
+                        <td>Flat crystal bragg spectrometer</td>
+                        <td>Flat crystal bragg spectrometer</td>
+                        <td>Flat crystal bragg spectrometer</td>
+                        <td>Flat crystal bragg spectrometer</td>
+                        <td>HR curved crystal Johan spectrometer</td>
+                        <td>Curved crystal Johan spectrometer</td>
+                        <td>von Hamos type spectrometer</td>
+                        <td>HR curved crystal Johan spectrometer</td>
+                        <td>Curved crystal Johan spectrometer</td>
+                        <td>Curved crystal Johan spectrometer</td>
+                        <td>Curved crystal Johan spectrometer</td>
+                        <td>Curved crystal Johan spectrometer</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/transition energy/has
+                            quality
+                        </th>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp)&lt;SEP&gt;Max E(exp)&lt;SEP&gt;Energy(theory)&lt;SEP&gt;Energy(exp)</td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp)&lt;SEP&gt;Max E(exp)&lt;SEP&gt;Energy(theory)&lt;SEP&gt;Energy(exp)</td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp) &lt;SEP&gt;Max E(exp) &lt;SEP&gt;Energy(theory)
+                            &lt;SEP&gt;Energy(exp)
+                        </td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp) &lt;SEP&gt;Max E(exp) &lt;SEP&gt;Energy(theory)
+                            &lt;SEP&gt;Energy(exp)
+                        </td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp) &lt;SEP&gt;Max E(exp) &lt;SEP&gt;Energy(theory)
+                            &lt;SEP&gt;Energy(exp)
+                        </td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp) &lt;SEP&gt;Max E(exp) &lt;SEP&gt;Energy(theory)
+                            &lt;SEP&gt; Energy(exp)
+                        </td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp) &lt;SEP&gt;Max E(exp) &lt;SEP&gt;Energy(theory)
+                            &lt;SEP&gt;Energy(exp)
+                        </td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp) &lt;SEP&gt;Max E(exp) &lt;SEP&gt;Energy(theory)
+                            &lt;SEP&gt;Energy(exp)
+                        </td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp) &lt;SEP&gt;Max E(exp) &lt;SEP&gt;Energy(theory)
+                            &lt;SEP&gt;Energy(exp)
+                        </td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp)&lt;SEP&gt;Max E(exp)&lt;SEP&gt;Energy(theory)&lt;SEP&gt;Energy(exp)</td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp)&lt;SEP&gt;Max E(exp)&lt;SEP&gt;Energy(theory)&lt;SEP&gt;
+                            Energy(exp)
+                        </td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp) &lt;SEP&gt;Max E(exp) &lt;SEP&gt;Energy(theory)
+                            &lt;SEP&gt;Energy(exp)
+                        </td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp) &lt;SEP&gt;Max E(exp) &lt;SEP&gt;Energy(theory)
+                            &lt;SEP&gt;Energy(exp)
+                        </td>
+                        <td>E(exp) - E(theory) / E(exp)&lt;SEP&gt;Min E(exp) &lt;SEP&gt;Max E(exp) &lt;SEP&gt;Energy(theory)
+                            &lt;SEP&gt;Energy(exp)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/transition energy/has
+                            quality/e(exp) - e(theory) / e(exp)/has measurement/plasma measurement/has unit
+                        </th>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                        <td>[ppm]</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/transition energy/has
+                            quality/e(exp) - e(theory) / e(exp)/has measurement/plasma measurement/has value
+                        </th>
+                        <td>-8</td>
+                        <td>-3</td>
+                        <td>-8</td>
+                        <td>74</td>
+                        <td>62</td>
+                        <td>85</td>
+                        <td>48</td>
+                        <td>-48</td>
+                        <td>54</td>
+                        <td>23</td>
+                        <td>-10</td>
+                        <td>77</td>
+                        <td>-17</td>
+                        <td>-12</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/transition energy/has
+                            quality/energy(exp)/has measurement/plasma measurement/has unit
+                        </th>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/transition energy/has
+                            quality/energy(exp)/has measurement/plasma measurement/has value
+                        </th>
+                        <td>3139.553</td>
+                        <td>3123.522</td>
+                        <td>6667.500</td>
+                        <td>6700.900</td>
+                        <td>13026.800</td>
+                        <td>13115.450</td>
+                        <td>5682.320</td>
+                        <td>6700.080</td>
+                        <td>10280.700</td>
+                        <td>4749.740</td>
+                        <td>5205.100</td>
+                        <td>5189.120</td>
+                        <td>5180.220</td>
+                        <td>5153.820</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/transition energy/has
+                            quality/energy(theory)/has measurement/plasma measurement/has unit
+                        </th>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/transition energy/has
+                            quality/energy(theory)/has measurement/plasma measurement/has value
+                        </th>
+                        <td>3139.577</td>
+                        <td>3123.530</td>
+                        <td>6667.552</td>
+                        <td>6700.404</td>
+                        <td>13025.998</td>
+                        <td>13114.337</td>
+                        <td>5682.05</td>
+                        <td>6700.400</td>
+                        <td>10280.14</td>
+                        <td>4749.63</td>
+                        <td>5205.15</td>
+                        <td>5188.72</td>
+                        <td>5180.31</td>
+                        <td>5153.88</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/transition energy/has
+                            quality/max e(exp)/has measurement/plasma measurement/has unit
+                        </th>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/transition energy/has
+                            quality/max e(exp)/has measurement/plasma measurement/has value
+                        </th>
+                        <td>3139.591</td>
+                        <td>3123.558</td>
+                        <td>6667.750</td>
+                        <td>6701.150</td>
+                        <td>13027.100</td>
+                        <td>13115.750</td>
+                        <td>5682.720</td>
+                        <td>6700.320</td>
+                        <td>10280.920</td>
+                        <td>4749.910</td>
+                        <td>5205.240</td>
+                        <td>5189.330</td>
+                        <td>5180.390</td>
+                        <td>5153.960</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/transition energy/has
+                            quality/min e(exp)/has measurement/plasma measurement/has unit
+                        </th>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                        <td>[eV]</td>
+                    </tr>
+                    <tr>
+                        <th>has system qualities/spectroscopy characteristics/has quality/transition energy/has
+                            quality/min e(exp)/has measurement/plasma measurement/has value
+                        </th>
+                        <td>3139.515</td>
+                        <td>3123.486</td>
+                        <td>6667.250</td>
+                        <td>6700.650</td>
+                        <td>13026.500</td>
+                        <td>13115.150</td>
+                        <td>5681.920</td>
+                        <td>6699.840</td>
+                        <td>10280.480</td>
+                        <td>4749.570</td>
+                        <td>5204.960</td>
+                        <td>5188.910</td>
+                        <td>5180.050</td>
+                        <td>5153.680</td>
+                    </tr>
+                </tbody>
+            </table>
+        </table-wrap>
+    </sec>
+
+</body>
+<ref-list> </ref-list>
+</article>
+        

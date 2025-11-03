@@ -6,7 +6,7 @@ var fs = require('fs');
 var path = require("path");
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var sass = require('node-sass');
+var sass = require('sass');
 var browserify = require('browserify');
 var methodOverride = require('method-override')
 
@@ -14,7 +14,8 @@ var app = express();
 
 var port = process.env.PORT || 4001;
 app.use(cookieParser());
-app.use(bodyParser());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(methodOverride());
 
 
@@ -35,11 +36,17 @@ var handleError = function(err, res) {
 };
 
 var renderSass = function(cb) {
-  sass.render({
-    file: path.join(__dirname, "lens.scss"),
-    sourceMap: true,
-    outFile: 'lens.css',
-  }, cb);
+  try {
+    const result = sass.compile(path.join(__dirname, "lens.scss"), {
+      sourceMap: true,
+    });
+    cb(null, {
+      css: result.css,
+      map: result.sourceMap ? JSON.stringify(result.sourceMap) : null
+    });
+  } catch (err) {
+    cb(err);
+  }
 };
 
 app.get('/lens.css', function(req, res) {

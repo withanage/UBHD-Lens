@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+            <article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0">
+                <front>
+                    <article-meta>
+                        <article-categories>
+                            <subj-group xml:lang="en">
+                                <subject>Climate</subject>
+                            </subj-group>
+                        </article-categories>
+                        <title-group>
+                            <article-title>European Environment Agency Reports</article-title>
+                        </title-group>
+                        <contrib-group content-type="author"></contrib-group>
+                        <pub-date date-type="pub" iso-8601-date="
+                            2023-6-5">
+                            <day>5</day>
+                            <month>6</month>
+                            <year>2023</year>
+                        </pub-date>
+                        <permissions id="permission">
+                            <copyright-year>2023</copyright-year>
+                            <copyright-holder>Open Research Knowledge Graph</copyright-holder>
+                            <license>
+                                <ali:license_ref>http://creativecommons.org/licenses/by-sa/4.0/</ali:license_ref>
+                                <license-p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+                                 International License (CC BY-SA 4.0)</license-p>
+                            </license>
+                        </permissions>
+                    </article-meta>
+                </front>
+                <body id="body">
+                    <sec sec-type="">
+                <title>1. Introduction</title>
+                <p>Climate change is an omnipresent topic and affects every one of us. This is evident in the increasing and more intense occurrence of climate-related hazards, such as droughts and floods. Its effects will become more severe if no action is taken such as reducing greenhouse gas (GHG) emissions. Therefore, the EU and its member  states are taking various actions to reach their climate and energy targets. For this purpose, the European Council founded the European Environment Agency (EEA).</p>
+<p>The EEA's goal is to contribute to the improvement of the environment in Europe and to support sustainable development. They aim to achieve this by providing timely, relevant, targeted and reliable information to the public and policy makers.</p>
+<p>Since 2002, the EEA publishes an annual report “Trends and Projections in Europe” each year. The reports include an annual assessment of the EU's progress toward meeting its climate and energy targets. Since 2013, these reports have dealt with trends and projections in the three areas of greenhouse gas (GHG) emissions, renewable energy sources (RES) and energy efficiency (EE).</p>
+<p>This review is based on all reports of the EEA from the year 2014 onwards. The aim of this review is to provide an overview of the current status by ensuring the long-term availability of detailed information from past reports. In the following, the three areas of GHG emissions, renewable energy and energy efficiency are explained in more detail. For each area, a short introduction, a tabular comparison, a corresponding figure and the main statements are given.</p>
+
+            </sec>
+        <sec sec-type="">
+                <title>2. Greenhouse gas emission </title>
+                <list list-type="bullet">
+<list-item><p>Reducing greenhouse gas (GHG) emissions is one of the climate and energy targets. The EU committed to the United Nations Framework Convention on Climate Change (UNFCCC) in 2010 to reduce its GHG emissions by 20% compared with 1990 levels by 2020. It also set further targets for 2030 and 2050. For 2030, the reduction target is a 40% reduction compared with 1990 levels and for 2050, the goal is to achieve an 80-95% emissions reduction and thus achieve climate neutrality.</p></list-item>
+</list>
+<p>In July 2021, the European Commission proposed the "Fit for 55" policy package by stating that the reduction target should be increased from 40% to 55% by 2030, otherwise it will be difficult to achieve climate neutrality by 2050 [@R588059].</p>
+<p>The figure "Historical trends and future projections for greenhouse gas emissions" shows the development of GHG emissions since 1990. The emission targets for the years 2020, 2030 and 2050 are highlighted. Furthermore, the future projections of two scenarios are shown. The <italic>with existing measures</italic> (WEM) future scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared. The <italic>with additional measures</italic> (WAM) future scenario takes into account the additional effects of planned measures reported by Member States. Exact values can be taken from the table. For more detailed information, a detailed comparison is shown at the end of this review.</p>
+<p><bold>Visualization</bold>
+<fig id="fig-1">
+  <label>Figure 1</label>
+  <caption>
+    <title>Visualization 1</title>
+  </caption>
+  <graphic xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG" />
+</fig>
+</p>
+<p><bold>Data table</bold></p>
+<table-wrap id="table-74b883f5"><table><thead>
+<tr>
+        <td>Year</td>
+        <td>2012</td>
+        <td>2013</td>
+        <td>2014</td>
+        <td>2015</td>
+        <td>2016</td>
+        <td>2017</td>
+        <td>2018</td>
+        <td>2019</td>
+        <td>2020</td>
+</tr>
+</thead>
+<tbody>
+      <tr>
+        <td>AS-IS (MtCO2e)</td>
+        <td>4687</td>
+        <td>4596</td>
+        <td>4427</td>
+        <td>4452</td>
+        <td>4441</td>
+        <td>4483</td>
+        <td>4392</td>
+        <td>3735</td>
+        <td>3354</td>
+      </tr>
+      <tr>
+        <td>AS-IS (%)</td>
+        <td>19,2<sup>+</sup></td>
+        <td>19,8<sup>+</sup></td>
+        <td>23<sup>+</sup></td>
+        <td>22<sup>+</sup></td>
+        <td>22<sup>+</sup></td>
+        <td>21,7<sup>+</sup></td>
+        <td>23,2<sup>+</sup></td>
+        <td>24<sup>+</sup></td>
+        <td>32<sup>+</sup></td>
+      </tr>
+      <tr>
+        <td>WEM 2020 (%)</td>
+        <td>21<sup>+</sup></td>
+        <td>24<sup>+</sup></td>
+        <td>23<sup>+</sup></td>
+        <td>26<sup>+</sup></td>
+        <td>26<sup>+</sup></td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+      </tr>
+      <tr>
+        <td>WAM 2020 (%)</td>
+        <td>24<sup>+</sup></td>
+        <td>25<sup>+</sup></td>
+        <td>25<sup>+</sup></td>
+        <td>27<sup>+</sup></td>
+        <td>37<sup>+</sup></td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+      </tr>
+      <tr>
+        <td>WEM 2030 (%)</td>
+        <td>22,3<sup>-</sup></td>
+        <td>27<sup>-</sup></td>
+        <td>26<sup>-</sup></td>
+        <td>30<sup>-</sup></td>
+        <td>26<sup>-</sup></td>
+        <td>30<sup>-</sup></td>
+        <td>30<sup>-</sup></td>
+        <td>34<sup>-</sup></td>
+        <td>35,5<sup>-</sup></td>
+      </tr>
+      <tr>
+        <td>WAM 2030 (%)</td>
+        <td>27,8<sup>-</sup></td>
+        <td>30<sup>-</sup></td>
+        <td>29<sup>-</sup></td>
+        <td>32<sup>-</sup></td>
+        <td>37<sup>-</sup></td>
+        <td>36<sup>-</sup></td>
+        <td>36<sup>-</sup></td>
+        <td>41<sup>-</sup></td>
+        <td>41<sup>-</sup></td>
+      </tr>
+</tbody>
+</table></table-wrap><list list-type="bullet">
+<list-item><p>Target 2020: reduce its GHG emissions by 20% compared with 1990 levels</p></list-item>
+<list-item><p>Target 2030: reduce its GHG emissions by 40% compared with 1990 levels (from the report 2021 the target is 55%)</p></list-item>
+<list-item><p>*There are no values for these fields, as no values were collected for the WAM and WEM 2020 scenarios.</p></list-item>
+<list-item><p><sup>-</sup> The target will not be reached</p></list-item>
+<list-item><p><sup>+</sup> The target will be reached</p></list-item>
+</list>
+<p><bold>Main statement</bold>
+Based on the figure, table and comparison we can observe the following statements:</p>
+<list list-type="order">
+<list-item><p>According to the historical data, we have achieved the reduction target for 2020.</p></list-item>
+<list-item><p>According to the current forecast, we will not be able to reach the reduction target for 2030 <italic>with the existing measures</italic> (WEM scenario).</p></list-item>
+<list-item><p>According to the current forecast, we will not be able to reach the reduction target for 2030 *with the additional measures *(WAM scenario).</p></list-item>
+<list-item><p>According to the current forecasts, we will probably not be able to reach the reduction target for 2050.</p></list-item>
+</list>
+
+            </sec>
+        <sec sec-type="">
+                <title>3. Renewable energy sources </title>
+                <p>Another EU climate and energy target is that 20% of energy should come from renewable sources by 2020 and 32% by 2030. Renewable energy sources (RES) are used in the following sectors: power generation, heating and cooling and transport. For the transport sector, a 10% target must be achieved.</p>
+<p>The figure “EU-27 shares of energy from renewable sources used by sector in the EU, 2005-2018 and proxy 2019” shows the development of the shares of renewable energies in the three sectors electricity, heating and cooling and transport.</p>
+<p><bold>Visualization</bold>
+<fig id="fig-2">
+  <label>Figure 2</label>
+  <caption>
+    <title>Visualization 2</title>
+  </caption>
+  <graphic xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG" />
+</fig>
+</p>
+<p><bold>Data table</bold></p>
+<table-wrap id="table-80a7139d"><table><thead>
+<tr>
+        <td>Year</td>
+        <td>2013</td>
+        <td>2014</td>
+        <td>2015</td>
+        <td>2016</td>
+        <td>2017</td>
+        <td>2018</td>
+</tr>
+</thead>
+<tbody>
+      <tr>
+        <td>Electricity sector (%)</td>
+        <td>25,4</td>
+        <td>27</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+      </tr>
+      <tr>
+        <td>Heating and cooling sector (%)</td>
+        <td>16,5</td>
+        <td>17,7</td>
+        <td>18,6</td>
+        <td>19,1</td>
+        <td>19,5</td>
+        <td>21,1</td>
+      </tr>
+      <tr>
+        <td>Transport sector (%)</td>
+        <td>5,4</td>
+        <td>5,9</td>
+        <td>6,7</td>
+        <td>7,1</td>
+        <td>7,6</td>
+        <td>8,3</td>
+      </tr>
+</tbody>
+</table></table-wrap><list list-type="bullet">
+<list-item><p>Target electricity sector: 20% share of renewable energy in all energy consumed in electricity for 2020</p></list-item>
+<list-item><p>Target heating and cooling sector: 20% share of renewable energy in all energy consumed in heating and cooling for 2020</p></list-item>
+<list-item><p>Target transport sector: 10% share of renewable energy in all energy consumed in transport for 2020</p></list-item>
+</list>
+<p><bold>Main statement</bold>
+Based on the figure and comparison we can observe the following statements:</p>
+<list list-type="order">
+<list-item><p>For 2020, the current forecast show that we are able to reach the goal for renewable energy use in sector electricity.</p></list-item>
+<list-item><p>For 2020, the current forecast show that we are able to reach the goal for renewable energy use in sector heating and cooling.</p></list-item>
+<list-item><p>For 2020, the current forecast show that we are not able to reach the goal for renewable energy use in sector transport</p></list-item>
+</list>
+
+            </sec>
+        <sec sec-type="">
+                <title>4. Energy Efficiency </title>
+                <p>The last target deals with the topic of energy efficiency. Energy efficiency targets are expressed in primary and final energy consumption. Primary energy consumption measures the total energy demand of a country. It includes the consumption of the energy sector, losses during transformation, the distribution of energy and the final consumption by the end users. Final energy consumption includes energy supplies to industry, households, services, agriculture and transport. Supplies to the energy transportation sector and the energy industry are excluded. To meet the 2020 target requires a 20% reduction from projected 2020 levels, in primary or final energy consumption.</p>
+<p>The figure “Primary and final energy consumption in the EU, 2005-2019, 2020 and 2030 targets and 2050 scenarios for reaching carbon neutrality” shows the development of primary and final energy consumption. The energy efficiency targets for the years 2020, 2030 and 2050 are highlighted. Furthermore, an indicative linear trajectory between 2005 and 2020 is plotted. This is used by the EEA to better monitor progress towards the energy efficiency targets. If the value of the current year is below the linear trajectory, then the energy efficiency targets are likely to be met. If not, then energy consumption must be reduced more rapidly to meet the targets. Exact values can be taken from the table. For more detailed information, a detailed comparison is shown at the end of this review.</p>
+<p><bold>Visualization</bold>
+<fig id="fig-3">
+  <label>Figure 3</label>
+  <caption>
+    <title>Visualization 3</title>
+  </caption>
+  <graphic xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG" />
+</fig>
+</p>
+<p><bold>Data table</bold></p>
+<table-wrap id="table-362c2139"><table><thead>
+<tr>
+        <td>Year</td>
+        <td>2012</td>
+        <td>2013</td>
+        <td>2014</td>
+        <td>2015</td>
+        <td>2016</td>
+        <td>2017</td>
+        <td>2018</td>
+</tr>
+</thead>
+<tbody>
+      <tr>
+        <td>Primary energy consumption EU-27 (Mtoe)</td>
+        <td>1396</td>
+        <td>1384</td>
+        <td>1331</td>
+        <td>1353</td>
+        <td>1364</td>
+        <td>1384</td>
+        <td>1377</td>
+      </tr>
+      <tr>
+        <td>Final energy consumption EU-27 (Mtoe)</td>
+        <td>982</td>
+        <td>980</td>
+        <td>939</td>
+        <td>965</td>
+        <td>977</td>
+        <td>989</td>
+        <td>992</td>
+      </tr>
+</tbody>
+</table></table-wrap><list list-type="bullet">
+<list-item><p>Target 2020: reduction in primary and final energy consumption by 20 % compared with levels projected for 2020</p></list-item>
+</list>
+<p><bold>Main statement</bold>
+Based on the figure, table and comparison we can observe the following statements:</p>
+<list list-type="order">
+<list-item><p>For 2020, the current forecast show that we are able to reach the goal for primary energy consumption (EU-27).</p></list-item>
+<list-item><p>For 2020, the current forecast show that we are not able to reach the goal for primary energy consumption (EU-28).</p></list-item>
+<list-item><p>For 2020, the current forecast show that we are able to reach the goal for final energy consumption (EU-27).</p></list-item>
+<list-item><p>For 2020, the current forecast show that we are not able to reach the goal for final energy consumption (EU-28).</p></list-item>
+</list>
+
+            </sec>
+        <sec sec-type="">
+                <title>5. Comparisons of the articles</title>
+                <p>In this section the individual comparisons for the three targets GHG, RES and EE are listed. For GHG there are two comparisons, once for the target year 2020 and for 2030.</p>
+
+            </sec>
+        <sec sec-type="comparison">
+                <title>5.1. Comparison: Greenhouse gas emission for the target year 2020</title>
+                <table-wrap>
+                <label>Greenhouse gas emission trends, projections and targets in the EU for the target year 2020, 1990-2050 </label>
+                <caption>
+                    <title>This comparison provides an overview of the greenhouse gas emissions (GHG) of the EU-member states. It shows the trend of GHG-emissions for the historical (as-is) and two different future scenarios. The WAM future scenario takes into account the additional effects of planned measures reported by Member States. The WEM future scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared. Both scenarios predict whether the target of the year 2020 will be achieved or not. </title>
+                </caption>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Trends and Projections in Europe 2014 : Tracking Progress Towards Europe's Climate and Energy Targets for 2020/<italic>GHG emission reduction for 2020</italic></th>
+      <th>Trends and Projections in Europe 2015 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2020</italic></th>
+      <th>Trends and Projections in Europe 2016 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2020</italic></th>
+      <th>Trends and Projections in Europe 2017 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2020</italic></th>
+      <th>Trends and Projections in Europe 2018 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2020</italic></th>
+      <th>Trends and Projections in Europe 2019 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2020</italic></th>
+      <th>Trends and Projections in Europe 2020 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2020</italic></th>
+      <th>Trends and Projections in Europe 2021 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2020</italic></th>
+      <th>Trends and Projections in Europe 2022 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2020</italic></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>statement/statement/statement</th>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.<break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will not be reached.</td>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.<break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will not be reached.</td>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.<break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.</td>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.<break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.</td>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.<break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.</td>
+      <td>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.</td>
+      <td><pre><code>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.</code></pre></td>
+      <td>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.</td>
+      <td>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2020 will be reached.</td>
+    </tr>
+    <tr>
+      <th>statement/statement/has visualization</th>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer">https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG</ext-link></td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/question</th>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td><pre><code>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?</code></pre></td>
+      <td>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/answer</th>
+      <td>Yes<break/>Yes<break/>No</td>
+      <td>Yes<break/>Yes<break/>No</td>
+      <td>Yes<break/>Yes<break/>Yes</td>
+      <td>Yes<break/>Yes<break/>Yes</td>
+      <td>Yes<break/>Yes<break/>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/has target</th>
+      <td>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 20% for target year 2020</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/investigated_quality/greenhouse gas (ghg) emission/relative difference to 1990</th>
+      <td>21% for 2012<break/>24% for 2012<break/>19.2% for 2012</td>
+      <td>24% for 2013<break/>25% for 2013<break/>19.8% for 2013</td>
+      <td>23% for 2014<break/>25% for 2014<break/>23% for 2014</td>
+      <td>26% for 2015<break/>27% for 2015<break/>22% for 2015</td>
+      <td>26% for 2016<break/>37% for 2016<break/>22% for 2016</td>
+      <td>21.7% for 2017</td>
+      <td>23.2% for 2018</td>
+      <td>24% for 2019</td>
+      <td>32% for 2020</td>
+    </tr>
+    <tr>
+      <th>statement/statement/trend</th>
+      <td>GreenHouse Gas (GHG) emission decreased by 1.3% from 2011 to 2012<break/>GreenHouse Gas (GHG) emission will decrease by 1.8% from 2012 to 2013</td>
+      <td>GreenHouse Gas (GHG) emission decreased by 1.94% from 2012 to 2013<break/>GreenHouse Gas (GHG) emission will decrease by 4% from 2013 to 2014</td>
+      <td>GreenHouse Gas (GHG) emission decreased by 4% from 2013 to 2014<break/>GreenHouse Gas (GHG) emission will increase by 0.7% from 2014 to 2015</td>
+      <td>GreenHouse Gas (GHG) emission increased by 0.6% from 2014 to 2015<break/>GreenHouse Gas (GHG) emission will decrease by 0.7% from 2015 to 2016</td>
+      <td>GreenHouse Gas (GHG) emission will increase by 0.6% from 2016 to 2017<break/>GreenHouse Gas (GHG) emission decreased by 0.25% from 2015 to 2016</td>
+      <td>GreenHouse Gas (GHG) emission increased by 0.95% from 2016 to 2017<break/>GreenHouse Gas (GHG) emission will decrease by 2% from 2017 to 2018</td>
+      <td>GreenHouse Gas (GHG) emission will decrease by 3.6% from 2018 to 2019<break/>GreenHouse Gas (GHG) emission decreased by 2.03% from 2017 to 2018</td>
+      <td>GreenHouse Gas (GHG) emission decreased by 4% from 2018 to 2019<break/>GreenHouse Gas (GHG) emission will increase by 10% from 2019 to 2020</td>
+      <td>GreenHouse Gas (GHG) emission will increase by 5% from 2020 to 2021<break/>GreenHouse Gas (GHG) emission decreased by 10.2% from 2019 to 2020</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/investigated_quality/greenhouse gas (ghg) emission/measurement</th>
+      <td>4687 MtCO2e</td>
+      <td>4596 MtCO2e</td>
+      <td>4427 MtCO2e</td>
+      <td>4452 MtCO2e</td>
+      <td>4441 MtCO2e</td>
+      <td>4483 MtCO2e</td>
+      <td>4392 MtCO2e</td>
+      <td>3735 MtCO2e</td>
+      <td>3354 MtCO2e</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/target value/measurement value template/numeric value</th>
+      <td>20.0<break/>20.0<break/>20.0</td>
+      <td>20.0<break/>20.0<break/>20.0</td>
+      <td>20.0<break/>20.0<break/>20.0</td>
+      <td>20.0<break/>20.0<break/>20.0</td>
+      <td>20.0<break/>20.0<break/>20.0</td>
+      <td>20.0</td>
+      <td>20.0</td>
+      <td>20.0</td>
+      <td>20.0</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/comparsion operator</th>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=</td>
+      <td>&lt;=</td>
+      <td>&lt;=</td>
+      <td>&lt;=</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/current value/measurement value template/numeric value</th>
+      <td>21.0<break/>24.0<break/>19.2</td>
+      <td>24.0<break/>25.0<break/>19.8</td>
+      <td>23.0<break/>25.0<break/>23.0</td>
+      <td>26.0<break/>27.0<break/>22.0</td>
+      <td>26.0<break/>37.0<break/>22.0</td>
+      <td>21.7</td>
+      <td>23.2</td>
+      <td>24.0</td>
+      <td>32.0</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/current value/measurement value template/unit</th>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/result</th>
+      <td>true<break/>true<break/>false</td>
+      <td>true<break/>true<break/>false</td>
+      <td>true<break/>true<break/>true</td>
+      <td>true<break/>true<break/>true</td>
+      <td>true<break/>true<break/>true</td>
+      <td>true</td>
+      <td>true</td>
+      <td>true</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/has target year</th>
+      <td>2020<break/>2020<break/>2020</td>
+      <td>2020<break/>2020<break/>2020</td>
+      <td>2020<break/>2020<break/>2020</td>
+      <td>2020<break/>2020<break/>2020</td>
+      <td>2020<break/>2020<break/>2020</td>
+      <td>2020</td>
+      <td>2020</td>
+      <td>2020</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/current year</th>
+      <td>2012<break/>2012<break/>2012</td>
+      <td>2013<break/>2013<break/>2013</td>
+      <td>2014<break/>2014<break/>2014</td>
+      <td>2015<break/>2015<break/>2015</td>
+      <td>2016<break/>2016<break/>2016</td>
+      <td>2017</td>
+      <td>2018</td>
+      <td>2019</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/scenario/as-is scenario/has description</th>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/scenario/wam scenario/has description</th>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/scenario/wem scenario/has description</th>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>statement/statement/raw data/data/human-readable data</th>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.table</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.table">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.table</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.table</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.table</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_csv/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.table</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.table</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-greenhouse-gas-emissions/2017-ghg-proxies/ghg_proxy_2017/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-greenhouse-gas-emissions/2017-ghg-proxies/ghg_proxy_2017/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/pam-data-2019/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/pam-data-2019/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_xlsx/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_xlsx/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_xlsx-including-pivot-chart/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_csv/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-4/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-4/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_xlsx-including-pivot-chart/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-5/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-5/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_csv/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_xlsx-including-pivot-chart/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/greenhouse-gas-policies-and-measures/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/greenhouse-gas-policies-and-measures/at_download/file</ext-link></td>
+    </tr>
+    <tr>
+      <th>statement/statement/raw data/data/machine-readable data</th>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.json</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.json">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.json</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.json</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.json</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_mdb/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.json</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.json</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_mdb/at_download/file</ext-link></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+            </table-wrap>
+        
+            </sec>
+        <sec sec-type="comparison">
+                <title>5.2. Comparison: Greenhouse gas emission for the target year 2030</title>
+                <table-wrap>
+                <label>Greenhouse gas emission trends, projections and targets in the EU for the target year 2030, 1990-2050 </label>
+                <caption>
+                    <title>This comparison provides an overview of the greenhouse gas emissions (GHG) of the EU-member states. It shows the trend of GHG-emissions for the historical (as-is) and two different future scenarios. The WAM future scenario takes into account the additional effects of planned measures reported by Member States. The WEM future scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared. Both scenarios predict whether the target of the year 2030 will be achieved or not. </title>
+                </caption>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Trends and Projections in Europe 2014 : Tracking Progress Towards Europe's Climate and Energy Targets for 2020/<italic>GHG emission reduction for 2030</italic></th>
+      <th>Trends and Projections in Europe 2015 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2030</italic></th>
+      <th>Trends and Projections in Europe 2016 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2030</italic></th>
+      <th>Trends and Projections in Europe 2017 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2030</italic></th>
+      <th>Trends and Projections in Europe 2018 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2030</italic></th>
+      <th>Trends and Projections in Europe 2019 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2030</italic></th>
+      <th>Trends and Projections in Europe 2020 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2030</italic></th>
+      <th>Trends and Projections in Europe 2021 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2030</italic></th>
+      <th>Trends and Projections in Europe 2022 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>GHG emission reduction for 2030</italic></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>statement/statement/statement</th>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</td>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</td>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</td>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</td>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/><pre><code>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</code></pre></td>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</td>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/><pre><code>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</code></pre><break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</td>
+      <td>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.<break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</td>
+      <td><pre><code>In the WEM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</code></pre><break/><pre><code>In the WAM scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</code></pre><break/>In the as-is scenario, the GreenHouse Gas (GHG) emission reduction for the target year 2030 will not be reached.</td>
+    </tr>
+    <tr>
+      <th>statement/statement/has visualization</th>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2014.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1">https://www.eea.europa.eu/ds_resolveuid/c289b62f59d04f9d9b446a7a390c36e1</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2015.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6">https://www.eea.europa.eu/ds_resolveuid/9ffcf16a04e14fb991d8c453c97247f6</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2016.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2017.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2018.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2019.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer">https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer">https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2020.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer">https://www.eea.europa.eu/data-and-maps/data/data-viewers/eea-greenhouse-gas-projections-data-viewer</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2021.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/Report2022.PNG</ext-link></td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/question</th>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the WEM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the WAM scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?<break/>In the as-is scenario, will the GreenHouse Gas (GHG) emission reduction target for the target year 2030 be achieved (target value &lt;= current value = True)?</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/answer</th>
+      <td>No<break/>No<break/>No</td>
+      <td>No<break/>No<break/>No</td>
+      <td>No<break/>No<break/>No</td>
+      <td>No<break/>No<break/>No</td>
+      <td>No<break/>No<break/>No</td>
+      <td>No<break/>No<break/>No</td>
+      <td>No<break/>No<break/>No</td>
+      <td>No<break/>No<break/>No</td>
+      <td>No<break/>No<break/>No</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/has target</th>
+      <td>Reduction to 40% for target year 2030</td>
+      <td>Reduction to 40% for target year 2030</td>
+      <td>Reduction to 40% for target year 2030</td>
+      <td>Reduction to 40% for target year 2030</td>
+      <td>Reduction to 40% for target year 2030</td>
+      <td>Reduction to 40% for target year 2030</td>
+      <td>Reduction to 40% for target year 2030</td>
+      <td>Reduction to 55% for target year 2030</td>
+      <td>Reduction to 55% for target year 2030</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/investigated_quality/greenhouse gas (ghg) emission/relative difference to 1990</th>
+      <td>22.3% for 2012<break/>27.8% for 2012<break/>19.2% for 2012</td>
+      <td>27% for 2013<break/>30% for 2013<break/>19.8% for 2013</td>
+      <td>26% for 2014<break/>29% for 2014<break/>23% for 2014</td>
+      <td>30% for 2015<break/>32% for 2015<break/>22% for 2015</td>
+      <td>26% for 2016<break/>37% for 2016<break/>22% for 2016</td>
+      <td>30% for 2017<break/>36% for 2017<break/>21.7% for 2017</td>
+      <td>30% for 2018<break/>36% for 2018<break/>23.2% for 2018</td>
+      <td>34% for 2019<break/>41% for 2019<break/>24% for 2019</td>
+      <td>35.5% for 2020<break/>41% for 2020<break/>32% for 2020</td>
+    </tr>
+    <tr>
+      <th>statement/statement/trend</th>
+      <td>GreenHouse Gas (GHG) emission will decrease by 1.8% from 2012 to 2013<break/>GreenHouse Gas (GHG) emission decreased by 1.3% from 2011 to 2012</td>
+      <td>GreenHouse Gas (GHG) emission decreased by 1.94% from 2012 to 2013<break/>GreenHouse Gas (GHG) emission will decrease by 4% from 2013 to 2014</td>
+      <td>GreenHouse Gas (GHG) emission decreased by 4% from 2013 to 2014<break/>GreenHouse Gas (GHG) emission will increase by 0.7% from 2014 to 2015</td>
+      <td>GreenHouse Gas (GHG) emission increased by 0.6% from 2014 to 2015<break/>GreenHouse Gas (GHG) emission will decrease by 0.7% from 2015 to 2016</td>
+      <td>GreenHouse Gas (GHG) emission will increase by 0.6% from 2016 to 2017<break/>GreenHouse Gas (GHG) emission decreased by 0.25% from 2015 to 2016</td>
+      <td>GreenHouse Gas (GHG) emission increased by 0.95% from 2016 to 2017<break/>GreenHouse Gas (GHG) emission will decrease by 2% from 2017 to 2018</td>
+      <td>GreenHouse Gas (GHG) emission will decrease by 3.6% from 2018 to 2019<break/>GreenHouse Gas (GHG) emission decreased by 2.03% from 2017 to 2018</td>
+      <td>GreenHouse Gas (GHG) emission will increase by 10% from 2019 to 2020<break/>GreenHouse Gas (GHG) emission decreased by 4% from 2018 to 2019</td>
+      <td>GreenHouse Gas (GHG) emission will increase by 5% from 2020 to 2021<break/>GreenHouse Gas (GHG) emission decreased by 10.2% from 2019 to 2020</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/investigated_quality/greenhouse gas (ghg) emission/measurement</th>
+      <td>4687 MtCO2e</td>
+      <td>4596 MtCO2e</td>
+      <td>4427 MtCO2e</td>
+      <td>4452 MtCO2e</td>
+      <td>4441 MtCO2e</td>
+      <td>4483 MtCO2e</td>
+      <td>4392 MtCO2e</td>
+      <td>3735 MtCO2e</td>
+      <td>3354 MtCO2e</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/target value/measurement value template/numeric value</th>
+      <td>40.0<break/>40.0<break/>40.0</td>
+      <td>40.0<break/>40.0<break/>40.0</td>
+      <td>40.0<break/>40.0<break/>40.0</td>
+      <td>40.0<break/>40.0<break/>40.0</td>
+      <td>40.0<break/>40.0<break/>40.0</td>
+      <td>40.0<break/>40.0<break/>40.0</td>
+      <td>40.0<break/>40.0<break/>40.0</td>
+      <td>55.0<break/>55.0<break/>55.0</td>
+      <td>55.0<break/>55.0<break/>55.0</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/comparsion operator</th>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/current value/measurement value template/numeric value</th>
+      <td>22.3<break/>27.8<break/>19.2</td>
+      <td>27.0<break/>30.0<break/>19.8</td>
+      <td>26.0<break/>29.0<break/>23.0</td>
+      <td>30.0<break/>32.0<break/>22.0</td>
+      <td>26.0<break/>37.0<break/>22.0</td>
+      <td>30.0<break/>36.0<break/>21.7</td>
+      <td>30.0<break/>36.0<break/>23.2</td>
+      <td>34.0<break/>41.0<break/>24.0</td>
+      <td>35.5<break/>41.0<break/>32.0</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/current value/measurement value template/unit</th>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/result</th>
+      <td>false<break/>false<break/>false</td>
+      <td>false<break/>false<break/>false</td>
+      <td>false<break/>false<break/>false</td>
+      <td>false<break/>false<break/>false</td>
+      <td>false<break/>false<break/>false</td>
+      <td>false<break/>false<break/>false</td>
+      <td>false<break/>false<break/>false</td>
+      <td>false<break/>false<break/>false</td>
+      <td>false<break/>false<break/>false</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/has target year</th>
+      <td>2030<break/>2030<break/>2030</td>
+      <td>2030<break/>2030<break/>2030</td>
+      <td>2030<break/>2030<break/>2030</td>
+      <td>2030<break/>2030<break/>2030</td>
+      <td>2030<break/>2030<break/>2030</td>
+      <td>2030<break/>2030<break/>2030</td>
+      <td>2030<break/>2030<break/>2030</td>
+      <td>2030<break/>2030<break/>2030</td>
+      <td>2030<break/>2030<break/>2030</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/current year</th>
+      <td>2012<break/>2012<break/>2012</td>
+      <td>2013<break/>2013<break/>2013</td>
+      <td>2014<break/>2014<break/>2014</td>
+      <td>2015<break/>2015<break/>2015</td>
+      <td>2016<break/>2016<break/>2016</td>
+      <td>2017<break/>2017<break/>2017</td>
+      <td>2018<break/>2018<break/>2018</td>
+      <td>2019<break/>2019<break/>2019</td>
+      <td>2020<break/>2020<break/>2020</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/scenario/as-is scenario/has description</th>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+      <td>The as-is scenario reflects the effects of all historical measures implemented in the past at the time the report was prepared.</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/scenario/wam scenario/has description</th>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+      <td>The 'with additional measures' (WAM) scenario takes into account the additional effects of planned measures reported by Member States.</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/scenario/wem scenario/has description</th>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+      <td>The 'with existing measures' (WEM) scenario reflects the effects of all adopted and implemented measures at the time the projections were prepared.</td>
+    </tr>
+    <tr>
+      <th>statement/statement/raw data/data/human-readable data</th>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.table</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.table">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.table</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.table</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.table</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_csv/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.table</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.tsv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.csv">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.table">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.table</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_csv/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-greenhouse-gas-emissions/2017-ghg-proxies/ghg_proxy_2017/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-greenhouse-gas-emissions/2017-ghg-proxies/ghg_proxy_2017/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/pam-data-2019/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/pam-data-2019/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_xlsx/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_xlsx/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_xlsx-including-pivot-chart/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2020-ghg-projections-reported-and/ghg_projections_2020_csv/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-4/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-4/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_xlsx-including-pivot-chart/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-5/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-5/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_csv/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_xlsx-including-pivot-chart/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/2022-ghg-projections-reported-and/ghg_projections_2022_xlsx-including-pivot-chart/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/greenhouse-gas-policies-and-measures/at_download/file">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/greenhouse-gas-policies-and-measures/at_download/file</ext-link></td>
+    </tr>
+    <tr>
+      <th>statement/statement/raw data/data/machine-readable data</th>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/national-projections-policies-and-measures-pam/download.json</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.json">https://www.eea.europa.eu/data-and-maps/daviz/greenhouse_gas_trends_and_projections/download.json</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and/download.json</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-1/download.json</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for/ghg_projections_v2_mdb/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-2/download.json</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-3/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.schema.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.xml">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.exhibit">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.json">https://www.eea.europa.eu/data-and-maps/data/climate-change-mitigation-policies-and-measures-1/pam-table/climate-change-mitigation-policies-and-3/download.json</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/greenhouse-gas-emission-projections-for-1/ghg_projections_v3_mdb/at_download/file</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-9/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_mdb/at_download/file</ext-link></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+            </table-wrap>
+        
+            </sec>
+        <sec sec-type="comparison">
+                <title>5.3. Comparison: Shares of renewable energy sources used by sector for the target year 2020</title>
+                <table-wrap>
+                <label>Shares of renewable energy sources by sector in the EU for the target year 2020, 2005-2020</label>
+                <caption>
+                    <title>This comparison provides an overview of shares of energy use from Renewable Energy Sources (RES) of the EU-member states. It shows the trend of shares of energy use from RES for the past for the three different sectors electricity, heating and cooling and transport. Furthermore, an approximate estimate for the following year is also given. For all sectors, it is predicted whether the target of the year 2020 will be achieved or not. </title>
+                </caption>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Trends and Projections in Europe 2015 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Proportionate use of renewable sources by sector</italic></th>
+      <th>Trends and Projections in Europe 2016 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Proportionate use of renewable sources by sector </italic></th>
+      <th>Trends and Projections in Europe 2017 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Proportionate use of renewable sources by sector</italic></th>
+      <th>Trends and Projections in Europe 2018 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Proportionate use of renewable sources by sector</italic></th>
+      <th>Trends and Projections in Europe 2019 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Proportionate use of renewable sources by sector</italic></th>
+      <th>Trends and Projections in Europe 2020 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Proportionate use of renewable sources by sector</italic></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>statement/statement/statement</th>
+      <td>The target for renewable energy use in sector transport for the target year 2020 will not be reached.<break/>The target for renewable energy use in sector heating and cooling for the target year 2020 will not be reached.<break/>The target for renewable energy use in sector electricity for the target year 2020 will be reached.</td>
+      <td>The target for renewable energy use in sector transport for the target year 2020 will not be reached.<break/>The target for renewable energy use in sector heating and cooling for the target year 2020 will not be reached.<break/>The target for renewable energy use in sector electricity for the target year 2020 will be reached.</td>
+      <td>The target for renewable energy use in sector transport for the target year 2020 will not be reached.<break/>The target for renewable energy use in sector heating and cooling for the target year 2020 will not be reached.<break/>The target for renewable energy use in sector electricity for the target year 2020 will be reached.</td>
+      <td>The target for renewable energy use in sector transport for the target year 2020 will not be reached.<break/>The target for renewable energy use in sector heating and cooling for the target year 2020 will not be reached.<break/>The target for renewable energy use in sector electricity for the target year 2020 will be reached.</td>
+      <td>The target for renewable energy use in sector transport for the target year 2020 will not be reached.<break/>The target for renewable energy use in sector heating and cooling for the target year 2020 will not be reached.<break/>The target for renewable energy use in sector electricity for the target year 2020 will be reached.</td>
+      <td>The target for renewable energy use in sector transport for the target year 2020 will not be reached.<break/>The target for renewable energy use in sector heating and cooling for the target year 2020 will be reached.<break/>The target for renewable energy use in sector electricity for the target year 2020 will be reached.</td>
+    </tr>
+    <tr>
+      <th>statement/statement/has visualization</th>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2015.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2016.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2017.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2018.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2019.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationSector/visualizationRES2020.PNG</ext-link></td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/question</th>
+      <td>In the sector transport, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector heating and cooling, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector electricity, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the sector transport, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector heating and cooling, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector electricity, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the sector transport, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector heating and cooling, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector electricity, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the sector transport, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector heating and cooling, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector electricity, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the sector transport, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector heating and cooling, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector electricity, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+      <td>In the sector transport, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector heating and cooling, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?<break/>In the sector electricity, will the Renewable Energy Sources (RES) increase target for the target year 2020 be achieved (target value &lt;= current value = True)?</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/answer</th>
+      <td>No<break/>No<break/>Yes</td>
+      <td>No<break/>No<break/>Yes</td>
+      <td>No<break/>No<break/>Yes</td>
+      <td>No<break/>No<break/>Yes</td>
+      <td>No<break/>No<break/>Yes</td>
+      <td>No<break/>Yes<break/>Yes</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/has target</th>
+      <td>Increase to 10% for sector transport and target year 2020<break/>Increase to 20% for sector heating and cooling and target year 2020<break/>Increase to 20% for sector electricity and target year 2020</td>
+      <td>Increase to 10% for sector transport and target year 2020<break/>Increase to 20% for sector heating and cooling and target year 2020<break/>Increase to 20% for sector electricity and target year 2020</td>
+      <td>Increase to 10% for sector transport and target year 2020<break/>Increase to 20% for sector heating and cooling and target year 2020<break/>Increase to 20% for sector electricity and target year 2020</td>
+      <td>Increase to 10% for sector transport and target year 2020<break/>Increase to 20% for sector heating and cooling and target year 2020<break/>Increase to 20% for sector electricity and target year 2020</td>
+      <td>Increase to 10% for sector transport and target year 2020<break/>Increase to 20% for sector heating and cooling and target year 2020<break/>Increase to 20% for sector electricity and target year 2020</td>
+      <td>Increase to 10% for sector transport and target year 2020<break/>Increase to 20% for sector heating and cooling and target year 2020<break/>Increase to 20% for sector electricity and target year 2020</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/investigated_quality/renewable energy sources (res)/measurement</th>
+      <td>5.4% for transport<break/>16.5% for heating and cooling<break/>25.4% for electricity</td>
+      <td>5.9% for transport<break/>17.7% for heating and cooling<break/>27.0% for electricity</td>
+      <td>6.7% for transport<break/>18.6% for heating and cooling<break/>29% for electricity</td>
+      <td>7.1% for transport<break/>19.1% for heating and cooling<break/>30% for electricity</td>
+      <td>7.6% for transport<break/>19.5% for heating and cooling<break/>31.0% for electricity</td>
+      <td>8.3% for transport<break/>21.1% for heating and cooling<break/>32% for electricity</td>
+    </tr>
+    <tr>
+      <th>statement/statement/trend</th>
+      <td>Renewable Energy Sources (RES) in the sector transport will increase by 0.2% from 2013 to 2014 with an approximated estimate of 5.6% for 2014<break/>Renewable Energy Sources (RES) in the sector heating and cooling will increase by 1.5% from 2013 to 2014 with an approximated estimate of 18% for 2014<break/>Renewable Energy Sources (RES) in the sector heating and cooling increased on average by 0.8% from 2005 to 2013<break/>Renewable Energy Sources (RES) in the sector electricity increased on average by 1.3% from 2005 to 2013<break/>Renewable Energy Sources (RES) in the sector electricity will increase by 1.7% from 2013 to 2014 with an approximated estimate of 27.1%  for 2014</td>
+      <td>Renewable Energy Sources (RES) in the sector transport will increase by 0.1% from 2014 to 2015 with an approximated estimate of 6.0% for 2015<break/>Renewable Energy Sources (RES) in the sector heating and cooling increased on average by 0.8% from 2005 to 2014<break/>Renewable Energy Sources (RES) in the sector heating and cooling will increase by 0.3% from 2014 to 2015 with an approximated estimate of 18% for 2015<break/>Renewable Energy Sources (RES) in the sector electricity increased on average by 1.4% from 2005 to 2014<break/>Renewable Energy Sources (RES) in the sector electricity will increase by 1.0% from 2014 to 2015 with an approximated estimate of 28.0% for 2015</td>
+      <td>Renewable Energy Sources (RES) in the sector transport will increase by 0.4% from 2015 to 2016 with an approximated estimate of 7.1% for 2016<break/>Renewable Energy Sources (RES) in the sector heating and cooling increased on average by 0.8% from 2005 to 2015<break/>Renewable Energy Sources (RES) in the sector heating and cooling will increase by 0.0% from 2015 to 2016 with an approximated estimate of 18.6% for 2016<break/>Renewable Energy Sources (RES) in the sector electricity in the sector electricity increased on average by 1.4% from 2005 to 2015<break/>Renewable Energy Sources (RES) in the sector electricity will increase by 1.0% from 2015 to 2016 with an approximated estimate of 30.0% for 2016</td>
+      <td>Renewable Energy Sources (RES) in the sector transport will increase by 0.1% from 2016 to 2017 with an approximated estimate of 7.2% for 2017<break/>Renewable Energy Sources (RES) in the sector heating and cooling increased on average by 0.7% from 2005 to 2016<break/>Renewable Energy Sources (RES) in the sector heating and cooling will increase by 0.3% from 2016 to 2017 with an approximated estimate of 19.4% for 2017<break/>Renewable Energy Sources (RES) in the sector electricity increased on average by 1.3% from 2005 to 2016<break/>Renewable Energy Sources (RES) in the sector electricity will increase by 1.0% from 2016 to 2017 with an approximated estimate of 31.0% for 2017</td>
+      <td>Renewable Energy Sources (RES) in the sector transport will increase by 0.5% from 2017 to 2018 with an approximated estimate of 8.1% for 2018<break/>Renewable Energy Sources (RES) in the sector heating and cooling increased on average by 0.7% from 2005 to 2017<break/>Renewable Energy Sources (RES) in the sector heating and cooling will increase by 0.8% from 2017 to 2018 with an approximated estimate of 20.3% for 2018<break/>Renewable Energy Sources (RES) in the sector electricity increased on average by 1.3% from 2005 to 2017<break/>Renewable Energy Sources (RES) in the sector electricity will increase by 1.0% from 2017 to 2018 with an approximated estimate of 32.0% for 2018</td>
+      <td>Renewable Energy Sources (RES) in the sector transport will increase by 0.1% from 2018 to 2019 with an approximated estimate of 8.4% for 2019<break/>Renewable Energy Sources (RES) in the sector heating and cooling increased on average by 0.7% from 2005 to 2018<break/>Renewable Energy Sources (RES) in the sector heating and cooling will increase by 0.6% from 2018 to 2019 with an approximated estimate of 21.7% for 2019<break/>Renewable Energy Sources (RES) in the sector electricity increased on average by 1.2% from 2005 to 2018<break/>Renewable Energy Sources (RES) in the sector electricity will increase by 2.0% from 2018 to 2019 with an approximated estimate of 34.0% for 2019</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/target value/measurement value template/numeric value</th>
+      <td>10.0<break/>20.0<break/>20.0</td>
+      <td>10.0<break/>20.0<break/>20.0</td>
+      <td>10.0<break/>20.0<break/>20.0</td>
+      <td>10.0<break/>20.0<break/>20.0</td>
+      <td>10.0<break/>20.0<break/>20.0</td>
+      <td>10.0<break/>20.0<break/>20.0</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/comparsion operator</th>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+      <td>&lt;=<break/>&lt;=<break/>&lt;=</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/current value/measurement value template/numeric value</th>
+      <td>5.4<break/>16.5<break/>25.4</td>
+      <td>5.9<break/>17.7<break/>27.0</td>
+      <td>6.7<break/>18.6<break/>29.0</td>
+      <td>7.1<break/>19.1<break/>30.0</td>
+      <td>7.6<break/>19.5<break/>31.0</td>
+      <td>8.3<break/>21.1<break/>32.0</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/current value/measurement value template/unit</th>
+      <td></td>
+      <td>%</td>
+      <td>%</td>
+      <td>%</td>
+      <td></td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/result</th>
+      <td>false<break/>false<break/>true</td>
+      <td>false<break/>false<break/>true</td>
+      <td>false<break/>false<break/>true</td>
+      <td>false<break/>false<break/>true</td>
+      <td>false<break/>false<break/>true</td>
+      <td>false<break/>true<break/>true</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/has target year</th>
+      <td>2020<break/>2020<break/>2020</td>
+      <td>2020<break/>2020<break/>2020</td>
+      <td>2020<break/>2020<break/>2020</td>
+      <td>2020<break/>2020<break/>2020</td>
+      <td>2020<break/>2020<break/>2020</td>
+      <td>2020<break/>2020<break/>2020</td>
+    </tr>
+    <tr>
+      <th>statement/statement/comparison/eea comparison/current year</th>
+      <td>2013<break/>2013<break/>2013</td>
+      <td>2014<break/>2014<break/>2014</td>
+      <td>2015<break/>2015<break/>2015</td>
+      <td>2016<break/>2016<break/>2016</td>
+      <td>2017<break/>2017<break/>2017</td>
+      <td>2018<break/>2018<break/>2018</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/sector</th>
+      <td></td>
+      <td>Transport sector</td>
+      <td>Transport sector</td>
+      <td>Transport sector<break/>Heating and cooling sector</td>
+      <td>Transport sector<break/>Heating and cooling sector<break/>Electricity sector</td>
+      <td>Transport sector<break/>Heating and cooling sector<break/>Electricity sector</td>
+    </tr>
+  </tbody>
+</table>
+            </table-wrap>
+        
+            </sec>
+        <sec sec-type="comparison">
+                <title>5.4. Comparison: Primary and final energy consumption for the target year 2020</title>
+                <table-wrap>
+                <label>Primary and final energy consumption in the EU for the target year 2020, 2005-2020</label>
+                <caption>
+                    <title>This comparison provides an overview of the energy consumption of the EU-member states. It shows the trend of primary and final energy consumption. Primary energy consumption measures the total energy demand of a country. It includes the consumption of the energy sector, losses during transformation, the distribution of energy and the final consumption by the end users. Energy carriers used for non-energy purposes are excluded. Final energy consumption includes energy supplies to industry, households, services, agriculture and transport. Supplies to the energy transportation sector and the energy industry are excluded. For both energy consumption types, it is predicted whether the target of the year 2020 will be achieved or not.</title>
+                </caption>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Trends and Projections in Europe 2014 : Tracking Progress Towards Europe's Climate and Energy Targets for 2020/<italic>Progress in reducing energy consumption</italic></th>
+      <th>Trends and Projections in Europe 2015 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Progress in reducing energy consumption</italic></th>
+      <th>Trends and Projections in Europe 2016 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Progress in reducing energy consumption</italic></th>
+      <th>Trends and Projections in Europe 2017 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Progress in reducing energy consumption</italic></th>
+      <th>Trends and Projections in Europe 2018 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Progress in reducing energy consumption</italic></th>
+      <th>Trends and Projections in Europe 2019 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Progress in reducing energy consumption</italic></th>
+      <th>Trends and Projections in Europe 2020 : Tracking Progress Towards Europe's Climate and Energy Targets/<italic>Progress in reducing energy consumption</italic></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>statement/statement/statement</th>
+      <td>The EU is currently on track to meet its final energy consumption target for 2020.<break/>The EU is currently on track to meet its primary energy consumption target for 2020.<break/>The EU is currently on track to meet its overall energy efficiency target for 2020.</td>
+      <td>The EU is currently on track to meet its final energy consumption target for 2020.<break/>The EU is currently on track to meet its primary energy consumption target for 2020.<break/>The EU is currently on track to meet its overall energy efficiency target for 2020.</td>
+      <td>The EU is currently on track to meet its final energy consumption target for 2020.<break/>The EU is currently on track to meet its primary energy consumption target for 2020.<break/>The EU is currently on track to meet its overall energy efficiency target for 2020.</td>
+      <td>The EU is currently on track to meet its final energy consumption target for 2020.<break/>The EU is currently on track to meet its primary energy consumption target for 2020.<break/>The EU is currently on track to meet its overall energy efficiency target for 2020.</td>
+      <td>The EU is currently on track to meet its final energy consumption target for 2020.<break/>The EU is currently on track to meet its primary energy consumption target for 2020.<break/>The EU is currently on track to meet its overall energy efficiency target for 2020.</td>
+      <td>The EU is currently on track to meet its final energy consumption target for 2020.<break/>The EU is currently on track to meet its primary energy consumption target for 2020.<break/>The EU is currently on track to meet its overall energy efficiency target for 2020.</td>
+      <td>The EU is currently on track to meet its final energy consumption target for 2020.<break/>The EU is currently on track to meet its primary energy consumption target for 2020.<break/>The EU is currently on track to meet its overall energy efficiency target for 2020.</td>
+    </tr>
+    <tr>
+      <th>statement/statement/has visualization</th>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2014.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2015.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2016.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2017.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2018.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2019.PNG</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG">https://raw.githubusercontent.com/alidarohde/European-Environment-Agency-Reports/main/visualizationEnergyEfficiency/visualizationEE2020.PNG</ext-link></td>
+    </tr>
+    <tr>
+      <th>statement/statement/linear indicative trajectory/the primary energy consumption of the eu is below the indicative linear trajectory/question</th>
+      <td>For primary energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td>For primary energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td>For primary energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td>For primary energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td>For primary energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>statement/statement/linear indicative trajectory/the primary energy consumption of the eu is above the indicative linear trajectory/question</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>For primary energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td>For primary energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+    </tr>
+    <tr>
+      <th>statement/statement/linear indicative trajectory/the primary energy consumption of the eu is below the indicative linear trajectory/answer</th>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>statement/statement/linear indicative trajectory/the primary energy consumption of the eu is above the indicative linear trajectory/answer</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <th>statement/statement/linear indicative trajectory/the final energy consumption of the eu is below the indicative linear trajectory/question</th>
+      <td>For final energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td>For final energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td>For final energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td>For final energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>statement/statement/linear indicative trajectory/the final energy consumption of the eu is above the indicative linear trajectory/question</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>For final energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td>For final energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+      <td>For final energy consumption, will the Energy Efficiency(EU) target for the target year 2020 be achieved (current value &lt; indicative linear trajectory = True)?</td>
+    </tr>
+    <tr>
+      <th>statement/statement/linear indicative trajectory/the final energy consumption of the eu is below the indicative linear trajectory/answer</th>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>statement/statement/linear indicative trajectory/the final energy consumption of the eu is above the indicative linear trajectory/answer</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/has target</th>
+      <td>Reduction of 8.7% compared to the EU's final energy consumption in 2005 for target year 2020<break/>Reduction of 1086 Million tonne of oil equivalent (Mtoe) in final energy consumption for target year 2020<break/>Reduction of 13.3% compared to the EU's primary energy consumption in 2005 for target year 2020<break/>Reduction of 1483 Million tonne of oil equivalent (Mtoe) in primary energy consumption for target year 2020<break/>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 1086 Million tonne of oil equivalent (Mtoe) in final energy consumption for target year 2020<break/>Reduction of 8.5% compared to the EU's final energy consumption in 2005 for target year 2020<break/>Reduction of 1483 Million tonne of oil equivalent (Mtoe) in primary energy consumption for target year 2020<break/>Reduction of 13.2% compared to the EU's primary energy consumption in 2005 for target year 2020<break/>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 1086 Million tonne of oil equivalent (Mtoe) in final energy consumption for target year 2020<break/>Reduction of 8.8% compared to the EU's final energy consumption in 2005 for target year 2020<break/>Reduction of 1483 Million tonne of oil equivalent (Mtoe) in primary energy consumption for target year 2020<break/>Reduction of 13.4% compared to the EU's primary energy consumption in 2005 for target year 2020<break/>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 8.9% compared to the EU's final energy consumption in 2005 for target year 2020<break/>Reduction of 1086 Million tonne of oil equivalent (Mtoe) in final energy consumption for target year 2020<break/>Reduction of 13.4% compared to the EU's primary energy consumption in 2005 for target year 2020<break/>Reduction of 1483 Million tonne of oil equivalent (Mtoe) in primary energy consumption for target year 2020<break/>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 9.0% compared to the EU's final energy consumption in 2005 for target year 2020<break/>Reduction of 1086 Million tonne of oil equivalent (Mtoe) in final energy consumption for target year 2020<break/>Reduction of 13.4% compared to the EU's primary energy consumption in 2005 for target year 2020<break/>Reduction of 1483 Million tonne of oil equivalent (Mtoe) in primary energy consumption for target year 2020<break/>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 9.0% compared to the EU's final energy consumption in 2005 for target year 2020<break/>Reduction of 1086 Million tonne of oil equivalent (Mtoe) in final energy consumption for target year 2020<break/>Reduction of 13.8% compared to the EU's primary energy consumption in 2005 for target year 2020<break/>Reduction of 1483 Million tonne of oil equivalent (Mtoe) in primary energy consumption for target year 2020<break/>Reduction of 20% for target year 2020</td>
+      <td>Reduction of 9.0% compared to the EU's final energy consumption in 2005 for target year 2020<break/>Reduction of 1086 Million tonne of oil equivalent (Mtoe) in final energy consumption for target year 2020<break/>Reduction of 13.8% compared to the EU's primary energy consumption in 2005 for target year 2020<break/>Reduction of 1483 Million tonne of oil equivalent (Mtoe) in primary energy consumption for target year 2020<break/>Reduction of 20% for target year 2020</td>
+    </tr>
+    <tr>
+      <th>statement/statement/trend</th>
+      <td>Final energy consumption decreased by 0.3% from 2011 to 2012<break/>Final energy consumption decreased by 7.1% from 2005 to 2012<break/>Primary energy consumption decreased by 0.5% from 2011 to 2012<break/>Primary energy consumption decreased by 7.3% from 2005 to 2012</td>
+      <td>Final energy consumption increased by 0.1% from 2012 to 2013<break/>Final energy consumption decreased by 7% from 2005 to 2013<break/>Primary energy consumption will decrease by 3.3% from 2013 to 2014<break/>Primary energy consumption decreased by 1.1% from 2012 to 2013<break/>Primary energy consumption decreased by 8.3% from 2005 to 2013</td>
+      <td>Final energy consumption will increase by 2.5% from 2014 to 2015<break/>Final energy consumption decreased by 4.1% from 2013 to 2014<break/>Final energy consumption decreased by 10.9% from 2005 to 2014<break/>Primary energy consumption will increase by 1.0% from 2014 to 2015<break/>Primary energy consumption decreased by 11.8% from 2005 to 2014</td>
+      <td>Final energy consumption will increase by 1.8% from 2015 to 2016<break/>Final energy consumption increased by 2.0% from 2014 to 2015<break/>Final energy consumption decreased by 8.9% from 2005 to 2015<break/>Primary energy consumption will increase by 1.0% from 2015 to 2016<break/>Primary energy consumption increased by 1.4% from 2014 to 2015<break/>Primary energy consumption decreased by 10.7% from 2005 to 2015</td>
+      <td>Final energy consumption will increase by 1.1% from 2016 to 2017<break/>Final energy consumption increased by 2.0% from 2015 to 2016<break/>Final energy consumption decreased by 7.0% from 2005 to 2016<break/>Primary energy consumption will increase by 1.4% from 2016 to 2017<break/>Primary energy consumption increased by 0.7% from 2015 to 2016<break/>Primary energy consumption decreased by 10.0% from 2005 to 2016</td>
+      <td>Final energy consumption will increase by 0.1% from 2017 to 2018<break/>Final energy consumption increased by 1.1% from 2016 to 2017<break/>Primary energy consumption will decrease by 0.9% from 2017 to 2018<break/>Primary energy consumption decreased by 9.2% from 2005 to 2017<break/>Primary energy consumption increased by 0.9% from 2016 to 2017</td>
+      <td>Final energy consumption will increase by 0.1% from 2018 to 2019<break/>Final energy consumption increased by 0.03% from 2017 to 2018<break/>Primary energy consumption decreased by 9.8% from 2005 to 2018<break/>Primary energy consumption will increase by 1.2% from 2018 to 2019<break/>Primary energy consumption decreased by 0.7% from 2017 to 2018</td>
+    </tr>
+    <tr>
+      <th>statement/statement/context/context template/investigated_quality/energy efficiency (ee)/measurement</th>
+      <td>982 Mtoe<break/>1396 Mtoe</td>
+      <td>980 Mtoe<break/>1384 Mtoe</td>
+      <td>939 Mtoe<break/>1331 Mtoe</td>
+      <td>965 Mtoe<break/>1353 Mtoe</td>
+      <td>977 Mtoe<break/>1364 Mtoe</td>
+      <td>989 Mtoe<break/>1384 Mtoe</td>
+      <td>992 Mtoe<break/>1377 Mtoe</td>
+    </tr>
+    <tr>
+      <th>statement/statement/raw data/data/machine-readable data</th>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-final/proxies_fec_eea_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-final/proxies_fec_eea_mdb/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-primary/proxies_pec_eea_mdb/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-primary/proxies_pec_eea_mdb/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.schema.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.xml</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.exhibit</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.json</ext-link></td>
+    </tr>
+    <tr>
+      <th>statement/statement/raw data/data/human-readable data</th>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-final/proxies_fec_eea_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-final/proxies_fec_eea_csv/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-primary/proxies_pec_eea_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-1/eea-proxies-on-primary/proxies_pec_eea_csv/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-5/eea-proxies-on-final-1/proxies_fec_eea_csv/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-5/eea-proxies-on-final-1/proxies_fec_eea_csv/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-5/eea-2021-proxies-on-primary/2021-proxies-pec2020-2030-fec2020/at_download/file">https://www.eea.europa.eu/data-and-maps/data/approximated-estimates-for-the-primary-5/eea-2021-proxies-on-primary/2021-proxies-pec2020-2030-fec2020/at_download/file</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link></td>
+      <td><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.tsv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.csv</ext-link><break/><ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table">https://www.eea.europa.eu/data-and-maps/daviz/primary-and-final-energy-consumption-7/download.table</ext-link></td>
+    </tr>
+  </tbody>
+</table>
+            </table-wrap>
+        
+            </sec>
+        
+                </body>
+            </article>
+        

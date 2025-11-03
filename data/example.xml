@@ -69,7 +69,7 @@
                 </fn>
             </author-notes-->
             <pub-date pub-type="epub">
-                <day>30</day>
+                <day>31</day>
                 <month>08</month>
                 <year>2017</year>
             </pub-date>
@@ -349,16 +349,19 @@
         </sec>
         <sec>
             <title>Table Element</title>
+
             <table-wrap specific-use="rules">
 
-                <table specific-use="other-class" style="width:auto;font-family: verdana,arial,sans-serif;
-	font-size:20px;
-	  border: 1px solid red;
-  margin: 5px 0;
-	color:#111;
-	border-width: 1px;
-	border-color: #55555;"
-	>
+                <table
+                >
+
+                    <tr>
+                        <th>Cell</th>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
                     <tr>
                         <td>Cell</td>
                         <td>Cell</td>
@@ -373,6 +376,428 @@
                         <td><p><italic>Italic</italic></p></td>
                         <td>Cell</td>
                     </tr>
+                </table>
+            </table-wrap>
+            <table-wrap specific-use="rules">
+
+                <table specific-use="other-class" style="width:auto;font-family: verdana,arial,sans-serif;
+	font-size:20px;
+	  border: 1px solid red;
+  margin: 5px 0;
+	color:#111;
+	border-width: 1px;
+	border-color: #55555;"
+	>
+
+                    <tr>
+                        <th>Cell</th>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                    <tr>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                    <tr>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td style="color:green;">Cell</td>
+                        <td><p><italic>Italic</italic></p></td>
+                        <td>Cell</td>
+                    </tr>
+                </table>
+            </table-wrap>
+            <table-wrap id="table-56a17dde">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>CONTRIBUTION &gt;&gt;--</th>
+                            <th/>
+                            <th/>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <bold>--&gt;Predicate=</bold>
+                            </td>
+                            <td>
+                                <bold>Has system qualities &gt;&gt;--</bold>
+                            </td>
+                            <td/>
+                            <td/>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Atomic characteristics</td>
+                            <td>
+                                <bold>--&gt;&gt;Predicate=</bold>
+                            </td>
+                            <td>
+                                <bold>Has quality type &gt;&gt;--</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Charge state</td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Element</td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Ionization state</td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Isoelectronicity</td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Transitions</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Plasma characteristics</td>
+                            <td>
+                                <bold>--&gt;&gt;Predicate=</bold>
+                            </td>
+                            <td>
+                                <bold>Has quality type &gt;&gt;--</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Plasma type</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Spectroscopy characteristics</td>
+                            <td>
+                                <bold>--&gt;&gt;Predicate=</bold>
+                            </td>
+                            <td>
+                                <bold>Has quality type &gt;&gt;--</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Laboratory</td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Lamb shift analysis</td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>QED analysis</td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Spectral range</td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Spectral study</td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Spectrometer</td>
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td/>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Transition energy</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+            <hr/>
+            <p>SYSTEM MEASUREMENTS</p>
+            <table-wrap id="table-59309b95">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>CONTRIBUTION &gt;&gt;--</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <bold>--&gt;&gt;Predicate=</bold>
+                            </td>
+                            <td>
+                                <bold>Has system measurements&gt;&gt;--</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Charge state measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Element measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Ionization state measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Isoelectronicity measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Transitions measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Plasma type measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Laboratory measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Lamb shift analysis measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>QED analysis measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Spectral range measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Spectral study measurement</td>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>  <td>
+                            <bold>--&gt;</bold>
+                            Object
+                            <bold>--&gt;</bold>
+                        </td>
+                            <td>Spectral study measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Spectrometer measurement</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>--&gt;</bold>
+                                Object
+                                <bold>--&gt;</bold>
+                            </td>
+                            <td>Transition energy measurement</td>
+                        </tr>
+                    </tbody>
                 </table>
             </table-wrap>
 
@@ -422,11 +847,11 @@
 
         <ref-list>
             <ref id="ref1">
-                <mixed-citation>This is a <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+                <mixed-citation><p>This is a <ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
                                                     xlink:href="http://heiup.uni-heidelberg.de/" ext-link-type="uri"
                                                     xlink:type="simple">link
                 </ext-link>
-                </mixed-citation>
+                </p></mixed-citation>
             </ref>
             <ref id="ref2">
                 <mixed-citation>M&#252;ller, Johannes (1826).
