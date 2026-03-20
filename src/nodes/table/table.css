@@ -18,30 +18,41 @@
 
 /** Formatierung der Klasse "gitter-tabelle" - Gitter-Tabelle  **/
 .gitter-tabelle {
-  border: 1px solid lightgray;
+  border: 1px solid #d0d0d0;
   border-collapse: collapse;
   width: auto;
   display: block;
   max-width: fit-content;
-  margin: 0 auto;
+  margin: 0;
   overflow-x: auto;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .gitter-tabelle td, .gitter-tabelle th {
-  border: 1px solid lightgray;
+  border: 1px solid #d0d0d0;
   border-collapse: collapse;
-  padding: 3px; }
+  padding: 6px 10px;
+  vertical-align: top;
+  line-height: 1.5; }
 
 .gitter-tabelle th {
   font-weight: bold;
   background-color: #f5f5f5;
-  text-align: center; }
+  text-align: center;
+  padding: 8px 10px; }
 
 /** Layout Daten-Tabelle Issue Nr. 58
  für heiUP auskommentiert, um mehrspaltigen Satz ohne Färbung zu ermöglichen, - neues default ist layout-tabelle, deshalb testweise wieder einkommentiert - 07.08. voe**/
 .lens-article .content-node.table > .content {
   padding-left: 0; }
+
+.lens-article .content-node.table {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.lens-article .content-node.table .enum-label {
+  display: block;
+  margin-bottom: 6px; }
 
 .daten-tabelle {
   border: 1px solid #f8f8f8;
@@ -58,7 +69,8 @@
 
 .daten-tabelle td, .daten-tabelle th {
   border-right: 1px solid #f8f8f8;
-  padding: 10px; }
+  padding: 8px 10px;
+  line-height: 1.5; }
 
 .daten-tabelle th {
   font-weight: bold;

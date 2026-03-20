@@ -77,6 +77,9 @@ HTMLTableView.Prototype = function () {
 
 
                     }
+                    // Convert image links to inline images
+                    this._convertImageLinks(cell);
+
                     tr.appendChild(cell);
                 }
 
@@ -116,6 +119,26 @@ HTMLTableView.Prototype = function () {
 
 
         return this;
+    };
+
+    // Convert links pointing to images into inline <img> tags
+    this._convertImageLinks = function(cell) {
+        var links = cell.querySelectorAll('a');
+        for (var i = 0; i < links.length; i++) {
+            var href = links[i].getAttribute('href') || '';
+            if (href.match(/\.(png|jpg|jpeg|gif|svg|webp)(\?|$)/i)) {
+                var img = document.createElement('img');
+                img.src = href;
+                img.style.maxWidth = '200px';
+                img.style.maxHeight = '150px';
+                img.style.display = 'block';
+                var a = document.createElement('a');
+                a.href = href;
+                a.target = '_blank';
+                a.appendChild(img);
+                links[i].parentNode.replaceChild(a, links[i]);
+            }
+        }
     };
 };
 
