@@ -35,3 +35,21 @@
 .article .document .surface.content {
   overflow-x: auto !important;
 }
+
+// Make bold annotations that are the only/first content in a paragraph display as block labels
+.content-node.paragraph .content .content-node.text .content > .annotation.strong:first-child:last-child,
+.content-node.paragraph .content .content-node.text .content > .annotation.strong:first-child {
+  display: block;
+  margin-bottom: 6px;
+}
+
+// Add space above section headings
+.content-node.heading.level-1 {
+  margin-top: 32px;
+}
+.content-node.heading.level-2 {
+  margin-top: 28px;
+}
+.content-node.heading.level-3 {
+  margin-top: 24px;
+}
